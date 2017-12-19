@@ -89,12 +89,12 @@
 <meta property="og:site_name" content="Don&#39;t Panic">
 <meta property="og:description" content="先上图  感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes 等文档的，生成的是 pdf 文件，metroplis 是一个简洁现代的 beamer 模板，在 2016 版本的 TexLive 安装时自带了，用起来还是挺方便的，起码比之前用的默认那几个模板好看一点我觉得:) metroplis 这个模板默认的英文字体是">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://images.danielfree.net/uploads/2016/09/latex-1024x777.png">
-<meta property="og:updated_time" content="2017-11-02T08:40:47.584Z">
+<meta property="og:image" content="http://obkq57mo1.bkt.clouddn.com/static/images/2016/09/latex-1024x777.png">
+<meta property="og:updated_time" content="2017-12-19T03:07:32.429Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 LaTeX beamer metropolis 模板书写 ppt 文档">
 <meta name="twitter:description" content="先上图  感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes 等文档的，生成的是 pdf 文件，metroplis 是一个简洁现代的 beamer 模板，在 2016 版本的 TexLive 安装时自带了，用起来还是挺方便的，起码比之前用的默认那几个模板好看一点我觉得:) metroplis 这个模板默认的英文字体是">
-<meta name="twitter:image" content="https://images.danielfree.net/uploads/2016/09/latex-1024x777.png">
+<meta name="twitter:image" content="http://obkq57mo1.bkt.clouddn.com/static/images/2016/09/latex-1024x777.png">
 
 
 
@@ -411,11 +411,12 @@
 
       
         <p>先上图</p>
-<p><a href="https://images.danielfree.net/uploads/2016/09/latex.png" target="_blank" rel="external"><img src="https://images.danielfree.net/uploads/2016/09/latex-1024x777.png" alt="latex"></a></p>
+<p><a href="http://obkq57mo1.bkt.clouddn.com/static/images/2016/09/latex.png" target="_blank" rel="external"><img src="http://obkq57mo1.bkt.clouddn.com/static/images/2016/09/latex-1024x777.png" alt="latex"></a></p>
 <p>感觉效果还不错，记录一下用的模板方便以后使用。</p>
 <p>LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes 等文档的，生成的是 pdf 文件，metroplis 是一个简洁现代的 beamer 模板，在 2016 版本的 TexLive 安装时自带了，用起来还是挺方便的，起码比之前用的默认那几个模板好看一点我觉得:)</p>
 <p>metroplis 这个模板默认的英文字体是 <a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/" target="_blank" rel="external">Fira Sans</a>，最好是下载下来安装一下，效果不错，建议装上 Fira Sans ( light, regular, italic, bold, light italic 这几个字重)，Fira Mono ( medium, regular, bold 这几个字重) 。因为要写中文，xeCJK 包是少不了的，中文字体的选择，因为我是 Mac 系统，实验了一下直接用系统自带的苹方字体效果就很好，当然把字体换成冬青黑、华文黑等都还可以。和模板默认的英文字体搭配的话，主要字体用苹方-Light ，粗体用苹方-Regular 配合最好，大概因为英文主要字体的字重也是 light 的。</p>
-<p>使用的模板如下： [code] %!TEX TS-program = xelatex %!TEX encoding = UTF-8 Unicode \documentclass[10pt]{beamer} % 使用 beamer 类型 \usefonttheme[onlymath]{serif} % 设置数学公式应该使用衬线字体 \usetheme{metropolis} % 使用 metroplis 模板 \metroset{sectionpage=progressbar,progressbar=frametitle,block=fill} % 模板的设置，添加进度条 %\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent \usepackage{graphicx} % 需要插入图片相关包 \usepackage{amsmath} % 数学公式相关包 \usepackage{amssymb} % 数学公式相关包 \usepackage{fontspec,xltxtra,xunicode} % 中文输入，需使用 XeLatex 编译 \defaultfontfeatures{Mapping=tex-text} \usepackage[slantfont,boldfont]{xeCJK} % 允许斜体和粗体，使用 xeCJK 宏包 \setCJKmainfont[BoldFont={PingFangSC-Regular}]{PingFangSC-Light} % 设置中文字体，这里粗体使用苹方-Regular，默认使用苹方-Light [/code]</p>
+<p>使用的模板如下：</p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment">%!TEX TS-program = xelatex</span></div><div class="line"><span class="comment">%!TEX encoding = UTF-8 Unicode</span></div><div class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">[10pt]</span><span class="string">&#123;beamer&#125;</span></span> <span class="comment">% 使用 beamer 类型</span></div><div class="line"><span class="tag">\<span class="name">usefonttheme</span><span class="string">[onlymath]</span><span class="string">&#123;serif&#125;</span></span> <span class="comment">% 设置数学公式应该使用衬线字体</span></div><div class="line"><span class="tag">\<span class="name">usetheme</span><span class="string">&#123;metropolis&#125;</span></span> <span class="comment">% 使用 metroplis 模板</span></div><div class="line"><span class="tag">\<span class="name">metroset</span><span class="string">&#123;sectionpage=progressbar,progressbar=frametitle,block=fill&#125;</span></span> <span class="comment">% 模板的设置，添加进度条</span></div><div class="line"><span class="comment">%\usepackage[parfill]&#123;parskip&#125; % Activate to begin paragraphs with an empty line rather than an indent \usepackage&#123;graphicx&#125; % 需要插入图片相关包</span></div><div class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;amsmath&#125;</span></span> <span class="comment">% 数学公式相关包</span></div><div class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;amssymb&#125;</span></span> <span class="comment">% 数学公式相关包</span></div><div class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;fontspec,xltxtra,xunicode&#125;</span></span> <span class="comment">% 中文输入，需使用 XeLatex 编译</span></div><div class="line"><span class="tag">\<span class="name">defaultfontfeatures</span><span class="string">&#123;Mapping=tex-text&#125;</span></span></div><div class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">[slantfont,boldfont]</span><span class="string">&#123;xeCJK&#125;</span></span> <span class="comment">% 允许斜体和粗体，使用 xeCJK 宏包</span></div><div class="line"><span class="tag">\<span class="name">setCJKmainfont</span><span class="string">[BoldFont=&#123;PingFangSC-Regular&#125;]</span><span class="string">&#123;PingFangSC-Light&#125;</span></span> <span class="comment">% 设置中文字体，这里粗体使用苹方-Regular，默认使用苹方-Light</span></div></pre></td></tr></table></figure>
 
       
     </div>

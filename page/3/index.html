@@ -415,7 +415,7 @@
 <p>Dev HTTP Client是Chrome应用商店里面的一个调试HTTP请求用的小应用，我拿来调试rest接口，还算蛮方便</p>
 <p>要调试POST请求的时候，注意要添加一个Header : Content-Type: application/x-www-form-urlencoded</p>
 <p>Body里面就可以直接写请求参数了，不加那个头请求是会报错的。请求如图所示</p>
-<p><a href="https://images.danielfree.net/uploads/2013/04/dev_http_client.png" target="_blank" rel="external"><img src="https://images.danielfree.net/uploads/2013/04/dev_http_client.png" alt="dev_http_client"></a></p>
+<p><a href="http://obkq57mo1.bkt.clouddn.com/static/images/2013/04/dev_http_client.png" target="_blank" rel="external"><img src="http://obkq57mo1.bkt.clouddn.com/static/images/2013/04/dev_http_client.png" alt="dev_http_client"></a></p>
 
           
         
@@ -1478,7 +1478,7 @@ apache里的配置就比较简单了，把端口改成8989，然后加入类似�
 <p>此外，Elgg本身对object metadata和attribute的实现形式在编程开发上提供了很大的简化，开发人员可以用类似NoSQL的赋值语法$object-&gt;anything = anything 添加和修改任意的metadata，而不用去考虑扩展数据库表的字段等问题。</p>
 <p>当然，这些优点在某些程度上反而变成了Elgg的缺点，开发上的便利对性能会有一定的影响，这些我会在以后的文章里具体解释。</p>
 <h5 id="2-Elgg的分布式部署架构"><a href="#2-Elgg的分布式部署架构" class="headerlink" title="2. Elgg的分布式部署架构"></a>2. Elgg的分布式部署架构</h5><p>Elgg本身是典型的LAMP架构，很明显，单节点部署的模式不能满足高可用、负载均衡等等已经不算很新的要求，于是有了下面这样简单的分布式部署架构：</p>
-<p><a href="https://images.danielfree.net/uploads/2012/08/loadbalance1.png" target="_blank" rel="external"><img src="https://images.danielfree.net/uploads/2012/08/loadbalance1.png" alt="" title="loadbalance"></a></p>
+<p><a href="http://obkq57mo1.bkt.clouddn.com/static/images/2012/08/loadbalance1.png" target="_blank" rel="external"><img src="http://obkq57mo1.bkt.clouddn.com/static/images/2012/08/loadbalance1.png" alt="" title="loadbalance"></a></p>
 <p>最前端用HA实现负载均衡，接一系列可以水平扩展的Web Server运行Elgg程序，后面接一个共用的Database （MySQL）。为满足可用性要求，MySQL也需要配置Master/Slave结构。</p>
 <p>LAMP结构的这类应用，压力瓶颈最容易集中在数据库一层，因此在单台数据库能够支撑之前，master/slave的结构够用，能保证服务稳定运行，如果压力进一步增大，则首先需要考虑实行读写分离，在应用中分别配置读数据库源和写数据库源（需要修改一定的代码），如果嫌麻烦，也可以使用mysql自带的一个<a href="http://www.infoq.com/cn/news/2007/10/mysqlproxyrwsplitting" target="_blank" rel="external">mysql-proxy</a>组件来实现读写分离，分散数据压力。如果数据量增长到更大的规模，则需要考虑进行分表了。当然，优化不是一步到位就可以搞定的，等到你必须要进行分表的时候，你的业务的访问量应该已经大到相当惊人的规模了:) 在那之前，倒不用过多考虑这样的问题，还是先想想怎么把业务做到那么大访问规模再说:)</p>
 <h5 id="3-Elgg-Nginx-Php-fpm"><a href="#3-Elgg-Nginx-Php-fpm" class="headerlink" title="3. Elgg+Nginx+Php-fpm"></a>3. Elgg+Nginx+Php-fpm</h5><p>传统的LAMP架构中都是指的Apache服务器，对web服务器领域有所了解的同学一定都知道Nginx，是比apache更高效更灵活的选择，所以我们首先将web server这一层换成nginx，再接一个Php-fpm后台程序用来解析PHP代码。由于Elgg本身只提供了为apache准备的htaccess文件，需要编辑nginx的配置文件，下面给出一个elgg的nginx配置示例：</p>
