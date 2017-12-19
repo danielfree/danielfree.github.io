@@ -2,86 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://danielfree.net/archives/1239/</loc>
-    
-    <lastmod>2017-12-19T03:07:32.429Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/1117/</loc>
     
-    <lastmod>2017-12-19T02:59:42.432Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/993/</loc>
-    
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/1070/</loc>
-    
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/1081/</loc>
-    
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/845/</loc>
-    
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/738/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/993/</loc>
+    
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/1070/</loc>
+    
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/1081/</loc>
+    
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/845/</loc>
+    
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/1239/</loc>
+    
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/800/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/873/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/923/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/783/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://danielfree.net/archives/634/</loc>
     
-    <lastmod>2017-12-19T02:59:42.427Z</lastmod>
+    <lastmod>2017-12-19T03:14:36.678Z</lastmod>
     
   </url>
   
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/categories/index.html</loc>
+    <loc>https://danielfree.net/tags/index.html</loc>
     
     <lastmod>2017-11-02T08:40:47.685Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/tags/index.html</loc>
+    <loc>https://danielfree.net/categories/index.html</loc>
     
     <lastmod>2017-11-02T08:40:47.685Z</lastmod>
     
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1042/</loc>
+    <loc>https://danielfree.net/archives/migrate-to-github-pages-hexo/</loc>
     
     <lastmod>2017-11-02T08:40:47.676Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/migrate-to-github-pages-hexo/</loc>
+    <loc>https://danielfree.net/archives/1042/</loc>
     
     <lastmod>2017-11-02T08:40:47.676Z</lastmod>
     
@@ -233,6 +233,13 @@
   </url>
   
   <url>
+    <loc>https://danielfree.net/archives/619/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.674Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://danielfree.net/archives/759/</loc>
     
     <lastmod>2017-11-02T08:40:47.674Z</lastmod>
@@ -241,13 +248,6 @@
   
   <url>
     <loc>https://danielfree.net/archives/499/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.674Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/619/</loc>
     
     <lastmod>2017-11-02T08:40:47.674Z</lastmod>
     
@@ -268,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1190/</loc>
+    <loc>https://danielfree.net/archives/1225/</loc>
     
     <lastmod>2017-11-02T08:40:47.672Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1225/</loc>
+    <loc>https://danielfree.net/archives/1190/</loc>
     
     <lastmod>2017-11-02T08:40:47.672Z</lastmod>
     
@@ -317,14 +317,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/455/</loc>
+    <loc>https://danielfree.net/archives/515/</loc>
     
     <lastmod>2017-11-02T08:40:47.668Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/515/</loc>
+    <loc>https://danielfree.net/archives/455/</loc>
     
     <lastmod>2017-11-02T08:40:47.668Z</lastmod>
     
@@ -345,14 +345,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/570/</loc>
+    <loc>https://danielfree.net/archives/461/</loc>
     
     <lastmod>2017-11-02T08:40:47.666Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/461/</loc>
+    <loc>https://danielfree.net/archives/570/</loc>
     
     <lastmod>2017-11-02T08:40:47.666Z</lastmod>
     
@@ -401,7 +401,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/602/</loc>
+    <loc>https://danielfree.net/archives/593/</loc>
     
     <lastmod>2017-11-02T08:40:47.661Z</lastmod>
     
@@ -415,9 +415,16 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/593/</loc>
+    <loc>https://danielfree.net/archives/602/</loc>
     
     <lastmod>2017-11-02T08:40:47.661Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/713/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.660Z</lastmod>
     
   </url>
   
@@ -429,9 +436,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/713/</loc>
+    <loc>https://danielfree.net/archives/531/</loc>
     
-    <lastmod>2017-11-02T08:40:47.660Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.659Z</lastmod>
     
   </url>
   
@@ -450,14 +457,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/531/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.659Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/445/</loc>
+    <loc>https://danielfree.net/archives/554/</loc>
     
     <lastmod>2017-11-02T08:40:47.658Z</lastmod>
     
@@ -471,7 +471,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/554/</loc>
+    <loc>https://danielfree.net/archives/445/</loc>
     
     <lastmod>2017-11-02T08:40:47.658Z</lastmod>
     
@@ -492,14 +492,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/574/</loc>
+    <loc>https://danielfree.net/archives/525/</loc>
     
     <lastmod>2017-11-02T08:40:47.656Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/525/</loc>
+    <loc>https://danielfree.net/archives/574/</loc>
     
     <lastmod>2017-11-02T08:40:47.656Z</lastmod>
     
@@ -527,14 +527,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/587/</loc>
+    <loc>https://danielfree.net/archives/616/</loc>
     
     <lastmod>2017-11-02T08:40:47.654Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/616/</loc>
+    <loc>https://danielfree.net/archives/587/</loc>
     
     <lastmod>2017-11-02T08:40:47.654Z</lastmod>
     
@@ -555,13 +555,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/511/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.652Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/540/</loc>
     
     <lastmod>2017-11-02T08:40:47.652Z</lastmod>
@@ -569,14 +562,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/622/</loc>
+    <loc>https://danielfree.net/archives/511/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.652Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/451/</loc>
     
     <lastmod>2017-11-02T08:40:47.651Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/451/</loc>
+    <loc>https://danielfree.net/archives/622/</loc>
     
     <lastmod>2017-11-02T08:40:47.651Z</lastmod>
     
@@ -618,13 +618,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/606/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.647Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/597/</loc>
     
     <lastmod>2017-11-02T08:40:47.647Z</lastmod>
@@ -632,14 +625,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/564/</loc>
+    <loc>https://danielfree.net/archives/606/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.647Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/535/</loc>
     
     <lastmod>2017-11-02T08:40:47.646Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/535/</loc>
+    <loc>https://danielfree.net/archives/564/</loc>
     
     <lastmod>2017-11-02T08:40:47.646Z</lastmod>
     
@@ -660,7 +660,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1058/</loc>
+    <loc>https://danielfree.net/archives/464/</loc>
     
     <lastmod>2017-11-02T08:40:47.644Z</lastmod>
     
@@ -674,16 +674,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/464/</loc>
+    <loc>https://danielfree.net/archives/1058/</loc>
     
     <lastmod>2017-11-02T08:40:47.644Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/575/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.643Z</lastmod>
     
   </url>
   
@@ -695,7 +688,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/617/</loc>
+    <loc>https://danielfree.net/archives/575/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.643Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/586/</loc>
     
     <lastmod>2017-11-02T08:40:47.642Z</lastmod>
     
@@ -709,21 +709,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/586/</loc>
+    <loc>https://danielfree.net/archives/617/</loc>
     
     <lastmod>2017-11-02T08:40:47.642Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/541/</loc>
+    <loc>https://danielfree.net/archives/497/</loc>
     
     <lastmod>2017-11-02T08:40:47.641Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/497/</loc>
+    <loc>https://danielfree.net/archives/541/</loc>
     
     <lastmod>2017-11-02T08:40:47.641Z</lastmod>
     
@@ -751,13 +751,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/450/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.639Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/623/</loc>
     
     <lastmod>2017-11-02T08:40:47.639Z</lastmod>
@@ -765,14 +758,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/500/</loc>
+    <loc>https://danielfree.net/archives/450/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.639Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/691/</loc>
     
     <lastmod>2017-11-02T08:40:47.638Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/691/</loc>
+    <loc>https://danielfree.net/archives/500/</loc>
     
     <lastmod>2017-11-02T08:40:47.638Z</lastmod>
     
@@ -793,14 +793,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/596/</loc>
+    <loc>https://danielfree.net/archives/607/</loc>
     
     <lastmod>2017-11-02T08:40:47.636Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/607/</loc>
+    <loc>https://danielfree.net/archives/596/</loc>
     
     <lastmod>2017-11-02T08:40:47.636Z</lastmod>
     
@@ -863,14 +863,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/676/</loc>
+    <loc>https://danielfree.net/archives/864/</loc>
     
     <lastmod>2017-11-02T08:40:47.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/864/</loc>
+    <loc>https://danielfree.net/archives/676/</loc>
     
     <lastmod>2017-11-02T08:40:47.631Z</lastmod>
     
@@ -898,14 +898,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/702/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.629Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/493/</loc>
+    <loc>https://danielfree.net/archives/582/</loc>
     
     <lastmod>2017-11-02T08:40:47.629Z</lastmod>
     
@@ -919,7 +912,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/582/</loc>
+    <loc>https://danielfree.net/archives/493/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.629Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/702/</loc>
     
     <lastmod>2017-11-02T08:40:47.629Z</lastmod>
     
@@ -933,13 +933,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/592/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.628Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/603/</loc>
     
     <lastmod>2017-11-02T08:40:47.628Z</lastmod>
@@ -947,14 +940,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/530/</loc>
+    <loc>https://danielfree.net/archives/592/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.628Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/811/</loc>
     
     <lastmod>2017-11-02T08:40:47.627Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/811/</loc>
+    <loc>https://danielfree.net/archives/530/</loc>
     
     <lastmod>2017-11-02T08:40:47.627Z</lastmod>
     
@@ -1066,7 +1066,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/453/</loc>
+    <loc>https://danielfree.net/archives/513/</loc>
     
     <lastmod>2017-11-02T08:40:47.621Z</lastmod>
     
@@ -1080,21 +1080,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/513/</loc>
+    <loc>https://danielfree.net/archives/453/</loc>
     
     <lastmod>2017-11-02T08:40:47.621Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/890/</loc>
+    <loc>https://danielfree.net/archives/542/</loc>
     
     <lastmod>2017-11-02T08:40:47.620Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/542/</loc>
+    <loc>https://danielfree.net/archives/890/</loc>
     
     <lastmod>2017-11-02T08:40:47.620Z</lastmod>
     
@@ -1143,14 +1143,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/566/</loc>
+    <loc>https://danielfree.net/archives/604/</loc>
     
     <lastmod>2017-11-02T08:40:47.616Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/604/</loc>
+    <loc>https://danielfree.net/archives/566/</loc>
     
     <lastmod>2017-11-02T08:40:47.616Z</lastmod>
     
@@ -1206,13 +1206,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/686/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.613Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/797/</loc>
     
     <lastmod>2017-11-02T08:40:47.613Z</lastmod>
@@ -1220,7 +1213,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/610/</loc>
+    <loc>https://danielfree.net/archives/686/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.613Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/581/</loc>
     
     <lastmod>2017-11-02T08:40:47.612Z</lastmod>
     
@@ -1234,21 +1234,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/581/</loc>
+    <loc>https://danielfree.net/archives/610/</loc>
     
     <lastmod>2017-11-02T08:40:47.612Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/523/</loc>
+    <loc>https://danielfree.net/archives/463/</loc>
     
     <lastmod>2017-11-02T08:40:47.611Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/463/</loc>
+    <loc>https://danielfree.net/archives/523/</loc>
     
     <lastmod>2017-11-02T08:40:47.611Z</lastmod>
     
@@ -1262,6 +1262,13 @@
   </url>
   
   <url>
+    <loc>https://danielfree.net/archives/533/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.610Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://danielfree.net/archives/562/</loc>
     
     <lastmod>2017-11-02T08:40:47.610Z</lastmod>
@@ -1270,13 +1277,6 @@
   
   <url>
     <loc>https://danielfree.net/archives/572/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.610Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/533/</loc>
     
     <lastmod>2017-11-02T08:40:47.610Z</lastmod>
     
@@ -1318,14 +1318,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/600/</loc>
+    <loc>https://danielfree.net/archives/447/</loc>
     
     <lastmod>2017-11-02T08:40:47.607Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/447/</loc>
+    <loc>https://danielfree.net/archives/600/</loc>
     
     <lastmod>2017-11-02T08:40:47.607Z</lastmod>
     
@@ -1339,7 +1339,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/774/</loc>
+    <loc>https://danielfree.net/archives/696/</loc>
     
     <lastmod>2017-11-02T08:40:47.606Z</lastmod>
     
@@ -1353,7 +1353,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/696/</loc>
+    <loc>https://danielfree.net/archives/774/</loc>
     
     <lastmod>2017-11-02T08:40:47.606Z</lastmod>
     
@@ -1374,14 +1374,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/547/</loc>
+    <loc>https://danielfree.net/archives/516/</loc>
     
     <lastmod>2017-11-02T08:40:47.604Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/516/</loc>
+    <loc>https://danielfree.net/archives/547/</loc>
     
     <lastmod>2017-11-02T08:40:47.604Z</lastmod>
     
@@ -1395,14 +1395,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/852/</loc>
+    <loc>https://danielfree.net/archives/611/</loc>
     
     <lastmod>2017-11-02T08:40:47.603Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/611/</loc>
+    <loc>https://danielfree.net/archives/852/</loc>
     
     <lastmod>2017-11-02T08:40:47.603Z</lastmod>
     
@@ -1430,13 +1430,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/462/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.601Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/573/</loc>
     
     <lastmod>2017-11-02T08:40:47.601Z</lastmod>
@@ -1445,6 +1438,13 @@
   
   <url>
     <loc>https://danielfree.net/archives/522/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.601Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/462/</loc>
     
     <lastmod>2017-11-02T08:40:47.601Z</lastmod>
     
@@ -1486,14 +1486,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/601/</loc>
+    <loc>https://danielfree.net/archives/446/</loc>
     
     <lastmod>2017-11-02T08:40:47.598Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/446/</loc>
+    <loc>https://danielfree.net/archives/601/</loc>
     
     <lastmod>2017-11-02T08:40:47.598Z</lastmod>
     
@@ -1521,13 +1521,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1209/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.596Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/704/</loc>
     
     <lastmod>2017-11-02T08:40:47.596Z</lastmod>
@@ -1542,9 +1535,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/495/</loc>
+    <loc>https://danielfree.net/archives/1209/</loc>
     
-    <lastmod>2017-11-02T08:40:47.595Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.596Z</lastmod>
     
   </url>
   
@@ -1556,9 +1549,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/577/</loc>
+    <loc>https://danielfree.net/archives/495/</loc>
     
-    <lastmod>2017-11-02T08:40:47.594Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.595Z</lastmod>
     
   </url>
   
@@ -1570,9 +1563,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/621/</loc>
+    <loc>https://danielfree.net/archives/577/</loc>
     
-    <lastmod>2017-11-02T08:40:47.593Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.594Z</lastmod>
     
   </url>
   
@@ -1585,6 +1578,13 @@
   
   <url>
     <loc>https://danielfree.net/archives/526/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.593Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/621/</loc>
     
     <lastmod>2017-11-02T08:40:47.593Z</lastmod>
     
@@ -1633,13 +1633,6 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/693/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.589Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://danielfree.net/archives/502/</loc>
     
     <lastmod>2017-11-02T08:40:47.589Z</lastmod>
@@ -1654,14 +1647,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/963/</loc>
+    <loc>https://danielfree.net/archives/693/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.589Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/archives/771/</loc>
     
     <lastmod>2017-11-02T08:40:47.588Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/771/</loc>
+    <loc>https://danielfree.net/archives/963/</loc>
     
     <lastmod>2017-11-02T08:40:47.588Z</lastmod>
     
@@ -1689,14 +1689,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/567/</loc>
+    <loc>https://danielfree.net/archives/594/</loc>
     
     <lastmod>2017-11-02T08:40:47.585Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/594/</loc>
+    <loc>https://danielfree.net/archives/567/</loc>
     
     <lastmod>2017-11-02T08:40:47.585Z</lastmod>
     
@@ -1745,14 +1745,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1125/</loc>
+    <loc>https://danielfree.net/archives/869/</loc>
     
     <lastmod>2017-11-02T08:40:47.581Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/869/</loc>
+    <loc>https://danielfree.net/archives/1125/</loc>
     
     <lastmod>2017-11-02T08:40:47.581Z</lastmod>
     
@@ -1787,14 +1787,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/469/</loc>
+    <loc>https://danielfree.net/archives/509/</loc>
     
     <lastmod>2017-11-02T08:40:47.578Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/509/</loc>
+    <loc>https://danielfree.net/archives/469/</loc>
     
     <lastmod>2017-11-02T08:40:47.578Z</lastmod>
     
@@ -1822,6 +1822,13 @@
   </url>
   
   <url>
+    <loc>https://danielfree.net/archives/479/</loc>
+    
+    <lastmod>2017-11-02T08:40:47.575Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://danielfree.net/archives/568/</loc>
     
     <lastmod>2017-11-02T08:40:47.575Z</lastmod>
@@ -1843,9 +1850,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/479/</loc>
+    <loc>https://danielfree.net/archives/468/</loc>
     
-    <lastmod>2017-11-02T08:40:47.575Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.574Z</lastmod>
     
   </url>
   
@@ -1857,9 +1864,9 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/468/</loc>
+    <loc>https://danielfree.net/archives/579/</loc>
     
-    <lastmod>2017-11-02T08:40:47.574Z</lastmod>
+    <lastmod>2017-11-02T08:40:47.573Z</lastmod>
     
   </url>
   
@@ -1871,14 +1878,7 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/579/</loc>
-    
-    <lastmod>2017-11-02T08:40:47.573Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://danielfree.net/archives/538/</loc>
+    <loc>https://danielfree.net/archives/908/</loc>
     
     <lastmod>2017-11-02T08:40:47.572Z</lastmod>
     
@@ -1892,21 +1892,21 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/908/</loc>
+    <loc>https://danielfree.net/archives/538/</loc>
     
     <lastmod>2017-11-02T08:40:47.572Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/518/</loc>
+    <loc>https://danielfree.net/archives/478/</loc>
     
     <lastmod>2017-11-02T08:40:47.571Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/478/</loc>
+    <loc>https://danielfree.net/archives/518/</loc>
     
     <lastmod>2017-11-02T08:40:47.571Z</lastmod>
     
@@ -1920,14 +1920,14 @@
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/1262/</loc>
+    <loc>https://danielfree.net/archives/549/</loc>
     
     <lastmod>2017-11-02T08:40:47.570Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://danielfree.net/archives/549/</loc>
+    <loc>https://danielfree.net/archives/1262/</loc>
     
     <lastmod>2017-11-02T08:40:47.570Z</lastmod>
     
