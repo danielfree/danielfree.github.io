@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/development/</link>
+    <description>Recent content in Development on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 08 Aug 2009 23:11:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft依然是家伟大的公司</title>
+      <link>https://danielfree.net/archives/613/</link>
+      <pubDate>Sat, 08 Aug 2009 23:11:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/613/</guid>
+      <description>虽然windows操作系统一直都饱受各种批评指责 虽然在互联网的很多方面都没有做到先锋和翘首 但是不能否</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cdn on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/cdn/</link>
+    <description>Recent content in Cdn on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 08 Aug 2016 14:43:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2016 重新折腾了一下 WordPress 国内访问加速</title>
+      <link>https://danielfree.net/archives/1225/</link>
+      <pubDate>Mon, 08 Aug 2016 14:43:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1225/</guid>
+      <description>WordPress 换了个新主题，更新到最新版，发现国内访问速度慢成翔，主要还是几个重要域名被墙，还是得动手改造改造。</description>
+    </item>
+    
+  </channel>
+</rss>

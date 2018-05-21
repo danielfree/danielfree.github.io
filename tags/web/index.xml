@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/web/</link>
+    <description>Recent content in Web on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 24 Aug 2009 22:22:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>细节决定用户体验</title>
+      <link>https://danielfree.net/archives/620/</link>
+      <pubDate>Mon, 24 Aug 2009 22:22:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/620/</guid>
+      <description>记一点悟出的道理&amp;nbsp; 用户体验往往都在于对细节的处理&amp;nbsp; 事小但效果明显 印象中读到的一个</description>
+    </item>
+    
+    <item>
+      <title>Microsoft依然是家伟大的公司</title>
+      <link>https://danielfree.net/archives/613/</link>
+      <pubDate>Sat, 08 Aug 2009 23:11:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/613/</guid>
+      <description>虽然windows操作系统一直都饱受各种批评指责 虽然在互联网的很多方面都没有做到先锋和翘首 但是不能否</description>
+    </item>
+    
+    <item>
+      <title>Safari下的input 样式</title>
+      <link>https://danielfree.net/archives/585/</link>
+      <pubDate>Tue, 03 Mar 2009 00:45:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/585/</guid>
+      <description>参见这篇文章http://www.bartelme.at/journal/archive/safar</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/el/</link>
+    <description>Recent content in El on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 15 Apr 2014 17:44:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/el/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Struts 标签改写为 JSTL/EL 标签</title>
+      <link>https://danielfree.net/archives/1134/</link>
+      <pubDate>Tue, 15 Apr 2014 17:44:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1134/</guid>
+      <description>1. Intro 公司的项目很多基于 SSH 框架进行开发，感觉逐渐变得庞杂不好维护，尤其是页面展示这一块，struts标</description>
+    </item>
+    
+  </channel>
+</rss>

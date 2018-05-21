@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/mysql/</link>
+    <description>Recent content in Mysql on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 28 Aug 2012 18:06:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（二）</title>
+      <link>https://danielfree.net/archives/1007/</link>
+      <pubDate>Tue, 28 Aug 2012 18:06:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1007/</guid>
+      <description>（前文回顾: Elgg分布式扩展和性能优化（一） ） 继续来谈关于Elgg的种种，首先从LAMP的MySQ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Don&#39;t Panic</title>
+    <link>https://danielfree.net/post/</link>
+    <description>Recent content in Posts on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 11:13:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</title>
+      <link>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 15 Mar 2017 11:13:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</guid>
+      <description>问题症状 最近把一部分服务迁移到用 rancher 管理的容器集群环境里面去了，感觉还是不错的，而且 rancher 里自带的负载均衡</description>
+    </item>
+    
+    <item>
+      <title>博客从 WordPress 迁移到 GitHub Pages &#43; Hexo 了</title>
+      <link>https://danielfree.net/archives/migrate-to-github-pages-hexo/</link>
+      <pubDate>Sun, 26 Feb 2017 21:45:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/migrate-to-github-pages-hexo/</guid>
+      <description>玩博客玩了这么久，终于还是下决心把博客从 VPS 上迁出来搬到 GitHub Pages 上去，摆脱 WordPress 框架、php、nginx、my</description>
+    </item>
+    
+    <item>
+      <title>postfix 中自动替换 from 字段发件人邮件地址</title>
+      <link>https://danielfree.net/archives/1262/</link>
+      <pubDate>Fri, 24 Feb 2017 11:13:55 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1262/</guid>
+      <description>服务器里 postfix 发邮件现在国内很多都用 QQ 邮箱来发，但包括 QQ 在内很多邮件服务商用 smtp 发邮件时会对 From 字段做检查，</description>
+    </item>
+    
+    <item>
+      <title>使用 LaTeX beamer metropolis 模板书写 ppt 文档</title>
+      <link>https://danielfree.net/archives/1239/</link>
+      <pubDate>Tue, 06 Sep 2016 11:18:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1239/</guid>
+      <description>先上图 感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes</description>
+    </item>
+    
+    <item>
+      <title>从Strata&#43;Hadoop World 2016 Beijing 看 Alluxio 和 Hadoop</title>
+      <link>https://danielfree.net/archives/1232/</link>
+      <pubDate>Wed, 10 Aug 2016 16:26:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1232/</guid>
+      <description>主要看的讲师幻灯片 http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始</description>
+    </item>
+    
+    <item>
+      <title>2016 重新折腾了一下 WordPress 国内访问加速</title>
+      <link>https://danielfree.net/archives/1225/</link>
+      <pubDate>Mon, 08 Aug 2016 14:43:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1225/</guid>
+      <description>WordPress 换了个新主题，更新到最新版，发现国内访问速度慢成翔，主要还是几个重要域名被墙，还是得动手改造改造。</description>
+    </item>
+    
+    <item>
+      <title>Spark 更新到2.0了</title>
+      <link>https://danielfree.net/archives/1219/</link>
+      <pubDate>Thu, 04 Aug 2016 17:51:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1219/</guid>
+      <description>看起来变化还比较大，之前对 rdd 进行 cache(StorageLevel.OFF_HEAP) 操作是存到 tachyon 里面的，现在直接移除了，用了自己的一套实现，tachy</description>
+    </item>
+    
+    <item>
+      <title>编译 Hadoop native libraries</title>
+      <link>https://danielfree.net/archives/1209/</link>
+      <pubDate>Tue, 19 Jul 2016 12:55:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1209/</guid>
+      <description>实验中要用到 Hadoop 的一些压缩 codec，需要编译 Hadoop 的 native 库，做一下记录。顺便吐槽 Hadoop 发行版包里只包含32位的</description>
+    </item>
+    
+    <item>
+      <title>OpenStack Liberty 多宿主机混合安装</title>
+      <link>https://danielfree.net/archives/1196/</link>
+      <pubDate>Fri, 23 Oct 2015 15:08:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1196/</guid>
+      <description>最近准备把实验室里搭的一套 CloudStack 换成最新版的 OpenStack Liberty 版本，目的还是想把 kvm 和 XenServer 两套虚拟化环境统一一下，先做一点</description>
+    </item>
+    
+    <item>
+      <title>利用apt-mirror 镜像 mesosphere 第三方apt软件源</title>
+      <link>https://danielfree.net/archives/1190/</link>
+      <pubDate>Wed, 14 Oct 2015 16:25:59 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1190/</guid>
+      <description>最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</description>
+    </item>
+    
+    <item>
+      <title>编译使用 Spark/Tachyon 最新版本</title>
+      <link>https://danielfree.net/archives/1175/</link>
+      <pubDate>Fri, 05 Jun 2015 11:52:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1175/</guid>
+      <description>Spark 可以和 Tachyon 配合使用，使用内存作为数据存储介质，可以有效提高大数据计算时的吞吐量，目前 Tachyon 的版本迭代较快</description>
+    </item>
+    
+    <item>
+      <title>面向 Hadoop 2.6.0 编译 Spark</title>
+      <link>https://danielfree.net/archives/1160/</link>
+      <pubDate>Tue, 06 Jan 2015 17:21:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1160/</guid>
+      <description>14年11月份 Hadoop 社区发布了最新版本 2.6.0，打算在这个基础上跑 Spark+Tachyon，需要对 Spark</description>
+    </item>
+    
+    <item>
+      <title>用wget下载oracle database 11g</title>
+      <link>https://danielfree.net/archives/1149/</link>
+      <pubDate>Tue, 23 Sep 2014 16:32:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1149/</guid>
+      <description>项目需要新部署一个 oracle 服务器，机房带宽比自己下载快得多，所有要想办法在 linux 服务器上直接下载安装文件。 解决</description>
+    </item>
+    
+    <item>
+      <title>Struts 标签改写为 JSTL/EL 标签</title>
+      <link>https://danielfree.net/archives/1134/</link>
+      <pubDate>Tue, 15 Apr 2014 17:44:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1134/</guid>
+      <description>1. Intro 公司的项目很多基于 SSH 框架进行开发，感觉逐渐变得庞杂不好维护，尤其是页面展示这一块，struts标</description>
+    </item>
+    
+    <item>
+      <title>CloudStack Console 访问虚拟机 DNS 无法解析问题</title>
+      <link>https://danielfree.net/archives/1125/</link>
+      <pubDate>Wed, 05 Mar 2014 10:35:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1125/</guid>
+      <description>CloudStack 在使用页面console 访问虚拟机时，会使用一个特殊的域名xxx-xxx-xxx-xxx.real</description>
+    </item>
+    
+    <item>
+      <title>OS X Mavericks 中配置 iTerm2 &#43; Zsh &#43; Oh-my-zsh &#43; Monaco for Powerline font</title>
+      <link>https://danielfree.net/archives/1117/</link>
+      <pubDate>Thu, 16 Jan 2014 09:30:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1117/</guid>
+      <description>最近折腾了一下 shell 的配置，主要看了这几篇文章 在 Mac OS X 终端里使用 Solarized 配色方案 折腾了一下 Terminal zsh 是个好东西，比 bash</description>
+    </item>
+    
+    <item>
+      <title>解决 ProGit 在 Mac OS 下编译 pdf 时缺少字体的问题</title>
+      <link>https://danielfree.net/archives/1112/</link>
+      <pubDate>Thu, 19 Dec 2013 12:53:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1112/</guid>
+      <description>Pro Git （https://github.com/progit/progit）这本开源手册是学习 git 非常好的</description>
+    </item>
+    
+    <item>
+      <title>Linode VPS Ubuntu 12.04上安装Gitlab，解决 libv8 版本问题</title>
+      <link>https://danielfree.net/archives/1095/</link>
+      <pubDate>Wed, 07 Aug 2013 15:08:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1095/</guid>
+      <description>过程有一点曲折，还是记录一下免得自己也忘记了。 安装过程基本参考 Gitlab 的官方指导 https://github.com/gitlabhq/gitlabhq/blob/5-4-stable/doc/install/installation.md 选的是5-4-stabl</description>
+    </item>
+    
+    <item>
+      <title>Centos 6.4 上安装Asterisk 11.3&#43;FreePBX 2.11</title>
+      <link>https://danielfree.net/archives/1081/</link>
+      <pubDate>Tue, 07 May 2013 17:44:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1081/</guid>
+      <description>最近项目需要用asterisk来做一下研究，顺手记录一下安装过程，官方文档都太旧了，地址 https://wiki.asterisk.org/wiki/display/AST/Asterisk+Packages 现在ast</description>
+    </item>
+    
+    <item>
+      <title>江美琪 - 夜的诗人</title>
+      <link>https://danielfree.net/archives/1076/</link>
+      <pubDate>Mon, 06 May 2013 21:38:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1076/</guid>
+      <description>词:姚谦 曲:梁定江 如果那时候我没有爱你 不知道现在人会在哪里 有什么际遇 遇见了感伤的歌曲 会不会驻足去聆听</description>
+    </item>
+    
+    <item>
+      <title>Dev HTTP Client使用</title>
+      <link>https://danielfree.net/archives/1070/</link>
+      <pubDate>Fri, 12 Apr 2013 11:12:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1070/</guid>
+      <description>记录一下，免得自己忘记了。 Dev HTTP Client是Chrome应用商店里面的一个调试HTTP请求用的小应用</description>
+    </item>
+    
+    <item>
+      <title>摆渡人之歌</title>
+      <link>https://danielfree.net/archives/1061/</link>
+      <pubDate>Sat, 06 Apr 2013 21:37:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1061/</guid>
+      <description>http://www.xiami.com/song/10842 放在google上的音乐被删掉了，重新换回虾米吧，一次一首歌</description>
+    </item>
+    
+    <item>
+      <title>Lithium用Nginx做前端代理后端Apache处理请求</title>
+      <link>https://danielfree.net/archives/1058/</link>
+      <pubDate>Mon, 25 Mar 2013 16:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1058/</guid>
+      <description>最近项目里用到了一个php框架 Lithium http://lithify.me/ 官方只给了Apache的配置，在部署的时候发现用Nginx + PHP-fpm 总是</description>
+    </item>
+    
+    <item>
+      <title>Chrome中文使用雅黑字体</title>
+      <link>https://danielfree.net/archives/1046/</link>
+      <pubDate>Sat, 26 Jan 2013 22:48:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1046/</guid>
+      <description>很早之前记录过一次，使用Stylish这个插件将Chrome浏览器里的中文字体指定为雅黑字体，自己也</description>
+    </item>
+    
+    <item>
+      <title>Words</title>
+      <link>https://danielfree.net/archives/1042/</link>
+      <pubDate>Sat, 26 Jan 2013 22:34:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1042/</guid>
+      <description>&amp;ldquo;For the world has been made by fools that wise men should live in it&amp;rdquo; 傻瓜创造了世界，智者不得不生活于其中 &amp;ndash; 而我更愿意做那个傻瓜</description>
+    </item>
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（二）</title>
+      <link>https://danielfree.net/archives/1007/</link>
+      <pubDate>Tue, 28 Aug 2012 18:06:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1007/</guid>
+      <description>（前文回顾: Elgg分布式扩展和性能优化（一） ） 继续来谈关于Elgg的种种，首先从LAMP的MySQ</description>
+    </item>
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（一）</title>
+      <link>https://danielfree.net/archives/993/</link>
+      <pubDate>Wed, 22 Aug 2012 14:06:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/993/</guid>
+      <description>之前公司有个SNS方向的项目，由于有过Elgg的经验，所以选定继续采用Elgg作为基础来进行二次开发</description>
+    </item>
+    
+    <item>
+      <title>PHP输出图像时多一个字节的问题</title>
+      <link>https://danielfree.net/archives/963/</link>
+      <pubDate>Fri, 06 Jul 2012 00:05:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/963/</guid>
+      <description>最近在项目里遇到的一个非常诡异的bug，用PHP输出图像内容，图像总是损坏的状态，与原始图像比较之后</description>
+    </item>
+    
+    <item>
+      <title>出手换成了Linode VPS</title>
+      <link>https://danielfree.net/archives/946/</link>
+      <pubDate>Wed, 20 Jun 2012 13:21:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/946/</guid>
+      <description>上一个vps一年时间到期，正好趁Linode庆祝9周年送100刀的机会，还是入手了512M的VPS，</description>
+    </item>
+    
+    <item>
+      <title>换上了个更简单的模版</title>
+      <link>https://danielfree.net/archives/940/</link>
+      <pubDate>Fri, 08 Jun 2012 00:01:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/940/</guid>
+      <description>看起来清爽了许多 这个模版还有不少小功能挺好玩 以后就用它了</description>
+    </item>
+    
+    <item>
+      <title>2012</title>
+      <link>https://danielfree.net/archives/932/</link>
+      <pubDate>Wed, 08 Feb 2012 23:42:04 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/932/</guid>
+      <description>还是换回了之前的模版主题 冒个泡以示存在 是该多花点时间看看书了</description>
+    </item>
+    
+    <item>
+      <title>解决Mac OS X下cue文件乱码和无法打开的问题</title>
+      <link>https://danielfree.net/archives/923/</link>
+      <pubDate>Tue, 27 Dec 2011 14:25:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/923/</guid>
+      <description>&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;这是很长的前景提示&amp;mdash</description>
+    </item>
+    
+    <item>
+      <title>冷血动物？</title>
+      <link>https://danielfree.net/archives/915/</link>
+      <pubDate>Tue, 11 Oct 2011 23:23:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/915/</guid>
+      <description>觉得自己越来越有朝死理性派冷血动物发展的趋势 心里太清楚想要什么 是不是也过于执念了些？ 也许这种性格会不</description>
+    </item>
+    
+    <item>
+      <title>白水  - 美人吟</title>
+      <link>https://danielfree.net/archives/912/</link>
+      <pubDate>Wed, 03 Aug 2011 23:39:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/912/</guid>
+      <description>把之前的播放器全都去掉 只想放上这一曲 足矣 美人吟 詞：白水 曲：白水 客座人聲：袁田 幽園香谷聞蛙聲 古亭綠野踏</description>
+    </item>
+    
+    <item>
+      <title>决心做个吃货,转 - 武汉17家必吃的小吃</title>
+      <link>https://danielfree.net/archives/908/</link>
+      <pubDate>Sat, 09 Jul 2011 20:52:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/908/</guid>
+      <description>1、牛板筋大王 小店招牌：老妈烧菜馆 看家本领：特色牛板筋28元/份 大略地址：台北一路与高雄路的交汇处，</description>
+    </item>
+    
+    <item>
+      <title>W3 Total Cache对Nginx的静态链接支持</title>
+      <link>https://danielfree.net/archives/903/</link>
+      <pubDate>Fri, 01 Jul 2011 00:26:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/903/</guid>
+      <description>W3 Total Cache是wordpress一个很全面很强大的缓存加速插件 用了它之后其他什么优化插件都可以不需</description>
+    </item>
+    
+    <item>
+      <title>MyEclipse 9.0 For Mac 激活</title>
+      <link>https://danielfree.net/archives/901/</link>
+      <pubDate>Wed, 29 Jun 2011 20:13:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/901/</guid>
+      <description>MyEclipse 出了9.0的正式版 网上搜搜可以找到很多windows和linux下激活的文章 就不多说了 Mac版本的</description>
+    </item>
+    
+    <item>
+      <title>nginx里wordpress 3.1的url rewrite规则</title>
+      <link>https://danielfree.net/archives/890/</link>
+      <pubDate>Tue, 28 Jun 2011 23:04:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/890/</guid>
+      <description>整了一个vps 自己装上Nginx + PHP + Spawn-fcgi + MySQL 来放自己的博客 wordpress本身的静态化链接用的是A</description>
+    </item>
+    
+    <item>
+      <title>又给博客搬了次家  重新换了个模版 搭了个VPN</title>
+      <link>https://danielfree.net/archives/888/</link>
+      <pubDate>Mon, 27 Jun 2011 13:34:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/888/</guid>
+      <description>花钱买了个配置还不错的VPS 顺便就把博客也给搬了过来 换上一个更干净简单的模版 稍微修改了一点 有机会再多</description>
+    </item>
+    
+    <item>
+      <title>自从玩上微博之后</title>
+      <link>https://danielfree.net/archives/881/</link>
+      <pubDate>Sun, 22 May 2011 22:50:06 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/881/</guid>
+      <description>博客就真的要被自己遗忘了 流动的信息越来越多 越来越快 我们无时无刻都在制造和获取新的信息 淹没在信息组成的</description>
+    </item>
+    
+    <item>
+      <title>思念---吴念真</title>
+      <link>https://danielfree.net/archives/878/</link>
+      <pubDate>Fri, 04 Mar 2011 11:11:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/878/</guid>
+      <description>最近很喜欢转一些短篇 思念&amp;mdash;吴念真 &amp;nbsp; 小学二年级的孩子好像很喜欢邻座那个长头发的女孩，常常提</description>
+    </item>
+    
+    <item>
+      <title>修改Chrome中文显示字体</title>
+      <link>https://danielfree.net/archives/873/</link>
+      <pubDate>Thu, 24 Feb 2011 09:44:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/873/</guid>
+      <description>(**Update 2013: **换用了新的插件，可以看看这里 http://danielfree.net/archives/1046) 虽然用的是Mac OS但是用linux时留下来的习惯 还是觉得看微</description>
+    </item>
+    
+    <item>
+      <title>带上她的眼睛 刘慈欣</title>
+      <link>https://danielfree.net/archives/871/</link>
+      <pubDate>Wed, 23 Feb 2011 20:20:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/871/</guid>
+      <description>带上她的眼晴 连续工作了两个多月，我实在累了，便请求主任给我两天假，出去短暂旅游一下散散心。主任答应了</description>
+    </item>
+    
+    <item>
+      <title>要做爷爷奶奶的乖小孩还真是不容易</title>
+      <link>https://danielfree.net/archives/869/</link>
+      <pubDate>Thu, 16 Dec 2010 22:14:01 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/869/</guid>
+      <description>奶奶说 每天10点一定要给我睡觉！ 爷爷说 你的字太难看了 我从家里把毛笔和纸磨都带来了 你好好看看这书 没事就</description>
+    </item>
+    
+    <item>
+      <title>悲观的乐观主义者</title>
+      <link>https://danielfree.net/archives/867/</link>
+      <pubDate>Mon, 13 Dec 2010 00:29:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/867/</guid>
+      <description>这样好嘛?</description>
+    </item>
+    
+    <item>
+      <title>一年</title>
+      <link>https://danielfree.net/archives/864/</link>
+      <pubDate>Fri, 26 Nov 2010 22:46:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/864/</guid>
+      <description>许久没有码字 把博客从原来放在英国justhost的空间 迁移到了homezz的空间里 我自己访问 ping</description>
+    </item>
+    
+    <item>
+      <title>生活在别处</title>
+      <link>https://danielfree.net/archives/855/</link>
+      <pubDate>Wed, 29 Sep 2010 00:12:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/855/</guid>
+      <description>是否也有这样的梦想 可以环游世界 最好能和心爱的人一起 是否也有这样的想象 可以在不同的地方体验不同的生活&amp;</description>
+    </item>
+    
+    <item>
+      <title>Ne-Yo  Miss Independent</title>
+      <link>https://danielfree.net/archives/852/</link>
+      <pubDate>Sat, 11 Sep 2010 01:05:56 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/852/</guid>
+      <description>很久没来了 贴一首Ne-Yo获得格莱美的好歌Miss Independent 夏天已过 秋意渐浓 是不是到了该收获的季节呢</description>
+    </item>
+    
+    <item>
+      <title>Enrique Iglesia - Somebody&#39;s Me</title>
+      <link>https://danielfree.net/archives/849/</link>
+      <pubDate>Tue, 17 Aug 2010 21:50:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/849/</guid>
+      <description>安立奎的这首歌 少了他标志性的激昂旋律 少了性感的唱腔 却也有一种特别的味道 开头的吉他旋律 配合得恰到好处 是</description>
+    </item>
+    
+    <item>
+      <title>爱神吻醒普赛克</title>
+      <link>https://danielfree.net/archives/845/</link>
+      <pubDate>Sun, 01 Aug 2010 00:20:20 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/845/</guid>
+      <description>Cupid and Psyche 丘比特和普赛克 被爱神吻活的普赛克 这座雕塑有很多的名字 我独爱这个 &amp;lt;爱神吻醒普赛克&amp;gt; 在</description>
+    </item>
+    
+    <item>
+      <title>2010 兄弟们 你们还好么</title>
+      <link>https://danielfree.net/archives/811/</link>
+      <pubDate>Fri, 30 Jul 2010 01:31:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/811/</guid>
+      <description>转眼离毕业已经三年了 曾经在一起睡了四年的兄弟们 一个毕业后就去了四川 为国防事业奉献青春 一个去了瑞典 最近</description>
+    </item>
+    
+    <item>
+      <title>希望时间可以过得再慢一些</title>
+      <link>https://danielfree.net/archives/816/</link>
+      <pubDate>Mon, 26 Jul 2010 00:28:26 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/816/</guid>
+      <description>似乎只是一眨眼 七月就快过去 还有很多想做的没有去做 想说的话没有说出口 发现自己总归还是个不善于表达的人 却</description>
+    </item>
+    
+    <item>
+      <title>非典型屏蔽</title>
+      <link>https://danielfree.net/archives/814/</link>
+      <pubDate>Tue, 20 Jul 2010 13:15:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/814/</guid>
+      <description>之前那篇博文 莫名其妙被和谐 明显属于误伤 国内的同学大家就不要点楼下那篇文章了 一点就撞墙 回到关于G.F.</description>
+    </item>
+    
+    <item>
+      <title>也是流萤 也是潮汐</title>
+      <link>https://danielfree.net/archives/809/</link>
+      <pubDate>Thu, 01 Jul 2010 01:33:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/809/</guid>
+      <description>这一年的夏天 又会有什么不一样呢 有人即将离开 有人考虑回国的选择 日子就这么轰隆隆的走过一个个春秋冬夏 陆陆</description>
+    </item>
+    
+    <item>
+      <title>今日夏至</title>
+      <link>https://danielfree.net/archives/800/</link>
+      <pubDate>Mon, 21 Jun 2010 21:57:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/800/</guid>
+      <description>正式宣告盛夏的到来 要记得多快乐一点 愿朋友们一切都好 也祝福那些遇到意外和挫折的人们能尽快好起来 换上一首</description>
+    </item>
+    
+    <item>
+      <title>春水（安通溫泉） 林海</title>
+      <link>https://danielfree.net/archives/797/</link>
+      <pubDate>Wed, 09 Jun 2010 01:22:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/797/</guid>
+      <description>这张唱片的确应该找来听听 http://music.douban.com/subject/1754951/ 另一首也是林海作的 華燈（礁溪溫泉） 也很喜欢</description>
+    </item>
+    
+    <item>
+      <title>音乐是一种态度</title>
+      <link>https://danielfree.net/archives/792/</link>
+      <pubDate>Sun, 06 Jun 2010 22:43:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/792/</guid>
+      <description>不止一个人问我: &amp;ldquo;你很喜欢去酒吧阿?&amp;rdquo; 不 其实我不怎么去酒吧或者夜店 大学四年在</description>
+    </item>
+    
+    <item>
+      <title>风吹麦浪  李健</title>
+      <link>https://danielfree.net/archives/790/</link>
+      <pubDate>Thu, 03 Jun 2010 00:46:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/790/</guid>
+      <description>其实李健唱的传奇也别有一番味道</description>
+    </item>
+    
+    <item>
+      <title>五月的天不能没有五月天</title>
+      <link>https://danielfree.net/archives/783/</link>
+      <pubDate>Sun, 23 May 2010 20:26:43 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/783/</guid>
+      <description>第一次在武汉的专场演唱会 怎么能错过 疯狂世界 幸好有你有我 大黄蜂出场的时候 我激动了&amp;hellip;&amp;he</description>
+    </item>
+    
+    <item>
+      <title>序曲 天空之城</title>
+      <link>https://danielfree.net/archives/779/</link>
+      <pubDate>Thu, 13 May 2010 23:52:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/779/</guid>
+      <description>歌曲在播放器里 来自于 小娟&amp;amp;山谷里的居民 很想去听听她的现场</description>
+    </item>
+    
+    <item>
+      <title>Seven days in Beijing</title>
+      <link>https://danielfree.net/archives/776/</link>
+      <pubDate>Sun, 25 Apr 2010 21:02:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/776/</guid>
+      <description>好吧 我再次来北京出差了 这回是一个人来干三个人的活 期间还遭遇了实验室机房调整断网的情况 耽误了一整天 于是</description>
+    </item>
+    
+    <item>
+      <title>北京印象</title>
+      <link>https://danielfree.net/archives/774/</link>
+      <pubDate>Wed, 07 Apr 2010 01:07:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/774/</guid>
+      <description>上星期出差去北京 待了一个星期 马不停蹄的跟几拨人见面吃饭聊天 居然还是没全部见完 于是留到下次去继续 最惊奇</description>
+    </item>
+    
+    <item>
+      <title>是怎样一段感情  可以让她写出如此美丽的歌来</title>
+      <link>https://danielfree.net/archives/771/</link>
+      <pubDate>Mon, 05 Apr 2010 00:30:06 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/771/</guid>
+      <description>到不了 范玮琪 (MUSIC) 你眼睛会笑 弯成一条桥 终点却是我 永远到不了 感觉你来到 是风的呼啸 思念像苦药 竟如此难熬 每分 每</description>
+    </item>
+    
+    <item>
+      <title>纯音乐  风居住的街道</title>
+      <link>https://danielfree.net/archives/769/</link>
+      <pubDate>Mon, 22 Mar 2010 22:11:32 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/769/</guid>
+      <description>加入到播放器的音乐列表里了 虾米播放器没有设置自动播放的功能 这个想法很好 对看博客的人比较少干扰 喜欢的话</description>
+    </item>
+    
+    <item>
+      <title>今天才是最传统最浪漫的节日</title>
+      <link>https://danielfree.net/archives/767/</link>
+      <pubDate>Sun, 28 Feb 2010 02:16:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/767/</guid>
+      <description>元宵节才是最浪漫的节日 古人在这一天 会摆上盛大的花市和灯盏 繁华的街头人潮涌动 也许还会有烟火漫天 还会有月</description>
+    </item>
+    
+    <item>
+      <title>别让年轻越长大越孤单</title>
+      <link>https://danielfree.net/archives/759/</link>
+      <pubDate>Sat, 27 Feb 2010 03:00:25 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/759/</guid>
+      <description>这大概是今年春晚给我留下的最深印象 也是挺贴切的现状 想起毛毛曾经说回国几个月之后就会怀疑为什么要回来开</description>
+    </item>
+    
+    <item>
+      <title>武汉不过是一个我熟悉的城市（叶倾城）</title>
+      <link>https://danielfree.net/archives/756/</link>
+      <pubDate>Sun, 21 Feb 2010 12:20:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/756/</guid>
+      <description>过年一直没出现 再次冒个泡 已示存在 再转载一篇动人的文章 武汉不过是一个我熟悉的城市。 因为爱恋过，一个无情</description>
+    </item>
+    
+    <item>
+      <title>2009年中国情爱报告 (转载 长文)</title>
+      <link>https://danielfree.net/archives/752/</link>
+      <pubDate>Wed, 03 Feb 2010 22:51:44 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/752/</guid>
+      <description>为什么过去的爱情更美好 爱谁谁 这是《新周刊》第11个情人节专题。 爱情看似泛滥，实属21世纪的第一奢侈品</description>
+    </item>
+    
+    <item>
+      <title>关于这座城</title>
+      <link>https://danielfree.net/archives/747/</link>
+      <pubDate>Sun, 24 Jan 2010 00:16:47 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/747/</guid>
+      <description>图片from 豆瓣 浩浩江水恐怕是这座城永远的标签 长江沿岸 再也没有其他哪个城市可以心安理得的为自己取上“</description>
+    </item>
+    
+    <item>
+      <title>西班牙馅饼</title>
+      <link>https://danielfree.net/archives/738/</link>
+      <pubDate>Tue, 12 Jan 2010 00:29:25 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/738/</guid>
+      <description>&amp;nbsp; 这两个东西 都快不记得具体是什么时候某人送给我的了 可能是大三或者大四把 从大学的宿舍 到英国 现在又漂洋过</description>
+    </item>
+    
+    <item>
+      <title>20100102</title>
+      <link>https://danielfree.net/archives/729/</link>
+      <pubDate>Sat, 02 Jan 2010 23:58:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/729/</guid>
+      <description>据说今天的日期很特别 因为正着数和倒着数是一个样儿 那么在这个特别的日子里 来一个简短的2009总结 200</description>
+    </item>
+    
+    <item>
+      <title>豆你一个瓣</title>
+      <link>https://danielfree.net/archives/726/</link>
+      <pubDate>Mon, 28 Dec 2009 20:01:47 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/726/</guid>
+      <description>doubanclaim0d18e9f9432b61b3</description>
+    </item>
+    
+    <item>
+      <title>李献计历险记</title>
+      <link>https://danielfree.net/archives/724/</link>
+      <pubDate>Mon, 28 Dec 2009 00:45:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/724/</guid>
+      <description>两个字 神作 verycd上第一篇和第二篇评论说出了一切 把旁边的音乐停了 看看吧</description>
+    </item>
+    
+    <item>
+      <title>又是一年圣诞时</title>
+      <link>https://danielfree.net/archives/722/</link>
+      <pubDate>Thu, 24 Dec 2009 01:06:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/722/</guid>
+      <description>明天圣诞夜 预祝各位有伴和没伴的圣诞快乐了 如果明天还记得的话 把Love Actually重新再看一遍 每年</description>
+    </item>
+    
+    <item>
+      <title>李志 梵高先生</title>
+      <link>https://danielfree.net/archives/720/</link>
+      <pubDate>Wed, 23 Dec 2009 00:12:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/720/</guid>
+      <description>26号 本周六 @VOX livehouse 李志 外号BB 豆瓣上被称做李BB 却是一个带眼睛长头发唱民谣的青年 真实的声音 据说梵高先生</description>
+    </item>
+    
+    <item>
+      <title>工作计划</title>
+      <link>https://danielfree.net/archives/718/</link>
+      <pubDate>Tue, 22 Dec 2009 21:16:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/718/</guid>
+      <description>年前要完成目前的这个分布式搜索项目 总结出几份关于Nutch, Lucene, Solr和Katta的文档来 是一个很好</description>
+    </item>
+    
+    <item>
+      <title>下个星期就搬到租的新房子里面去拉</title>
+      <link>https://danielfree.net/archives/713/</link>
+      <pubDate>Sun, 13 Dec 2009 23:12:25 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/713/</guid>
+      <description>东西都是全新的 一个人住还是很爽的 在大厦的最高一层 窗外就能看到光谷步行街和光谷大道的熙攘人群 可能宽带一</description>
+    </item>
+    
+    <item>
+      <title>上来报告一下行踪</title>
+      <link>https://danielfree.net/archives/710/</link>
+      <pubDate>Sat, 12 Dec 2009 20:50:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/710/</guid>
+      <description>最近真是应了一句话 计划赶不上变化 忙于各种事情 回来没两个星期 就开始上班了&amp;hellip;去上海的计划也</description>
+    </item>
+    
+    <item>
+      <title>在家这几天</title>
+      <link>https://danielfree.net/archives/707/</link>
+      <pubDate>Sun, 29 Nov 2009 17:07:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/707/</guid>
+      <description>简单的说 就是吃了睡 睡了吃 城市越来越拥挤 每天不堵车才是奇迹 满街的尘土依然没有什么变好的迹象 到处都在施工</description>
+    </item>
+    
+    <item>
+      <title>11.23</title>
+      <link>https://danielfree.net/archives/706/</link>
+      <pubDate>Mon, 23 Nov 2009 00:18:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/706/</guid>
+      <description>Farewell UK, farewell my friends! 不管在哪，都大踏步向前吧！ 对于即将开始的不能访问Twitter youtube BBC iplayer的墙内生活</description>
+    </item>
+    
+    <item>
+      <title>Quick Note</title>
+      <link>https://danielfree.net/archives/704/</link>
+      <pubDate>Sat, 21 Nov 2009 21:36:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/704/</guid>
+      <description>下星期一的飞机回国</description>
+    </item>
+    
+    <item>
+      <title>为博客买了一个新域名 打算长期使用</title>
+      <link>https://danielfree.net/archives/702/</link>
+      <pubDate>Thu, 12 Nov 2009 22:38:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/702/</guid>
+      <description>博客正式改地址 http://danielfree.net 更加好记 也更简单明了 以后博客估计就长期使用上面这个地址勒 godaddy买一个域名一年</description>
+    </item>
+    
+    <item>
+      <title>好久没有更新</title>
+      <link>https://danielfree.net/archives/700/</link>
+      <pubDate>Tue, 10 Nov 2009 02:12:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/700/</guid>
+      <description>不是偷懒 最近一段日子各种事情夹杂在一块 每每想起博客 又失掉了记录的兴趣 我决定回国了 这个月底就回去 从湖区</description>
+    </item>
+    
+    <item>
+      <title>王若琳 Let&#39;s Start From Here</title>
+      <link>https://danielfree.net/archives/696/</link>
+      <pubDate>Sat, 24 Oct 2009 01:41:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/696/</guid>
+      <description>不多说什么了 静静的听歌把</description>
+    </item>
+    
+    <item>
+      <title>湖区之行</title>
+      <link>https://danielfree.net/archives/693/</link>
+      <pubDate>Mon, 19 Oct 2009 12:52:56 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/693/</guid>
+      <description>因为去Cumbria郡里的一个小镇面试 顺道逛了逛同属于Cumbria的湖区 从Arnside到Whit</description>
+    </item>
+    
+    <item>
+      <title>忙忙碌碌 寻寻觅觅</title>
+      <link>https://danielfree.net/archives/691/</link>
+      <pubDate>Mon, 05 Oct 2009 00:24:16 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/691/</guid>
+      <description>国庆和中秋就这么过去了 这几天 英国的月亮也很亮很圆</description>
+    </item>
+    
+    <item>
+      <title>感谢微软把我培养成了字体美化爱好者</title>
+      <link>https://danielfree.net/archives/688/</link>
+      <pubDate>Sun, 27 Sep 2009 01:18:20 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/688/</guid>
+      <description>微软雅黑是到现在为止质量最好, 看上去最顺眼的网页中文字体了 非常讽刺的是, 我在Linux, Mac OSX和W</description>
+    </item>
+    
+    <item>
+      <title>Leonard Cohen - In My Secret Life</title>
+      <link>https://danielfree.net/archives/686/</link>
+      <pubDate>Mon, 21 Sep 2009 21:43:16 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/686/</guid>
+      <description>在麦田音乐网里听到的这首歌 万分感谢 恰好在BBC上看到新闻 Cohen最近在西班牙Valencia演出时</description>
+    </item>
+    
+    <item>
+      <title>Google Internet Stats</title>
+      <link>https://danielfree.net/archives/682/</link>
+      <pubDate>Fri, 11 Sep 2009 00:45:32 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/682/</guid>
+      <description>Google UK发布的一个小应用 都是一些媒体上关于internet的统计数据 http://www.google.co.uk/intl/en/landing/internetstats/ 让我比较囧的有比如这条 There are 22,471 TV channels</description>
+    </item>
+    
+    <item>
+      <title>今日两大收获</title>
+      <link>https://danielfree.net/archives/678/</link>
+      <pubDate>Thu, 10 Sep 2009 12:27:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/678/</guid>
+      <description>Muse - The Resistance - 2009 Whitney Houston - I Look To You - 2009 强力推荐!!!</description>
+    </item>
+    
+    <item>
+      <title>装了个All-in-one SEO plugin害得Google跟Baidu都不收录我的博客了</title>
+      <link>https://danielfree.net/archives/676/</link>
+      <pubDate>Wed, 09 Sep 2009 13:07:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/676/</guid>
+      <description>该死的插件 默认不收录所有的archives 结果我日志的所有链接都是archives/%post_id</description>
+    </item>
+    
+    <item>
+      <title>原来wordpress2.7之后就自带了thread comments了</title>
+      <link>https://danielfree.net/archives/655/</link>
+      <pubDate>Sun, 06 Sep 2009 02:01:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/655/</guid>
+      <description>怪不得找了几个plugin都不能用 看来wordpress从2.7以后改动还是不少 稍微修改了一下这个F</description>
+    </item>
+    
+    <item>
+      <title>不错的wordpress模板资源</title>
+      <link>https://danielfree.net/archives/651/</link>
+      <pubDate>Fri, 04 Sep 2009 18:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/651/</guid>
+      <description>就是Smashing Magazine的Freebies部分了 现在这个模板就是从那里扒来的 推荐一下 那里</description>
+    </item>
+    
+    <item>
+      <title>Blogbus搬家到Wordpress的Python转换脚本修改版 支持tags/分类导入</title>
+      <link>https://danielfree.net/archives/634/</link>
+      <pubDate>Thu, 03 Sep 2009 21:42:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/634/</guid>
+      <description>(2010.1.17 Update: 写此文的时候我用的wordpress版本是2.8.4 导入是没有任何问题的 据几位同学反映wordp</description>
+    </item>
+    
+    <item>
+      <title>理发</title>
+      <link>https://danielfree.net/archives/623/</link>
+      <pubDate>Wed, 02 Sep 2009 03:42:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/623/</guid>
+      <description>我在考虑 以后都保持短发 和从小到大一直留着的分头say byebye</description>
+    </item>
+    
+    <item>
+      <title>博客大巴怎么这两天老抽风</title>
+      <link>https://danielfree.net/archives/622/</link>
+      <pubDate>Sat, 29 Aug 2009 06:44:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/622/</guid>
+      <description>如果老这么抽阿抽的 考虑把内容全部搬到国外自己的Wordpress博客上去了&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Silence is Easy !</title>
+      <link>https://danielfree.net/archives/621/</link>
+      <pubDate>Wed, 26 Aug 2009 07:13:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/621/</guid>
+      <description>去听Starsailor的演唱会&amp;nbsp; 算是圆了一个心愿 场地很有趣 除了一楼stand floor 还有二楼小</description>
+    </item>
+    
+    <item>
+      <title>细节决定用户体验</title>
+      <link>https://danielfree.net/archives/620/</link>
+      <pubDate>Mon, 24 Aug 2009 22:22:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/620/</guid>
+      <description>记一点悟出的道理&amp;nbsp; 用户体验往往都在于对细节的处理&amp;nbsp; 事小但效果明显 印象中读到的一个</description>
+    </item>
+    
+    <item>
+      <title>子时 夜半销魂  谁人歌?</title>
+      <link>https://danielfree.net/archives/619/</link>
+      <pubDate>Sun, 23 Aug 2009 03:31:55 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/619/</guid>
+      <description>博客大巴一个让我很感兴趣的地方 便是后台这个以十二地支做成的短言表 而我印象中看到最多的就是&#34;夜半销魂,</description>
+    </item>
+    
+    <item>
+      <title>昨天突然想到的</title>
+      <link>https://danielfree.net/archives/618/</link>
+      <pubDate>Sat, 15 Aug 2009 17:58:39 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/618/</guid>
+      <description>几年前 在bbs上看到darkeyes的签名档 &amp;ldquo;对于年轻人而言，三年五年就可以是一生一世&amp;</description>
+    </item>
+    
+    <item>
+      <title>仲夏夜之梦</title>
+      <link>https://danielfree.net/archives/617/</link>
+      <pubDate>Sat, 15 Aug 2009 07:24:47 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/617/</guid>
+      <description>在McEwan Hall看完北影排的仲夏夜之梦 剧本身有新意 也有遗憾 至少如果能配上字幕 台下观众可能更容易</description>
+    </item>
+    
+    <item>
+      <title>Iron and Wine - Love Vigilantes</title>
+      <link>https://danielfree.net/archives/616/</link>
+      <pubDate>Wed, 12 Aug 2009 20:30:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/616/</guid>
+      <description>实在是好听&amp;hellip;在电台里第一次听到&amp;nbsp; 好听到简直泪流满面阿&amp;hellip; [](h</description>
+    </item>
+    
+    <item>
+      <title>这个模板暂时先改成这个样子...</title>
+      <link>https://danielfree.net/archives/615/</link>
+      <pubDate>Mon, 10 Aug 2009 07:05:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/615/</guid>
+      <description>有更多重要的事情要做&amp;nbsp; 就不改了 应该很快就会在后台分享区看到了把</description>
+    </item>
+    
+    <item>
+      <title>事先透露一个消息</title>
+      <link>https://danielfree.net/archives/614/</link>
+      <pubDate>Sun, 09 Aug 2009 07:57:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/614/</guid>
+      <description>这两天在移植另一个wordpress的模板 pretty_pachement 到blogbus上来 其实08年的时候我就试过 当时没做好 就</description>
+    </item>
+    
+    <item>
+      <title>Microsoft依然是家伟大的公司</title>
+      <link>https://danielfree.net/archives/613/</link>
+      <pubDate>Sat, 08 Aug 2009 23:11:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/613/</guid>
+      <description>虽然windows操作系统一直都饱受各种批评指责 虽然在互联网的很多方面都没有做到先锋和翘首 但是不能否</description>
+    </item>
+    
+    <item>
+      <title>我准备也开始一个Project 365</title>
+      <link>https://danielfree.net/archives/612/</link>
+      <pubDate>Sat, 08 Aug 2009 10:36:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/612/</guid>
+      <description>Flickr上的流行活动 即每天坚持拍一张照片 积累365天成为一个系列 不知道我能坚持多久</description>
+    </item>
+    
+    <item>
+      <title>放在国外空间上的mp3都被删除了</title>
+      <link>https://danielfree.net/archives/611/</link>
+      <pubDate>Wed, 05 Aug 2009 09:05:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/611/</guid>
+      <description>囧了 可能是因为流量太大被webhosting公司查出来直接干掉了..整个目录下的mp3全给砍光&amp;he</description>
+    </item>
+    
+    <item>
+      <title>我把这个模板又修改了一下</title>
+      <link>https://danielfree.net/archives/610/</link>
+      <pubDate>Tue, 04 Aug 2009 09:16:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/610/</guid>
+      <description>楼下的楼下那个贴子里的zip文件还没来得及更新 调整了一下postBody里面列表的显示 还有右边栏里留</description>
+    </item>
+    
+    <item>
+      <title>近期目标</title>
+      <link>https://danielfree.net/archives/609/</link>
+      <pubDate>Tue, 04 Aug 2009 08:27:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/609/</guid>
+      <description>还是再记一下把 提醒自己 争取这个月内把我从birmingham买回来的科幻小说看完, Iain M. Banks写的</description>
+    </item>
+    
+    <item>
+      <title>分享一个自己移植过来的blogbus模板</title>
+      <link>https://danielfree.net/archives/608/</link>
+      <pubDate>Wed, 29 Jul 2009 03:19:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/608/</guid>
+      <description>是我自己之前用的一个模板 我从wordpress某个模板移植过来滴 不知道分享要过多久才能通过审核 相信不</description>
+    </item>
+    
+    <item>
+      <title>对这个主题做的修改</title>
+      <link>https://danielfree.net/archives/23/</link>
+      <pubDate>Thu, 23 Jul 2009 23:12:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/23/</guid>
+      <description>这个wordpress的主题叫做 colorpaper 感觉很好 用上去之后发现了好几个问题 花了一些时间做了修改 算是把功能都</description>
+    </item>
+    
+    <item>
+      <title>[坑待填]利用jquery实现的各种效果</title>
+      <link>https://danielfree.net/archives/21/</link>
+      <pubDate>Thu, 23 Jul 2009 22:29:53 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/21/</guid>
+      <description>记录一下项目里利用jquery实现过的效果 具体的例子和代码待有空慢慢填坑.. CakePHP 首页那样的horizo</description>
+    </item>
+    
+    <item>
+      <title>Barcelona - Please Don&#39;t Go</title>
+      <link>https://danielfree.net/archives/607/</link>
+      <pubDate>Tue, 21 Jul 2009 21:14:00 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/607/</guid>
+      <description>来自一张叫做&amp;lt;Absolutes&amp;gt;的专辑 可以沉溺的声音 乐队名字很有趣 然而他们却不是来自西</description>
+    </item>
+    
+    <item>
+      <title>mac下文件带有扩展属性的问题</title>
+      <link>https://danielfree.net/archives/10/</link>
+      <pubDate>Thu, 16 Jul 2009 23:15:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/10/</guid>
+      <description>在mac os下HFS+的文件系统上 文件经常会被附加上mac专有的扩展属性 具体的表现是用ls -l 查看时 会</description>
+    </item>
+    
+    <item>
+      <title>Sin Nombre</title>
+      <link>https://danielfree.net/archives/606/</link>
+      <pubDate>Sun, 12 Jul 2009 06:55:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/606/</guid>
+      <description>今年的爱丁堡国际电影节我去看的唯一一部电影 相当精彩 故事讲述一个洪都拉斯女孩被父亲拉着踏上偷渡之路去美</description>
+    </item>
+    
+    <item>
+      <title>廉颇老矣 尚能饭否?</title>
+      <link>https://danielfree.net/archives/605/</link>
+      <pubDate>Thu, 09 Jul 2009 07:19:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/605/</guid>
+      <description>前天才注册了个饭否的帐号&amp;nbsp; 它昨天就不能访问了 整个网站全挂掉 老子的气场有这么强么??</description>
+    </item>
+    
+    <item>
+      <title>偶的firefox还是很有文化的</title>
+      <link>https://danielfree.net/archives/604/</link>
+      <pubDate>Wed, 08 Jul 2009 08:39:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/604/</guid>
+      <description>在地址栏打算输入blogbus&amp;nbsp; 结果只打完bl就按了回车 &amp;hellip;. &amp;hellip;. 于是firefox把我直接带到</description>
+    </item>
+    
+    <item>
+      <title>徐佳莹 身骑白马</title>
+      <link>https://danielfree.net/archives/603/</link>
+      <pubDate>Mon, 06 Jul 2009 21:05:00 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/603/</guid>
+      <description>这是一首不得不推的歌 来自于星光大道的徐佳莹 最喜欢的还是中间那段闽南语的段&amp;nbsp; 相当的出彩</description>
+    </item>
+    
+    <item>
+      <title>七月</title>
+      <link>https://danielfree.net/archives/602/</link>
+      <pubDate>Sun, 05 Jul 2009 06:40:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/602/</guid>
+      <description>又是一个毕业季&amp;nbsp;&amp;nbsp;&amp;nbsp; 浮光流影 两年前的这个七月 是满怀了憧憬离开的 以为一切</description>
+    </item>
+    
+    <item>
+      <title>有着差不多的绝望 做着差不多的梦</title>
+      <link>https://danielfree.net/archives/601/</link>
+      <pubDate>Tue, 23 Jun 2009 09:09:10 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/601/</guid>
+      <description>这简直就是当前生活的写照</description>
+    </item>
+    
+    <item>
+      <title>目前项目使用的jquery插件</title>
+      <link>https://danielfree.net/archives/8/</link>
+      <pubDate>Mon, 22 Jun 2009 13:38:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/8/</guid>
+      <description>记录一下 还是挺多的 jquery上手非常容易 learning curve很低 我们用了好几个现成的插件 开发效率非常快 弹出</description>
+    </item>
+    
+    <item>
+      <title>ESP EBP在函数调用时的具体操作</title>
+      <link>https://danielfree.net/archives/6/</link>
+      <pubDate>Sun, 21 Jun 2009 15:30:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/6/</guid>
+      <description>最近打算重新拾起汇编和exploit方面的知识 看书时发现对栈操作 EBP和ESP这些东西都快忘记了 搜到</description>
+    </item>
+    
+    <item>
+      <title>MSN的十年 我的九年</title>
+      <link>https://danielfree.net/archives/600/</link>
+      <pubDate>Fri, 19 Jun 2009 02:14:53 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/600/</guid>
+      <description>http://10.msn.com.cn/&amp;nbsp;MSN中国推出的一个有意思的应用 可以顺便查询自</description>
+    </item>
+    
+    <item>
+      <title>看图说话 漫步巴黎</title>
+      <link>https://danielfree.net/archives/599/</link>
+      <pubDate>Tue, 09 Jun 2009 07:20:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/599/</guid>
+      <description>从西班牙和法国回来之后懒了很久 补上这篇不算游记的游记 &amp;lsquo;巴黎太忧伤了&amp;rsquo; - 这个描</description>
+    </item>
+    
+    <item>
+      <title>请大家帮忙做个调查-v-</title>
+      <link>https://danielfree.net/archives/598/</link>
+      <pubDate>Sun, 31 May 2009 19:46:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/598/</guid>
+      <description>关于相册使用的小小小调查 -&amp;gt; 请猛力点击这里 考虑购买一个付费的相册服务 flickr的付费服务不算贵 一年2</description>
+    </item>
+    
+    <item>
+      <title>汪峰 - 春天里</title>
+      <link>https://danielfree.net/archives/597/</link>
+      <pubDate>Thu, 28 May 2009 18:35:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/597/</guid>
+      <description>我只想说 他的声音怎么变沙哑了呢 不知道为什么 有淡淡的真诚 于是有淡淡的感动 春天里&amp;nbsp;&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>random stuff</title>
+      <link>https://danielfree.net/archives/596/</link>
+      <pubDate>Thu, 28 May 2009 06:28:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/596/</guid>
+      <description>1. blogbus后台的友邻功能似乎并不好用&amp;nbsp; 我时常只能看到一条好友博客的更新 但是逛完一圈明</description>
+    </item>
+    
+    <item>
+      <title>重新换一个模板</title>
+      <link>https://danielfree.net/archives/595/</link>
+      <pubDate>Tue, 26 May 2009 08:09:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/595/</guid>
+      <description>觉得官方的这个忆江南感觉还挺好的 稍微做了一点小修改 去掉顶部的一点小广告链接&amp;nbsp; 还有底部的版权</description>
+    </item>
+    
+    <item>
+      <title>巴塞罗那 高第之城</title>
+      <link>https://danielfree.net/archives/594/</link>
+      <pubDate>Tue, 05 May 2009 08:58:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/594/</guid>
+      <description>4月末的时候 抽空去了一趟西班牙和法国 第一次踏上欧洲大陆&amp;nbsp; 带上我的相机观察这片土地 巴塞罗那 高</description>
+    </item>
+    
+    <item>
+      <title>Strawberry Swing</title>
+      <link>https://danielfree.net/archives/593/</link>
+      <pubDate>Mon, 13 Apr 2009 00:22:37 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/593/</guid>
+      <description>从Homebase买回来的草莓树&amp;nbsp; 自己浇水等待结出草莓 挺有意思 草莓树 是长这个样子滴 不知道这</description>
+    </item>
+    
+    <item>
+      <title>昨天晚上做了个奇妙的梦</title>
+      <link>https://danielfree.net/archives/592/</link>
+      <pubDate>Sat, 11 Apr 2009 19:12:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/592/</guid>
+      <description>我跟一姑娘在我房间里 不知在做什么(根据我的推断 应该是往春梦的方向发展 阿哈哈) 然后家里爸妈回来了 然后呢</description>
+    </item>
+    
+    <item>
+      <title>总有一天我的浏览器会哽咽至死</title>
+      <link>https://danielfree.net/archives/591/</link>
+      <pubDate>Fri, 10 Apr 2009 18:49:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/591/</guid>
+      <description>mac下面的flash远没有windows版的成熟&amp;nbsp; 尽管都出到了version 10&amp;nbsp; 每次长时间</description>
+    </item>
+    
+    <item>
+      <title>天尽头 何处是香丘</title>
+      <link>https://danielfree.net/archives/590/</link>
+      <pubDate>Tue, 07 Apr 2009 08:05:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/590/</guid>
+      <description>机器人也有红楼梦</description>
+    </item>
+    
+    <item>
+      <title>2009 你去红楼 我去西游</title>
+      <link>https://danielfree.net/archives/589/</link>
+      <pubDate>Tue, 31 Mar 2009 20:56:39 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/589/</guid>
+      <description>痛苦的信仰 敢问路在何方 相信每个人都会这首歌原曲很熟悉 痛仰的这个版本 从一开头就有一种金属质感般的诱惑 我</description>
+    </item>
+    
+    <item>
+      <title>mac下應用程序清單</title>
+      <link>https://danielfree.net/archives/588/</link>
+      <pubDate>Mon, 23 Mar 2009 00:31:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/588/</guid>
+      <description>随便记一下&amp;nbsp; 免得自己忘记了... 搞了个macbook到现在&amp;nbsp; 游戏+程序装到/Ap</description>
+    </item>
+    
+    <item>
+      <title>Women In Art</title>
+      <link>https://danielfree.net/archives/587/</link>
+      <pubDate>Wed, 18 Mar 2009 19:43:32 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/587/</guid>
+      <description>Technology is cool</description>
+    </item>
+    
+    <item>
+      <title>但愿人长久</title>
+      <link>https://danielfree.net/archives/586/</link>
+      <pubDate>Fri, 13 Mar 2009 20:26:02 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/586/</guid>
+      <description>在学友的歌声中沉醉把&amp;nbsp; 在心里再默诵一遍这首古词 明月几时有 把酒问青天 不知天上宫阙 今夕是何年 我</description>
+    </item>
+    
+    <item>
+      <title>Safari下的input 样式</title>
+      <link>https://danielfree.net/archives/585/</link>
+      <pubDate>Tue, 03 Mar 2009 00:45:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/585/</guid>
+      <description>参见这篇文章http://www.bartelme.at/journal/archive/safar</description>
+    </item>
+    
+    <item>
+      <title>华生vs福尔摩斯</title>
+      <link>https://danielfree.net/archives/584/</link>
+      <pubDate>Thu, 26 Feb 2009 21:57:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/584/</guid>
+      <description>你想做华生&amp;nbsp; 还是福尔摩斯? 贴同学的一篇文章 和理工科男生的谈话 &amp;ldquo;上面是我的寒假作</description>
+    </item>
+    
+    <item>
+      <title>一直在玩</title>
+      <link>https://danielfree.net/archives/583/</link>
+      <pubDate>Sat, 07 Feb 2009 10:43:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/583/</guid>
+      <description>你一直在和自己玩</description>
+    </item>
+    
+    <item>
+      <title>关于家</title>
+      <link>https://danielfree.net/archives/582/</link>
+      <pubDate>Thu, 22 Jan 2009 01:33:26 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/582/</guid>
+      <description>一直在想&amp;nbsp;&amp;nbsp; 每个人心里的家&amp;nbsp; 到底是一个地点&amp;nbsp; 一个时间&amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>袁泉 - 木槿花</title>
+      <link>https://danielfree.net/archives/581/</link>
+      <pubDate>Thu, 08 Jan 2009 00:40:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/581/</guid>
+      <description>&amp;quot;我们都一样 都少了些潇洒 &amp;nbsp;所以在失落时 还守着优雅&amp;quot; 喜欢袁泉 花开一般的声</description>
+    </item>
+    
+    <item>
+      <title>1月1日晴</title>
+      <link>https://danielfree.net/archives/580/</link>
+      <pubDate>Thu, 01 Jan 2009 21:21:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/580/</guid>
+      <description>2009的第一天 应该记录一下 下定决心要一步步去实现那些没有完成的心愿 新年快乐 2009 一起加油把</description>
+    </item>
+    
+    <item>
+      <title>Jason Mraz - I&#39;m Yours</title>
+      <link>https://danielfree.net/archives/579/</link>
+      <pubDate>Mon, 29 Dec 2008 06:44:36 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/579/</guid>
+      <description>这是08年末我听到的最好的声音 Jason Mraz的这张专辑&amp;lt;We Sing We Dance We Steal Things&amp;gt;绝对值得</description>
+    </item>
+    
+    <item>
+      <title>Best Christmas Songs .2 Do They Know It&#39;s Christmas Time - Band Aid</title>
+      <link>https://danielfree.net/archives/578/</link>
+      <pubDate>Wed, 24 Dec 2008 06:41:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/578/</guid>
+      <description>我根据bbc上的一份排名来写的 这首歌排名第二 不过我从来没听过&amp;hellip;可能太英国本土了点 这是1</description>
+    </item>
+    
+    <item>
+      <title>Best Christmas Songs .1 Last Christmas - Wham</title>
+      <link>https://danielfree.net/archives/577/</link>
+      <pubDate>Tue, 23 Dec 2008 22:12:55 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/577/</guid>
+      <description>圣诞将至! 这几天就做一个经典圣诞歌曲联播把! Number 1.&amp;nbsp; Last Christmas - Wham &amp;quot; 保护音乐家专利权的机构英国的表演权利协会（</description>
+    </item>
+    
+    <item>
+      <title>新修改了一个模板</title>
+      <link>https://danielfree.net/archives/576/</link>
+      <pubDate>Mon, 22 Dec 2008 06:57:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/576/</guid>
+      <description>全当学习CSS布局和配色 折腾了大半天&amp;nbsp; 本来是想把另外一个word press的模板移植到bl</description>
+    </item>
+    
+    <item>
+      <title>花舞</title>
+      <link>https://danielfree.net/archives/575/</link>
+      <pubDate>Sun, 21 Dec 2008 05:26:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/575/</guid>
+      <description>遥知不是雪，为有暗香来</description>
+    </item>
+    
+    <item>
+      <title>一切的幸福都微不足道</title>
+      <link>https://danielfree.net/archives/574/</link>
+      <pubDate>Tue, 16 Dec 2008 10:30:02 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/574/</guid>
+      <description>只能在时间的甬道里继续奔跑 抓不住风 光影只是持续不断变换舞动 这世界声色犬马 歌里依旧唱着不如演亚当夏娃 滚</description>
+    </item>
+    
+    <item>
+      <title>8mm - No Way Back</title>
+      <link>https://danielfree.net/archives/573/</link>
+      <pubDate>Thu, 11 Dec 2008 22:05:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/573/</guid>
+      <description>8mm是个三人乐队 主要的是一对夫妻档 专辑只出了一张&amp;lt;Songs_to_Love_and_Die</description>
+    </item>
+    
+    <item>
+      <title>Snow Patrol - Run</title>
+      <link>https://danielfree.net/archives/572/</link>
+      <pubDate>Wed, 26 Nov 2008 09:09:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/572/</guid>
+      <description>Snow Patrol, 出自Glasgow的乐队 这首Run算是他们的hit track 最近亲爱的Leona Lewis同学翻唱了一个</description>
+    </item>
+    
+    <item>
+      <title>so what</title>
+      <link>https://danielfree.net/archives/571/</link>
+      <pubDate>Wed, 19 Nov 2008 08:55:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/571/</guid>
+      <description>i got Angelina Jolie
+
+from photofunia</description>
+    </item>
+    
+    <item>
+      <title>请把我的money拿走</title>
+      <link>https://danielfree.net/archives/570/</link>
+      <pubDate>Mon, 17 Nov 2008 21:31:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/570/</guid>
+      <description>一年msc读完&amp;nbsp; 天天通宵赶project的日子结束&amp;nbsp; 好不容易论文拿了A 结果因为考</description>
+    </item>
+    
+    <item>
+      <title>健忘</title>
+      <link>https://danielfree.net/archives/569/</link>
+      <pubDate>Sat, 08 Nov 2008 04:21:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/569/</guid>
+      <description>似乎是一贯的 而且 心里的困兽不知何时会冲出来</description>
+    </item>
+    
+    <item>
+      <title>The Verve - Appalachian Springs</title>
+      <link>https://danielfree.net/archives/568/</link>
+      <pubDate>Thu, 23 Oct 2008 05:37:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/568/</guid>
+      <description>The Verve的这首歌&amp;nbsp; 就是你走在陌生的城市里&amp;nbsp; 突然飘来的那种似曾相识的声音 int</description>
+    </item>
+    
+    <item>
+      <title>欠了好久的家里的照片</title>
+      <link>https://danielfree.net/archives/567/</link>
+      <pubDate>Sun, 19 Oct 2008 18:36:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/567/</guid>
+      <description>lounge &amp;nbsp;blossom &amp;nbsp;evergreen 是和别人share的一个flat&amp;nbsp; 其实窗外风景很美&amp;nbsp; 下次等天气再好一些&amp;n</description>
+    </item>
+    
+    <item>
+      <title>冒泡</title>
+      <link>https://danielfree.net/archives/566/</link>
+      <pubDate>Sun, 19 Oct 2008 07:50:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/566/</guid>
+      <description>许久没有更新&amp;nbsp; 静静上来道一声一切都好 如同刚开始这个博客的时候所说&amp;nbsp; 近来一段时间&amp;</description>
+    </item>
+    
+    <item>
+      <title>Goo Goo Dolls - Iris</title>
+      <link>https://danielfree.net/archives/565/</link>
+      <pubDate>Fri, 26 Sep 2008 20:45:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/565/</guid>
+      <description>家里网络一直没弄好 还得等到下个月 于是只能每日扛着电脑包继续做学生到学院来上网 四周都是沉默&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>怀念mild seven</title>
+      <link>https://danielfree.net/archives/564/</link>
+      <pubDate>Mon, 08 Sep 2008 04:21:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/564/</guid>
+      <description>是一年前那个夏天的味道</description>
+    </item>
+    
+    <item>
+      <title>I will follow you into the dark</title>
+      <link>https://danielfree.net/archives/563/</link>
+      <pubDate>Sat, 30 Aug 2008 20:14:24 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/563/</guid>
+      <description>Death Cab For Cutie的这首歌 曾经选入billboard某年的选集里 曾经仅仅为这一首歌就去学吉他&amp;nbsp</description>
+    </item>
+    
+    <item>
+      <title>pack up</title>
+      <link>https://danielfree.net/archives/562/</link>
+      <pubDate>Sat, 30 Aug 2008 02:40:37 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/562/</guid>
+      <description>准备搬家了 可能有一阵时间没有网络用咯 等一切都安顿好了再来更新 租的房子风景很好 客厅里有很大的窗户&amp;nb</description>
+    </item>
+    
+    <item>
+      <title>所有的时光都是匆忙</title>
+      <link>https://danielfree.net/archives/561/</link>
+      <pubDate>Tue, 26 Aug 2008 08:58:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/561/</guid>
+      <description>来不及回望 我一直想写一个故事 故事的开头&amp;nbsp; 有夏天的风&amp;nbsp; 有绿树荫翳的校园&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Audrey Tautou</title>
+      <link>https://danielfree.net/archives/560/</link>
+      <pubDate>Sat, 23 Aug 2008 08:44:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/560/</guid>
+      <description>从天使艾米丽和达芬奇密码里走出的女孩 &amp;nbsp;&amp;nbsp; 看完这部Priceless 感觉也很不错 法国式的物质和爱情故事&amp;</description>
+    </item>
+    
+    <item>
+      <title>my fucking life</title>
+      <link>https://danielfree.net/archives/559/</link>
+      <pubDate>Fri, 15 Aug 2008 05:41:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/559/</guid>
+      <description>catch a cold, dissertation, whiskey, macbook</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in mac</title>
+      <link>https://danielfree.net/archives/558/</link>
+      <pubDate>Thu, 14 Aug 2008 03:42:16 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/558/</guid>
+      <description>小白入手&amp;nbsp; 现在是黑白配了&amp;nbsp; 虽然thinkpad已经被我折磨到电池挂掉&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>梦想中的西双版纳</title>
+      <link>https://danielfree.net/archives/557/</link>
+      <pubDate>Mon, 11 Aug 2008 07:56:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/557/</guid>
+      <description>梦想中的西双版纳 有一个非常灵性的女孩 叫做小雨&amp;nbsp; 小雨的文字很宁静&amp;nbsp; 总有一点淡淡的忧</description>
+    </item>
+    
+    <item>
+      <title>gnome下kde程序字体</title>
+      <link>https://danielfree.net/archives/556/</link>
+      <pubDate>Fri, 08 Aug 2008 07:13:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/556/</guid>
+      <description>还是记一笔&amp;nbsp; 免得每次都去查 在gnome里修改kde程序的字体 网上google到的一般都是说</description>
+    </item>
+    
+    <item>
+      <title>被雨困住的城市</title>
+      <link>https://danielfree.net/archives/555/</link>
+      <pubDate>Wed, 06 Aug 2008 21:22:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/555/</guid>
+      <description>看看我&amp;nbsp; 看着你的眼眸 &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>vanish into the void</title>
+      <link>https://danielfree.net/archives/554/</link>
+      <pubDate>Wed, 06 Aug 2008 09:43:10 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/554/</guid>
+      <description>在咽喉炎和毕业论文的双重压迫下 我要暂时消失一段时间了</description>
+    </item>
+    
+    <item>
+      <title>这是个疯狂的世界</title>
+      <link>https://danielfree.net/archives/553/</link>
+      <pubDate>Tue, 29 Jul 2008 19:32:37 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/553/</guid>
+      <description>从本质上来说 人生来就是孤独的&amp;nbsp; 北岛&amp;nbsp; -&amp;nbsp; 重建星空 一只鸟保持着 流线型的原始动力 在玻璃</description>
+    </item>
+    
+    <item>
+      <title>啥时候去买这本书看看</title>
+      <link>https://danielfree.net/archives/552/</link>
+      <pubDate>Mon, 28 Jul 2008 09:58:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/552/</guid>
+      <description>&amp;quot;如果我带着醉意出生 &amp;nbsp;我或许会忘掉所有悲伤&amp;quot; http://romyshi.spaces.live.com/blog/cns!E7A9878DF031574F!2220.entry 酒店关门之后 最后一个硬汉</description>
+    </item>
+    
+    <item>
+      <title>昨晚做的一个梦</title>
+      <link>https://danielfree.net/archives/551/</link>
+      <pubDate>Sun, 27 Jul 2008 18:16:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/551/</guid>
+      <description>在某个类似学校的地方认识一个女孩儿 好像是我组织啥活动 然后出了点差错 那女孩过来道歉 然后回我住的地方&amp;n</description>
+    </item>
+    
+    <item>
+      <title>Creep - 一道忧伤而美丽的伤口</title>
+      <link>https://danielfree.net/archives/549/</link>
+      <pubDate>Fri, 25 Jul 2008 05:19:16 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/549/</guid>
+      <description>三年前的旧文了&amp;nbsp; 从原来的博客里扒出来的&amp;nbsp; 只是突然又想听这首歌&amp;nbsp; 这其实也</description>
+    </item>
+    
+    <item>
+      <title>我</title>
+      <link>https://danielfree.net/archives/548/</link>
+      <pubDate>Wed, 23 Jul 2008 20:51:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/548/</guid>
+      <description>读过三个幼儿园 两个小学 两个初中 小时候搬过四次家 初三那年离开原来的小镇&amp;nbsp; 来到武汉&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Extreme - More Than Words</title>
+      <link>https://danielfree.net/archives/547/</link>
+      <pubDate>Tue, 22 Jul 2008 21:29:43 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/547/</guid>
+      <description>这就是最近一直浮现在脑海里的旋律 搜了一番 找到了这个原唱的版本&amp;nbsp; 果然是来自80年代重金属时代</description>
+    </item>
+    
+    <item>
+      <title>戴一顶王冠</title>
+      <link>https://danielfree.net/archives/546/</link>
+      <pubDate>Tue, 22 Jul 2008 10:20:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/546/</guid>
+      <description>在鹰的国度里做无畏的国王</description>
+    </item>
+    
+    <item>
+      <title>【转载】王德峰讲座：恋爱的哲学</title>
+      <link>https://danielfree.net/archives/545/</link>
+      <pubDate>Wed, 16 Jul 2008 22:23:01 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/545/</guid>
+      <description>复旦哲学学院王德峰教授在枫林校区的讲座：恋爱的哲学（日月光华上的讲座笔记） 恋爱与哲学联系到一起是为难</description>
+    </item>
+    
+    <item>
+      <title>现在这首歌叫做Breathe Me</title>
+      <link>https://danielfree.net/archives/544/</link>
+      <pubDate>Wed, 16 Jul 2008 01:25:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/544/</guid>
+      <description>Sia - Breathe Me 一个来自澳洲的声音 她04年的这张专辑&amp;lt;Colour The Small One&amp;gt; 值得一听 有趣的是 她在Garde</description>
+    </item>
+    
+    <item>
+      <title>故事</title>
+      <link>https://danielfree.net/archives/543/</link>
+      <pubDate>Sun, 13 Jul 2008 09:07:26 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/543/</guid>
+      <description>&amp;quot;第一次看到她的时候 &amp;nbsp;她穿着一条苏格兰式的格子裙&amp;hellip;&amp;quot;&amp;n</description>
+    </item>
+    
+    <item>
+      <title>Shakespare in Love</title>
+      <link>https://danielfree.net/archives/542/</link>
+      <pubDate>Sat, 12 Jul 2008 09:18:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/542/</guid>
+      <description>我爱这部电影 虽然很多人说它当年拿到奥斯卡最佳电影有点不够水准 但是我就是很爱它&amp;nbsp; 台词&amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>8月以后想去希腊</title>
+      <link>https://danielfree.net/archives/541/</link>
+      <pubDate>Thu, 10 Jul 2008 08:02:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/541/</guid>
+      <description>一个人去欧洲流浪&amp;hellip; 现在想来有个问题就是如果带上单反&amp;nbsp; 那么存储卡的容量可能是个</description>
+    </item>
+    
+    <item>
+      <title>怎么没有人赞一下现在这首歌呢</title>
+      <link>https://danielfree.net/archives/540/</link>
+      <pubDate>Wed, 09 Jul 2008 20:43:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/540/</guid>
+      <description>Brandi Carlile的The Story 我是在Edinburgh的Hard Rock Cafe里吃饭时听到这歌的&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>历史不解风情 - 1</title>
+      <link>https://danielfree.net/archives/539/</link>
+      <pubDate>Fri, 04 Jul 2008 01:22:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/539/</guid>
+      <description>这是一系列历史普及贴&amp;nbsp; 串联起几部有关的电影&amp;nbsp; 主要以wikipedia的介绍为主&amp;</description>
+    </item>
+    
+    <item>
+      <title>据说</title>
+      <link>https://danielfree.net/archives/538/</link>
+      <pubDate>Sat, 28 Jun 2008 09:41:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/538/</guid>
+      <description>我可爱的老爸被记者专访&amp;nbsp; 报道登在某张本地主流报纸&amp;nbsp; 想起我读高中时晚饭后常看&amp;nb</description>
+    </item>
+    
+    <item>
+      <title>用做科学实验的精神去做菜</title>
+      <link>https://danielfree.net/archives/537/</link>
+      <pubDate>Wed, 25 Jun 2008 18:00:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/537/</guid>
+      <description>每次做菜都是在做探索实验&amp;nbsp; 没有菜谱&amp;nbsp; 没有指导&amp;nbsp; 全凭实践 老干妈和牛肉一起</description>
+    </item>
+    
+    <item>
+      <title>我的主题曲出炉了！</title>
+      <link>https://danielfree.net/archives/536/</link>
+      <pubDate>Tue, 24 Jun 2008 08:41:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/536/</guid>
+      <description>感谢Cynthia的热情推荐&amp;nbsp; 这个歌被封为我的主题曲了-__-! 便请各位童鞋内心深处那汹涌</description>
+    </item>
+    
+    <item>
+      <title>呓语</title>
+      <link>https://danielfree.net/archives/535/</link>
+      <pubDate>Mon, 23 Jun 2008 17:24:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/535/</guid>
+      <description>你丫就是个伤感胚子 你丫才是伤感胚子，你们全家都是伤感胚子！ &amp;nbsp;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip; 以上对话并未真实发生过&amp;nbsp; 只在我</description>
+    </item>
+    
+    <item>
+      <title>张楚 - 爱情</title>
+      <link>https://danielfree.net/archives/534/</link>
+      <pubDate>Sun, 22 Jun 2008 18:49:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/534/</guid>
+      <description>这大概是我最喜欢的张楚的歌&amp;nbsp; 因为干净 因为清脆&amp;nbsp; 因为像诗 因为直白 因为有力量 &amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>关于毕业的记忆碎片</title>
+      <link>https://danielfree.net/archives/533/</link>
+      <pubDate>Sat, 21 Jun 2008 16:14:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/533/</guid>
+      <description>&amp;quot;我们一直以为活的是未来，其实拥有的只有回忆。&amp;quot; - 老六 一年前的这个夏天&amp;nbsp</description>
+    </item>
+    
+    <item>
+      <title>你说丫这是何必呢</title>
+      <link>https://danielfree.net/archives/532/</link>
+      <pubDate>Fri, 20 Jun 2008 16:04:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/532/</guid>
+      <description>这个故事告诉我们&amp;nbsp; 作人要厚道&amp;nbsp; 该收手时&amp;nbsp; 那是一定要收手的&amp;nbsp; c</description>
+    </item>
+    
+    <item>
+      <title>很暗桃</title>
+      <link>https://danielfree.net/archives/531/</link>
+      <pubDate>Thu, 19 Jun 2008 08:37:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/531/</guid>
+      <description>Keira Knightley到爱丁堡来了,参加爱丁堡电影节的开幕式. 一个月前我便知道了消息,却没有买到首映式</description>
+    </item>
+    
+    <item>
+      <title>What U Got - Colby O Donis Feat. Akon</title>
+      <link>https://danielfree.net/archives/530/</link>
+      <pubDate>Wed, 18 Jun 2008 09:43:10 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/530/</guid>
+      <description>Konvict, Konvict
+Oooh Oooh Oooh Oooh
+Oooh Oooh Oooh Oooh
+[Verse 1: Colby O&amp;rsquo;Donis]
+I peeped you on the phone
+Just showin&amp;rsquo; off ya stones
+And notice that that pinky ring is right enough baby
+I know you&amp;rsquo;re not alone
+But I could just be wrong
+The way them fellas houndin&amp;rsquo; and sizin&amp;rsquo; you up baby</description>
+    </item>
+    
+    <item>
+      <title>是我的海  -  苏打绿</title>
+      <link>https://danielfree.net/archives/529/</link>
+      <pubDate>Fri, 13 Jun 2008 23:36:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/529/</guid>
+      <description>我妈听到某首苏打绿的歌说&amp;nbsp;&amp;nbsp; 真好听 是我的海 词曲:青峰 演唱:苏打绿 这些日子以来 突然</description>
+    </item>
+    
+    <item>
+      <title>另一种思路</title>
+      <link>https://danielfree.net/archives/528/</link>
+      <pubDate>Mon, 09 Jun 2008 22:16:56 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/528/</guid>
+      <description>近些日子接连参加酒席聚餐&amp;nbsp;&amp;nbsp; 听各位长辈高谈阔论&amp;nbsp; 获益很多 所谓目标&amp;nb</description>
+    </item>
+    
+    <item>
+      <title>补记</title>
+      <link>https://danielfree.net/archives/527/</link>
+      <pubDate>Mon, 09 Jun 2008 02:33:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/527/</guid>
+      <description>有人不相信这个故事的真实性&amp;nbsp; 我想&amp;nbsp; 还是有必要转载一下 http://googlechinablog.com/2008/05/blog-post_22.html 哀悼与团结的曲线 2008年</description>
+    </item>
+    
+    <item>
+      <title>为什么现在网络暴民这么多呢</title>
+      <link>https://danielfree.net/archives/526/</link>
+      <pubDate>Sun, 08 Jun 2008 00:09:25 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/526/</guid>
+      <description>对一个过气老女人这么关注的人们&amp;nbsp; 为什么不一致去关注倒塌学校里存在的建筑和腐败问题呢</description>
+    </item>
+    
+    <item>
+      <title>想看的书和要看的书</title>
+      <link>https://danielfree.net/archives/525/</link>
+      <pubDate>Wed, 04 Jun 2008 01:35:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/525/</guid>
+      <description>其实&amp;nbsp; 我也挺无奈的&amp;hellip; 想看的书: 三体2:黑暗森林 闪开,让我歌唱八十年代&amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>把爱传出去</title>
+      <link>https://danielfree.net/archives/524/</link>
+      <pubDate>Mon, 02 Jun 2008 01:01:47 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/524/</guid>
+      <description>爱是看不见的语言 爱是摸不到的感觉 爱是我们小小的心愿 希望你平安快乐永远 爱是仰著头的喜悦 爱是说不出的感谢</description>
+    </item>
+    
+    <item>
+      <title>武汉vs上海</title>
+      <link>https://danielfree.net/archives/523/</link>
+      <pubDate>Sat, 31 May 2008 22:19:55 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/523/</guid>
+      <description>其实以前也做过一些比较&amp;nbsp; 这两天想到的都是一些有趣的细节 武汉的公交车是没有售票阿姨的&amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>back</title>
+      <link>https://danielfree.net/archives/522/</link>
+      <pubDate>Mon, 26 May 2008 00:21:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/522/</guid>
+      <description>上海26度 明天最高30度 正好赶上炎热的夏天 走在学校的路上 感觉很自在如同每天都会寻常的经过 时空转换如此</description>
+    </item>
+    
+    <item>
+      <title>Change to Archlinux</title>
+      <link>https://danielfree.net/archives/521/</link>
+      <pubDate>Thu, 22 May 2008 09:01:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/521/</guid>
+      <description>把刚装好不久的ubuntu 8.04卸载了&amp;nbsp; 装了个Archlinux&amp;nbsp; 号称专为i6</description>
+    </item>
+    
+    <item>
+      <title>救灾救人</title>
+      <link>https://danielfree.net/archives/520/</link>
+      <pubDate>Sun, 18 May 2008 11:06:48 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/520/</guid>
+      <description>sorry&amp;hellip;比较懒 还是直接从毛毛那里拷贝过来的 四川省民政厅开通的两部地震孤儿收养咨询热</description>
+    </item>
+    
+    <item>
+      <title>谢谢</title>
+      <link>https://danielfree.net/archives/519/</link>
+      <pubDate>Fri, 16 May 2008 06:13:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/519/</guid>
+      <description>谢谢我的学校&amp;nbsp; 谢谢所有为筹办募捐而努力的同学们&amp;nbsp; 谢谢学校的理解和支持 From:&amp;nbsp;Deputy Director of the International Office</description>
+    </item>
+    
+    <item>
+      <title>现在看来</title>
+      <link>https://danielfree.net/archives/518/</link>
+      <pubDate>Thu, 15 May 2008 10:30:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/518/</guid>
+      <description>比起乱哄哄容易被煽动的爱国fq来 我更讨厌自以为是的右愤们 &amp;nbsp; 他们这些人&amp;nbsp; 和被他们鄙视的所谓爱</description>
+    </item>
+    
+    <item>
+      <title>祈祷</title>
+      <link>https://danielfree.net/archives/517/</link>
+      <pubDate>Tue, 13 May 2008 07:26:25 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/517/</guid>
+      <description>7.8级的地震&amp;nbsp; 一下午不停的刷新xinhua网的页面&amp;nbsp; 就看着人数猛的向上升 在绵阳</description>
+    </item>
+    
+    <item>
+      <title>就是不想睡</title>
+      <link>https://danielfree.net/archives/516/</link>
+      <pubDate>Mon, 12 May 2008 11:24:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/516/</guid>
+      <description>现在是早上4点25 基本上现在每天都是看着天亮起来才去睡的&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Mariah Carey - Bye Bye</title>
+      <link>https://danielfree.net/archives/515/</link>
+      <pubDate>Sat, 10 May 2008 05:31:53 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/515/</guid>
+      <description>Mariah最高！ 新专辑&amp;lt;E=MC2&amp;gt;不错&amp;nbsp; 值得一听 Bye Bye觉得是专辑里最好听</description>
+    </item>
+    
+    <item>
+      <title>尝试换了个新模板</title>
+      <link>https://danielfree.net/archives/514/</link>
+      <pubDate>Wed, 07 May 2008 09:53:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/514/</guid>
+      <description>来看的各位给个意见把? 我直接从Apollo的模板演示blog上扒下来自己再改的.. 模板演示参见这里h</description>
+    </item>
+    
+    <item>
+      <title>Install iphone-dev tool-chain on Ubuntu 8.04 Hardy Haron</title>
+      <link>https://danielfree.net/archives/513/</link>
+      <pubDate>Wed, 07 May 2008 00:59:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/513/</guid>
+      <description>花了一个晚上 终于把iphone的这套open source的dev tool-chain在我的ubunt</description>
+    </item>
+    
+    <item>
+      <title>想买这本书</title>
+      <link>https://danielfree.net/archives/512/</link>
+      <pubDate>Sat, 03 May 2008 21:15:59 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/512/</guid>
+      <description>这个月底回国的时候一定去买</description>
+    </item>
+    
+    <item>
+      <title>我真的不是故意要想歪的！！</title>
+      <link>https://danielfree.net/archives/511/</link>
+      <pubDate>Sat, 03 May 2008 04:44:36 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/511/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emesene使用技巧</title>
+      <link>https://danielfree.net/archives/510/</link>
+      <pubDate>Tue, 29 Apr 2008 22:04:32 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/510/</guid>
+      <description>emesene是我现在用的msn客户端&amp;nbsp; 比pidgin对msn的支持要好&amp;nbsp; 而且界</description>
+    </item>
+    
+    <item>
+      <title>iphone入手</title>
+      <link>https://danielfree.net/archives/509/</link>
+      <pubDate>Sun, 27 Apr 2008 07:45:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/509/</guid>
+      <description>哈哈 最终还是抵抗不住169镑的诱惑 直接冲到cardphonewarhouse的店里抱了个iphone</description>
+    </item>
+    
+    <item>
+      <title>这是真实的科幻</title>
+      <link>https://danielfree.net/archives/508/</link>
+      <pubDate>Sat, 26 Apr 2008 01:11:24 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/508/</guid>
+      <description>http://science.solidot.org/article.pl?sid=08/04/25/0536224 人类差点在7万年前灭绝 matrix 发表于 2008年4月25日 13时30分 星期五** 来自有外星人罩着**部门 科</description>
+    </item>
+    
+    <item>
+      <title>什么叫做牛鼻</title>
+      <link>https://danielfree.net/archives/507/</link>
+      <pubDate>Fri, 25 Apr 2008 20:47:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/507/</guid>
+      <description>http://backtoourmotherland.com/</description>
+    </item>
+    
+    <item>
+      <title>Star Wars&#43;Matrix like</title>
+      <link>https://danielfree.net/archives/506/</link>
+      <pubDate>Fri, 25 Apr 2008 05:05:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/506/</guid>
+      <description>3D全息影像技术的进步!!!</description>
+    </item>
+    
+    <item>
+      <title>Wyclef Jean feat. Akon, Lil Wayne, Nia - Sweetest Girl</title>
+      <link>https://danielfree.net/archives/505/</link>
+      <pubDate>Mon, 21 Apr 2008 04:48:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/505/</guid>
+      <description>歌词 其实讲了个很现实的故事 &amp;nbsp; &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>汉青会</title>
+      <link>https://danielfree.net/archives/504/</link>
+      <pubDate>Fri, 18 Apr 2008 22:35:56 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/504/</guid>
+      <description>汉青会 连岳 @ 2008-4-18 13:20:30 阅读(6276) 引用通告 分类: 转载 担心西藏会分裂出去的人过虑了，事实证明&amp;ldquo</description>
+    </item>
+    
+    <item>
+      <title>Phrack #65</title>
+      <link>https://danielfree.net/archives/503/</link>
+      <pubDate>Fri, 18 Apr 2008 22:14:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/503/</guid>
+      <description>http://www.phrack.com/ 最新一期的phrack杂志又出来了 Current issue : #65 [Introduction](http://www.phrack.com/issues.html?issue=65&amp;amp;id=1#article &#34;Introduction&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack Prophile on The UNIX Terrorist](http://www.phrack.com/issues.html?issue=65&amp;amp;id=2#article &#34;Phrack Prophile on The UNIX Terrorist&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack World News](http://www.phrack.com/issues.html?issue=65&amp;amp;id=3#article &#34;Phrack World News&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Stealth Hooking: another way to</description>
+    </item>
+    
+    <item>
+      <title>批评者的赞美才有意义</title>
+      <link>https://danielfree.net/archives/502/</link>
+      <pubDate>Fri, 18 Apr 2008 08:29:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/502/</guid>
+      <description>牛博网重开了 老罗也真算牛逼 搞出这么个博客网 现在又给搞出备案ICP等等各种证明顺利在国内重开 让广大人民</description>
+    </item>
+    
+    <item>
+      <title>还是科幻最大</title>
+      <link>https://danielfree.net/archives/501/</link>
+      <pubDate>Thu, 17 Apr 2008 09:42:10 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/501/</guid>
+      <description>http://hansong.blshe.com/post/57/188910 16 四月, 2008 &amp;lt;!-- &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot; xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot; xmlns:trackback=&amp;quot;http://madskills.com/public/xml/rss/module/trackback/&amp;quot;&amp;gt;&amp;lt;rdf:Description rdf:about=&amp;quot;http://hansong.blshe.com/post/57/188910&amp;quot; dc:identifier=&amp;quot;http://hansong.blshe.com/post/57/188910&amp;quot; dc:title=&amp;quot;为什么只有反CNN网站，没有反达赖网站&amp;qu</description>
+    </item>
+    
+    <item>
+      <title>3年前写的文字</title>
+      <link>https://danielfree.net/archives/500/</link>
+      <pubDate>Thu, 17 Apr 2008 06:06:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/500/</guid>
+      <description>曾经由于愚蠢的硬盘分区操作 导致我丢失了很多很多过去的照片 昨天翻看剩余的pic 突然想起大二系里的这次春</description>
+    </item>
+    
+    <item>
+      <title>很x很yy</title>
+      <link>https://danielfree.net/archives/499/</link>
+      <pubDate>Thu, 17 Apr 2008 00:28:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/499/</guid>
+      <description>&amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;http://www.geekervision.com/50226711/gveeeiexyycae_144930.php&amp;amp;quot; target=&amp;amp;quot;_blank&amp;amp;quot;&amp;amp;gt;http://www.geekervision.com/50226711/gveeeiexyycae_144930.php&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;&amp;amp;lt;p&amp;amp;gt;&amp;amp;amp;nbsp;&amp;amp;lt;/p&amp;amp;gt;&amp;amp;lt;h2&amp;amp;gt; &amp;amp;lt;/h2&amp;amp;gt; &amp;amp;lt;!&amp;ndash; &amp;amp;lt;rdf:RDF xmlns:rdf=&amp;amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;amp;quot; xmlns:trackback=&amp;amp;quot;http://madskills.com/public/xml/rss/module/trackback/&amp;amp;quot; xmlns:dc=&amp;amp;quot;http://purl.org/dc/elements/1.1/&amp;amp;quot;&amp;amp;gt; &amp;amp;lt;rdf:Description rdf:about=&amp;amp;quot;http://www.geekervision.com/50226711/gveeeiexyycae_144930.php&amp;amp;quot; trackback:ping=&amp;amp;quot;http://www.creative-weblogging.com/cgi-bin/mt-tb.pl/120099&amp;amp;quot; dc:title=&amp;amp;quot;GV读者荐：很x很yy的房地产广告&amp;a</description>
+    </item>
+    
+    <item>
+      <title>为什么喜欢Dr.Pepper</title>
+      <link>https://danielfree.net/archives/498/</link>
+      <pubDate>Tue, 15 Apr 2008 06:05:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/498/</guid>
+      <description>这种被我称为杏仁味可乐的&amp;quot;混合水果口味碳酸型饮料&amp;quot; 出自美国 在美国似乎很受欢迎&amp;n</description>
+    </item>
+    
+    <item>
+      <title>4.12 Edinburgh</title>
+      <link>https://danielfree.net/archives/497/</link>
+      <pubDate>Sun, 13 Apr 2008 05:51:10 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/497/</guid>
+      <description>原来官方统计的人数大概是300人&amp;nbsp; 没想到来了这么多同胞 很多人从St.Andrews, Glasgow, Aberdeen, 甚</description>
+    </item>
+    
+    <item>
+      <title>San Francisco</title>
+      <link>https://danielfree.net/archives/496/</link>
+      <pubDate>Fri, 11 Apr 2008 03:54:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/496/</guid>
+      <description>![](http://foto.yculblog.com/paperboat/1207.jpg) ![](http://foto.yculblog.com/paperboat/12078.jpg) ![](http://foto.yculblog.com/paperboat/123.jpg) ![](http://foto.yculblog.com/paperboat/1207800298-1809.JPG) ![](http://foto.yculblog.com/paperboat/12.JPG) ![](http://foto.yculblog.com/paperboat/120779.jpg) ![](http://foto.yculblog.com/paperboat/120.JPG) </description>
+    </item>
+    
+    <item>
+      <title>edinburgh international film festival 2008</title>
+      <link>https://danielfree.net/archives/495/</link>
+      <pubDate>Fri, 11 Apr 2008 03:35:44 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/495/</guid>
+      <description>Kiera Knightley 会出席开幕式!!!!!!!!hahaha 太赞了 &amp;nbsp;http://www.edfilmfest.org.uk/ Stars Keira Knightley and Sienna Miller are expected to join director John Maybury on the red carpet for the Opening Night Gala of EIFF</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in Ubuntu v2</title>
+      <link>https://danielfree.net/archives/494/</link>
+      <pubDate>Sat, 05 Apr 2008 23:30:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/494/</guid>
+      <description>今天打算重新分一下区 然后革掉装新的Ubuntu 8.04 beta 先更新一下这个列表免得自己忘记了 与前面我那一篇HO</description>
+    </item>
+    
+    <item>
+      <title>Great place to waste ur time</title>
+      <link>https://danielfree.net/archives/493/</link>
+      <pubDate>Thu, 03 Apr 2008 04:04:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/493/</guid>
+      <description>http://www.apple.com/trailers/ 对于我这种依靠电脑生活的人来说 看trailer真是一件轻松愉快又有意义的事儿亚..</description>
+    </item>
+    
+    <item>
+      <title>Google中文正式推出人肉搜索服务!</title>
+      <link>https://danielfree.net/archives/492/</link>
+      <pubDate>Tue, 01 Apr 2008 20:18:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/492/</guid>
+      <description>http://www.google.cn/intl/zh-CN/renrou/index.html 关于人肉搜索 什么是人肉搜索？ 人肉搜索与刺青、美白、护肤、减肥等直接在人肉上施行的种种行为无关。 顾名</description>
+    </item>
+    
+    <item>
+      <title>TOP15 科幻小说系列</title>
+      <link>https://danielfree.net/archives/491/</link>
+      <pubDate>Sat, 29 Mar 2008 05:33:47 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/491/</guid>
+      <description>原文连接 matrix 发表于 2008年3月27日 08时30分 星期四 来自平行宇宙部门 &amp;nbsp;当你读完一本精彩的</description>
+    </item>
+    
+    <item>
+      <title>我不要少年白头啊啊啊</title>
+      <link>https://danielfree.net/archives/490/</link>
+      <pubDate>Thu, 27 Mar 2008 11:42:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/490/</guid>
+      <description>今天被同学发现有了不少白头发&amp;hellip;..我自己都吓了一跳&amp;hellip;..晕死 幸好dark</description>
+    </item>
+    
+    <item>
+      <title>George Strait - Baby Blue</title>
+      <link>https://danielfree.net/archives/489/</link>
+      <pubDate>Mon, 24 Mar 2008 09:26:00 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/489/</guid>
+      <description>&amp;nbsp; 这是我最爱之一 应该是初中&amp;nbsp; 在还是磁带的年代 &amp;lt;Music Heaven&amp;gt;某一期的卡带里第一次听到</description>
+    </item>
+    
+    <item>
+      <title>Writer Arthur C Clarke dies at 90</title>
+      <link>https://danielfree.net/archives/488/</link>
+      <pubDate>Wed, 19 Mar 2008 07:08:26 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/488/</guid>
+      <description>Sir Arthur C Clarke&amp;nbsp; 二十世纪最杰出的三大科幻大师之一 如果你稍微了解一些科幻 你一定不会对这位大师陌生 导演Stanl</description>
+    </item>
+    
+    <item>
+      <title>武则天汉宫飞燕之英伦风情版 by毛毛</title>
+      <link>https://danielfree.net/archives/487/</link>
+      <pubDate>Tue, 18 Mar 2008 11:41:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/487/</guid>
+      <description>最近生活里只有一件事: assignments&amp;nbsp; 睁眼 code还要再改改&amp;nbsp; 闭眼 report还没有写完 似乎已经脱离时代</description>
+    </item>
+    
+    <item>
+      <title>史老师您太牛逼了</title>
+      <link>https://danielfree.net/archives/486/</link>
+      <pubDate>Thu, 13 Mar 2008 20:28:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/486/</guid>
+      <description>继史玉柱老师成功的在&amp;lt;征途&amp;gt;这个网络游戏里创造了&amp;quot;人民币玩家&amp;quot;和&amp;q</description>
+    </item>
+    
+    <item>
+      <title>Thats how Americans know about China</title>
+      <link>https://danielfree.net/archives/485/</link>
+      <pubDate>Tue, 11 Mar 2008 04:17:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/485/</guid>
+      <description>呵呵 看到一个新闻 真是不得不鄙视的笑笑&amp;nbsp; 连CNN这样的媒体也会如此配合的宣传中国威胁 可见什么</description>
+    </item>
+    
+    <item>
+      <title>原来有另一个结局的阿！</title>
+      <link>https://danielfree.net/archives/484/</link>
+      <pubDate>Mon, 10 Mar 2008 02:08:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/484/</guid>
+      <description>原来导演本身是有拍过另外一个结局！&amp;hellip; 可是最后还是被改成了美国式的个人英雄主义完美结局&amp;</description>
+    </item>
+    
+    <item>
+      <title>失眠</title>
+      <link>https://danielfree.net/archives/483/</link>
+      <pubDate>Sun, 09 Mar 2008 10:55:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/483/</guid>
+      <description>昼夜颠倒 象蜷伏在房间里的蝉 有多久没有看过那种笑容了 似乎在快速倒带 放着无声电影 转眼&amp;nbsp; 又是一季</description>
+    </item>
+    
+    <item>
+      <title>HOWTO change mouse scroll speed in Firfox</title>
+      <link>https://danielfree.net/archives/482/</link>
+      <pubDate>Thu, 06 Mar 2008 00:25:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/482/</guid>
+      <description>我用的是微软的IE 4.0 鼠标, 在ubuntu里用firefox看网页的时候&amp;nbsp; 觉得中间滚轴上下滚</description>
+    </item>
+    
+    <item>
+      <title>那些曾经沧海</title>
+      <link>https://danielfree.net/archives/481/</link>
+      <pubDate>Tue, 04 Mar 2008 08:45:04 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/481/</guid>
+      <description>转一篇文章&amp;nbsp; 原贴在这里http://blog.tianya.cn/blogger/post</description>
+    </item>
+    
+    <item>
+      <title>Death Cab For Cutie - Brothers On A Hotel Bed</title>
+      <link>https://danielfree.net/archives/480/</link>
+      <pubDate>Sun, 02 Mar 2008 23:39:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/480/</guid>
+      <description>&amp;nbsp; 非常喜欢这个乐队&amp;nbsp; 曾经有首I Will Follow You Into The Dark被收入了Grammy的合集 这首歌也是出自同</description>
+    </item>
+    
+    <item>
+      <title>宅男的一天</title>
+      <link>https://danielfree.net/archives/479/</link>
+      <pubDate>Sun, 02 Mar 2008 01:07:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/479/</guid>
+      <description>又到了周末 宅男的典型生活开始了&amp;hellip;&amp;hellip;. 睡到中午12点多被老爸的越洋电话吵醒</description>
+    </item>
+    
+    <item>
+      <title>开始看奋斗</title>
+      <link>https://danielfree.net/archives/478/</link>
+      <pubDate>Fri, 29 Feb 2008 03:52:48 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/478/</guid>
+      <description>不少人都在看了 小黄又说里面佟大为有点我们一个兄弟的影子 从第一集开始把 &amp;quot;我们必须去工作，去谈</description>
+    </item>
+    
+    <item>
+      <title>最近要看的书</title>
+      <link>https://danielfree.net/archives/477/</link>
+      <pubDate>Thu, 28 Feb 2008 10:51:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/477/</guid>
+      <description>&amp;lt;Lucene In Action&amp;gt;&amp;nbsp; 这是专门介绍Lucene的一本经典好书 在图书馆发现的时候简直惊喜到了 等我什么时候有很多的空闲时</description>
+    </item>
+    
+    <item>
+      <title>看完My Blueberry Nights</title>
+      <link>https://danielfree.net/archives/476/</link>
+      <pubDate>Thu, 28 Feb 2008 07:47:43 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/476/</guid>
+      <description>女主角一路上碰到的那几个人&amp;nbsp; 给我的印象都很深刻 尤其是第一个角色&amp;nbsp; 那个警察的前妻&amp;</description>
+    </item>
+    
+    <item>
+      <title>欧盟的胜利?</title>
+      <link>https://danielfree.net/archives/475/</link>
+      <pubDate>Wed, 27 Feb 2008 21:13:36 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/475/</guid>
+      <description>http://news.bbc.co.uk/1/hi/business/7266629.stm** The European Commission has fined US computer giant Microsoft for defying sanctions imposed on it for anti-competitive behaviour. ** Microsoft must pay $1.4bn to EU 微软这下可要出血了&amp;hellip; Yahoo前段</description>
+    </item>
+    
+    <item>
+      <title>Somewhere Over The Rainbow</title>
+      <link>https://danielfree.net/archives/474/</link>
+      <pubDate>Sat, 23 Feb 2008 22:12:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/474/</guid>
+      <description>&amp;nbsp; 这是我听过的最优美的版本 Israel Kamakawiwo&amp;rsquo;ole - Somewhere Over The Rainbow 我把这首歌放到了这里 喜欢的可以下载 说来很有趣 我是在youtu</description>
+    </item>
+    
+    <item>
+      <title>facebook上瘾症</title>
+      <link>https://danielfree.net/archives/473/</link>
+      <pubDate>Sat, 23 Feb 2008 10:05:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/473/</guid>
+      <description>最近玩facebook上的一个游戏玩疯了&amp;hellip; 名字叫Knighthood,&amp;nbsp; 简单</description>
+    </item>
+    
+    <item>
+      <title>觉得blog名字太长了</title>
+      <link>https://danielfree.net/archives/472/</link>
+      <pubDate>Tue, 19 Feb 2008 09:14:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/472/</guid>
+      <description>我得想个短一点的名字 好记些.. 有人有同感么..</description>
+    </item>
+    
+    <item>
+      <title>How popular is Mr. Obama</title>
+      <link>https://danielfree.net/archives/471/</link>
+      <pubDate>Mon, 18 Feb 2008 08:59:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/471/</guid>
+      <description>最近的美国大选的确很有意思 民主党选出了一个女强人 一个黑人 但是最近Obama的势头的确是非常的猛 很多美</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下compiz的gtk-window-decorator标题栏字体放大的问题</title>
+      <link>https://danielfree.net/archives/470/</link>
+      <pubDate>Sun, 17 Feb 2008 04:58:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/470/</guid>
+      <description>https://bugs.launchpad.net/ubuntu/+source/compiz/+bug/141001 我的compiz一直用的是gtk-window-decorator而没有用emerald 经常发生的</description>
+    </item>
+    
+    <item>
+      <title>Alicia Keys , John Mayer - No One Live, Grammy 2008</title>
+      <link>https://danielfree.net/archives/469/</link>
+      <pubDate>Sat, 16 Feb 2008 01:19:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/469/</guid>
+      <description>他妈的太好听了！ 原谅我的激动 这个现场版本比专辑版本更好！ 里面的background guitar和si</description>
+    </item>
+    
+    <item>
+      <title>BAFTA 2008 颁奖</title>
+      <link>https://danielfree.net/archives/468/</link>
+      <pubDate>Fri, 15 Feb 2008 18:25:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/468/</guid>
+      <description>BAFTA(British Academy of Film and Television Arts) 算是英国的奥斯卡 今年汤唯也借着&amp;lt;色戒&amp;gt;获得了提名而到了现场 可惜最后没有获奖</description>
+    </item>
+    
+    <item>
+      <title>城</title>
+      <link>https://danielfree.net/archives/467/</link>
+      <pubDate>Thu, 14 Feb 2008 23:41:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/467/</guid>
+      <description>这座城市有着奇妙的风景 天气晴好时&amp;nbsp;&amp;nbsp; 天空是那么的湛蓝&amp;nbsp;&amp;nbsp; 清澈</description>
+    </item>
+    
+    <item>
+      <title>James Blunt</title>
+      <link>https://danielfree.net/archives/466/</link>
+      <pubDate>Sun, 10 Feb 2008 08:54:33 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/466/</guid>
+      <description>忘记记上一笔了 1月份的时候James Blunt来这里开了场演唱会 正好去看 看完之后感觉 太棒了！ 一个看起</description>
+    </item>
+    
+    <item>
+      <title>how many blogs do u write</title>
+      <link>https://danielfree.net/archives/465/</link>
+      <pubDate>Fri, 08 Feb 2008 18:06:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/465/</guid>
+      <description>自我总结 从03年开始到现在 总计有yculblog spaces两个 blogbus加一起四个blog 评论</description>
+    </item>
+    
+    <item>
+      <title>除夕了 祝大家新春快乐</title>
+      <link>https://danielfree.net/archives/464/</link>
+      <pubDate>Wed, 06 Feb 2008 09:17:01 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/464/</guid>
+      <description>春节到了 也忙碌了很久 大家都可以好好休息一下 在国内的朋友们都要和家里人一起吃年饭 守岁 放鞭 看春晚 吹牛 群发</description>
+    </item>
+    
+    <item>
+      <title>日月光华BBS的明信片</title>
+      <link>https://danielfree.net/archives/463/</link>
+      <pubDate>Sun, 03 Feb 2008 23:01:24 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/463/</guid>
+      <description>还是很好看的:) 顺利从上海寄到了UK&amp;nbsp;&amp;nbsp;&amp;nbsp; 太赞了 为谁盛放花满路 数载光华</description>
+    </item>
+    
+    <item>
+      <title>蝶恋花   羽然</title>
+      <link>https://danielfree.net/archives/462/</link>
+      <pubDate>Fri, 01 Feb 2008 09:26:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/462/</guid>
+      <description>这是九州幻想里的诗词..羽然阿羽然.. 对&amp;lt;最后的姬武神&amp;gt;那样的结局很不满意 真正的结局江南</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in Ubuntu</title>
+      <link>https://danielfree.net/archives/461/</link>
+      <pubDate>Thu, 31 Jan 2008 10:17:48 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/461/</guid>
+      <description>来UK以后发现学校机房里全是用的linux 心里那个爽 所有的作业和上机实验全都在linux下完成 作业也</description>
+    </item>
+    
+    <item>
+      <title>全国暴雪</title>
+      <link>https://danielfree.net/archives/460/</link>
+      <pubDate>Thu, 31 Jan 2008 05:38:20 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/460/</guid>
+      <description>瑞雪昭丰年阿 虽然似乎这雪太大了点 老妈说每天都要扫车棚上的积雪&amp;nbsp; 对门的车棚就直接给雪压塌了&amp;</description>
+    </item>
+    
+    <item>
+      <title>Phrack Issues #64</title>
+      <link>https://danielfree.net/archives/459/</link>
+      <pubDate>Tue, 22 Jan 2008 23:07:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/459/</guid>
+      <description>原来Phrack又回来了 Phrack永远不倒 那篇A brief history of the Underground scene 看得我心潮澎湃阿 Current issue : #64 | Release date : 27/05/2007 | Editor</description>
+    </item>
+    
+    <item>
+      <title>Sun收购MySQL &amp;&amp; Oracle收购 BEA</title>
+      <link>https://danielfree.net/archives/458/</link>
+      <pubDate>Mon, 21 Jan 2008 05:59:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/458/</guid>
+      <description>Sun这口吃得够大的.. Sun Microsystems Announces Agreement to Acquire MySQL, Developer of the World&amp;rsquo;s Most Popular Open Source Database ANTA CLARA, CA January 16, 2008 Sun Microsystems, Inc. (NASDAQ: JAVA) today announced it has entered into a definitive agreement to acquire</description>
+    </item>
+    
+    <item>
+      <title>LaTex段落开头第一行加空格的方法</title>
+      <link>https://danielfree.net/archives/457/</link>
+      <pubDate>Mon, 21 Jan 2008 01:30:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/457/</guid>
+      <description>我用LaTex比较懒 不怎么关注排版格式细节 每次直接用默认的就ok 后来发现每次section或者cha</description>
+    </item>
+    
+    <item>
+      <title>非native speaker和native speaker英语的最大区别</title>
+      <link>https://danielfree.net/archives/456/</link>
+      <pubDate>Tue, 15 Jan 2008 23:50:37 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/456/</guid>
+      <description>现在感受最大的 是说话的音调上&amp;nbsp; 差距实在是太大了 当然这个问题不仅仅是中国人有&amp;nbsp; 亚洲</description>
+    </item>
+    
+    <item>
+      <title>男人就是要挺起</title>
+      <link>https://danielfree.net/archives/455/</link>
+      <pubDate>Tue, 15 Jan 2008 09:22:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/455/</guid>
+      <description>今天在厨房 同厨房的邻居Nura突然说从开学到现在 你跟上学期感觉有点不一样 还很认真的一再询问 r u really alright? 搞</description>
+    </item>
+    
+    <item>
+      <title>服装洗涤标志  Care Label Symbols</title>
+      <link>https://danielfree.net/archives/454/</link>
+      <pubDate>Mon, 14 Jan 2008 08:53:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/454/</guid>
+      <description>为了学会辨识各个衣服上的洗涤标志 特地学习了一番 建议各位也备个份哦:) 英文叫做Care label symbols 英文连接 我把</description>
+    </item>
+    
+    <item>
+      <title>读</title>
+      <link>https://danielfree.net/archives/453/</link>
+      <pubDate>Sun, 13 Jan 2008 01:42:24 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/453/</guid>
+      <description>很有意思的一本书 作者从最简单的一个vehicle开始 描述对其不断的改进而达到的不同功能 实际上是以ve</description>
+    </item>
+    
+    <item>
+      <title>web2.0时代的互联</title>
+      <link>https://danielfree.net/archives/452/</link>
+      <pubDate>Sat, 12 Jan 2008 20:13:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/452/</guid>
+      <description>恩 很有意思 江江在豆瓣把我blog的rss做了订阅 我还是在访问统计里才看出来的</description>
+    </item>
+    
+    <item>
+      <title>一个有点old的视频 但值得一看:The Miniature Earth</title>
+      <link>https://danielfree.net/archives/451/</link>
+      <pubDate>Thu, 10 Jan 2008 09:24:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/451/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Commands List - v1.1</title>
+      <link>https://danielfree.net/archives/450/</link>
+      <pubDate>Wed, 09 Jan 2008 07:03:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/450/</guid>
+      <description>http://www.linuxguide.it/commands_list.php?Single_page 下次去打印一份贴我墙上备查得了</description>
+    </item>
+    
+    <item>
+      <title>塑料袋的终结?</title>
+      <link>https://danielfree.net/archives/449/</link>
+      <pubDate>Wed, 09 Jan 2008 06:42:31 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/449/</guid>
+      <description>今天新浪的头条新闻里赫然写到:** 6月1**日起全国禁止免费提供塑料袋 以后在超市买塑料袋也要付费了 这</description>
+    </item>
+    
+    <item>
+      <title>我也来转</title>
+      <link>https://danielfree.net/archives/448/</link>
+      <pubDate>Wed, 09 Jan 2008 00:49:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/448/</guid>
+      <description>### [如是我闻：南方周末：&amp;ldquo;系统&amp;rdquo;](http://ohmymedia.com</description>
+    </item>
+    
+    <item>
+      <title>Enchanted</title>
+      <link>https://danielfree.net/archives/447/</link>
+      <pubDate>Sun, 23 Dec 2007 08:39:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/447/</guid>
+      <description>童话世界里 一切都那么简单完美 王子遇到公主 第一天他们一见钟情 第二天他们就举行婚礼 从此永远幸福的生活在一</description>
+    </item>
+    
+    <item>
+      <title>Empire评出的100 sexiest movie stars!</title>
+      <link>https://danielfree.net/archives/446/</link>
+      <pubDate>Sat, 22 Dec 2007 08:27:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/446/</guid>
+      <description>连接 前10都很赞&amp;hellip;赞到死阿&amp;hellip; 第一名果然是 Angelina Jolie 第二名是我很爱的Natali</description>
+    </item>
+    
+    <item>
+      <title>Peter Jackson announces Hobbit movies</title>
+      <link>https://danielfree.net/archives/445/</link>
+      <pubDate>Fri, 21 Dec 2007 01:51:43 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/445/</guid>
+      <description>by Michael Moran, Times Online
+The long-awaited Hobbit movie, first mooted over a decade ago by New Zealand director Peter Jackson, is edging its way towards the screen.
+The adaptation of JRR Tolkien&amp;rsquo;s 1937 novel is set to be split into two films which are scheduled for release in 2010 and 2011 - despite some fairly unequivocal denials from both Jackson and New Line Studios as recently as a month ago.</description>
+    </item>
+    
+    <item>
+      <title>昨天晚上做了个梦</title>
+      <link>https://danielfree.net/archives/444/</link>
+      <pubDate>Thu, 20 Dec 2007 08:34:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/444/</guid>
+      <description>梦见我在玩一个非常奇妙的游戏 醒来之后 回想现实中有没有这个游戏存在 如果没有 将来我可以把它给真的做出来 一</description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>https://danielfree.net/archives/443/</link>
+      <pubDate>Thu, 20 Dec 2007 08:25:06 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/443/</guid>
+      <description>第一篇 blogbus的访问速度的确让人比较满意..</description>
+    </item>
+    
+  </channel>
+</rss>

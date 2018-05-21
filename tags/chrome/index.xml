@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/chrome/</link>
+    <description>Recent content in Chrome on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 26 Jan 2013 22:48:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome中文使用雅黑字体</title>
+      <link>https://danielfree.net/archives/1046/</link>
+      <pubDate>Sat, 26 Jan 2013 22:48:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1046/</guid>
+      <description>很早之前记录过一次，使用Stylish这个插件将Chrome浏览器里的中文字体指定为雅黑字体，自己也</description>
+    </item>
+    
+    <item>
+      <title>修改Chrome中文显示字体</title>
+      <link>https://danielfree.net/archives/873/</link>
+      <pubDate>Thu, 24 Feb 2011 09:44:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/873/</guid>
+      <description>(**Update 2013: **换用了新的插件，可以看看这里 http://danielfree.net/archives/1046) 虽然用的是Mac OS但是用linux时留下来的习惯 还是觉得看微</description>
+    </item>
+    
+  </channel>
+</rss>

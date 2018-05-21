@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>术业 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/categories/%E6%9C%AF%E4%B8%9A/</link>
+    <description>Recent content in 术业 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 11:13:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/categories/%E6%9C%AF%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</title>
+      <link>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 15 Mar 2017 11:13:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</guid>
+      <description>问题症状 最近把一部分服务迁移到用 rancher 管理的容器集群环境里面去了，感觉还是不错的，而且 rancher 里自带的负载均衡</description>
+    </item>
+    
+    <item>
+      <title>博客从 WordPress 迁移到 GitHub Pages &#43; Hexo 了</title>
+      <link>https://danielfree.net/archives/migrate-to-github-pages-hexo/</link>
+      <pubDate>Sun, 26 Feb 2017 21:45:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/migrate-to-github-pages-hexo/</guid>
+      <description>玩博客玩了这么久，终于还是下决心把博客从 VPS 上迁出来搬到 GitHub Pages 上去，摆脱 WordPress 框架、php、nginx、my</description>
+    </item>
+    
+    <item>
+      <title>postfix 中自动替换 from 字段发件人邮件地址</title>
+      <link>https://danielfree.net/archives/1262/</link>
+      <pubDate>Fri, 24 Feb 2017 11:13:55 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1262/</guid>
+      <description>服务器里 postfix 发邮件现在国内很多都用 QQ 邮箱来发，但包括 QQ 在内很多邮件服务商用 smtp 发邮件时会对 From 字段做检查，</description>
+    </item>
+    
+    <item>
+      <title>使用 LaTeX beamer metropolis 模板书写 ppt 文档</title>
+      <link>https://danielfree.net/archives/1239/</link>
+      <pubDate>Tue, 06 Sep 2016 11:18:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1239/</guid>
+      <description>先上图 感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes</description>
+    </item>
+    
+    <item>
+      <title>从Strata&#43;Hadoop World 2016 Beijing 看 Alluxio 和 Hadoop</title>
+      <link>https://danielfree.net/archives/1232/</link>
+      <pubDate>Wed, 10 Aug 2016 16:26:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1232/</guid>
+      <description>主要看的讲师幻灯片 http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始</description>
+    </item>
+    
+    <item>
+      <title>2016 重新折腾了一下 WordPress 国内访问加速</title>
+      <link>https://danielfree.net/archives/1225/</link>
+      <pubDate>Mon, 08 Aug 2016 14:43:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1225/</guid>
+      <description>WordPress 换了个新主题，更新到最新版，发现国内访问速度慢成翔，主要还是几个重要域名被墙，还是得动手改造改造。</description>
+    </item>
+    
+    <item>
+      <title>Spark 更新到2.0了</title>
+      <link>https://danielfree.net/archives/1219/</link>
+      <pubDate>Thu, 04 Aug 2016 17:51:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1219/</guid>
+      <description>看起来变化还比较大，之前对 rdd 进行 cache(StorageLevel.OFF_HEAP) 操作是存到 tachyon 里面的，现在直接移除了，用了自己的一套实现，tachy</description>
+    </item>
+    
+    <item>
+      <title>编译 Hadoop native libraries</title>
+      <link>https://danielfree.net/archives/1209/</link>
+      <pubDate>Tue, 19 Jul 2016 12:55:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1209/</guid>
+      <description>实验中要用到 Hadoop 的一些压缩 codec，需要编译 Hadoop 的 native 库，做一下记录。顺便吐槽 Hadoop 发行版包里只包含32位的</description>
+    </item>
+    
+    <item>
+      <title>OpenStack Liberty 多宿主机混合安装</title>
+      <link>https://danielfree.net/archives/1196/</link>
+      <pubDate>Fri, 23 Oct 2015 15:08:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1196/</guid>
+      <description>最近准备把实验室里搭的一套 CloudStack 换成最新版的 OpenStack Liberty 版本，目的还是想把 kvm 和 XenServer 两套虚拟化环境统一一下，先做一点</description>
+    </item>
+    
+    <item>
+      <title>利用apt-mirror 镜像 mesosphere 第三方apt软件源</title>
+      <link>https://danielfree.net/archives/1190/</link>
+      <pubDate>Wed, 14 Oct 2015 16:25:59 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1190/</guid>
+      <description>最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</description>
+    </item>
+    
+    <item>
+      <title>编译使用 Spark/Tachyon 最新版本</title>
+      <link>https://danielfree.net/archives/1175/</link>
+      <pubDate>Fri, 05 Jun 2015 11:52:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1175/</guid>
+      <description>Spark 可以和 Tachyon 配合使用，使用内存作为数据存储介质，可以有效提高大数据计算时的吞吐量，目前 Tachyon 的版本迭代较快</description>
+    </item>
+    
+    <item>
+      <title>面向 Hadoop 2.6.0 编译 Spark</title>
+      <link>https://danielfree.net/archives/1160/</link>
+      <pubDate>Tue, 06 Jan 2015 17:21:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1160/</guid>
+      <description>14年11月份 Hadoop 社区发布了最新版本 2.6.0，打算在这个基础上跑 Spark+Tachyon，需要对 Spark</description>
+    </item>
+    
+    <item>
+      <title>用wget下载oracle database 11g</title>
+      <link>https://danielfree.net/archives/1149/</link>
+      <pubDate>Tue, 23 Sep 2014 16:32:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1149/</guid>
+      <description>项目需要新部署一个 oracle 服务器，机房带宽比自己下载快得多，所有要想办法在 linux 服务器上直接下载安装文件。 解决</description>
+    </item>
+    
+    <item>
+      <title>Struts 标签改写为 JSTL/EL 标签</title>
+      <link>https://danielfree.net/archives/1134/</link>
+      <pubDate>Tue, 15 Apr 2014 17:44:19 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1134/</guid>
+      <description>1. Intro 公司的项目很多基于 SSH 框架进行开发，感觉逐渐变得庞杂不好维护，尤其是页面展示这一块，struts标</description>
+    </item>
+    
+    <item>
+      <title>CloudStack Console 访问虚拟机 DNS 无法解析问题</title>
+      <link>https://danielfree.net/archives/1125/</link>
+      <pubDate>Wed, 05 Mar 2014 10:35:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1125/</guid>
+      <description>CloudStack 在使用页面console 访问虚拟机时，会使用一个特殊的域名xxx-xxx-xxx-xxx.real</description>
+    </item>
+    
+    <item>
+      <title>OS X Mavericks 中配置 iTerm2 &#43; Zsh &#43; Oh-my-zsh &#43; Monaco for Powerline font</title>
+      <link>https://danielfree.net/archives/1117/</link>
+      <pubDate>Thu, 16 Jan 2014 09:30:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1117/</guid>
+      <description>最近折腾了一下 shell 的配置，主要看了这几篇文章 在 Mac OS X 终端里使用 Solarized 配色方案 折腾了一下 Terminal zsh 是个好东西，比 bash</description>
+    </item>
+    
+    <item>
+      <title>解决 ProGit 在 Mac OS 下编译 pdf 时缺少字体的问题</title>
+      <link>https://danielfree.net/archives/1112/</link>
+      <pubDate>Thu, 19 Dec 2013 12:53:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1112/</guid>
+      <description>Pro Git （https://github.com/progit/progit）这本开源手册是学习 git 非常好的</description>
+    </item>
+    
+    <item>
+      <title>Linode VPS Ubuntu 12.04上安装Gitlab，解决 libv8 版本问题</title>
+      <link>https://danielfree.net/archives/1095/</link>
+      <pubDate>Wed, 07 Aug 2013 15:08:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1095/</guid>
+      <description>过程有一点曲折，还是记录一下免得自己也忘记了。 安装过程基本参考 Gitlab 的官方指导 https://github.com/gitlabhq/gitlabhq/blob/5-4-stable/doc/install/installation.md 选的是5-4-stabl</description>
+    </item>
+    
+    <item>
+      <title>Centos 6.4 上安装Asterisk 11.3&#43;FreePBX 2.11</title>
+      <link>https://danielfree.net/archives/1081/</link>
+      <pubDate>Tue, 07 May 2013 17:44:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1081/</guid>
+      <description>最近项目需要用asterisk来做一下研究，顺手记录一下安装过程，官方文档都太旧了，地址 https://wiki.asterisk.org/wiki/display/AST/Asterisk+Packages 现在ast</description>
+    </item>
+    
+    <item>
+      <title>Dev HTTP Client使用</title>
+      <link>https://danielfree.net/archives/1070/</link>
+      <pubDate>Fri, 12 Apr 2013 11:12:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1070/</guid>
+      <description>记录一下，免得自己忘记了。 Dev HTTP Client是Chrome应用商店里面的一个调试HTTP请求用的小应用</description>
+    </item>
+    
+    <item>
+      <title>Lithium用Nginx做前端代理后端Apache处理请求</title>
+      <link>https://danielfree.net/archives/1058/</link>
+      <pubDate>Mon, 25 Mar 2013 16:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1058/</guid>
+      <description>最近项目里用到了一个php框架 Lithium http://lithify.me/ 官方只给了Apache的配置，在部署的时候发现用Nginx + PHP-fpm 总是</description>
+    </item>
+    
+    <item>
+      <title>Chrome中文使用雅黑字体</title>
+      <link>https://danielfree.net/archives/1046/</link>
+      <pubDate>Sat, 26 Jan 2013 22:48:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1046/</guid>
+      <description>很早之前记录过一次，使用Stylish这个插件将Chrome浏览器里的中文字体指定为雅黑字体，自己也</description>
+    </item>
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（二）</title>
+      <link>https://danielfree.net/archives/1007/</link>
+      <pubDate>Tue, 28 Aug 2012 18:06:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1007/</guid>
+      <description>（前文回顾: Elgg分布式扩展和性能优化（一） ） 继续来谈关于Elgg的种种，首先从LAMP的MySQ</description>
+    </item>
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（一）</title>
+      <link>https://danielfree.net/archives/993/</link>
+      <pubDate>Wed, 22 Aug 2012 14:06:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/993/</guid>
+      <description>之前公司有个SNS方向的项目，由于有过Elgg的经验，所以选定继续采用Elgg作为基础来进行二次开发</description>
+    </item>
+    
+    <item>
+      <title>PHP输出图像时多一个字节的问题</title>
+      <link>https://danielfree.net/archives/963/</link>
+      <pubDate>Fri, 06 Jul 2012 00:05:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/963/</guid>
+      <description>最近在项目里遇到的一个非常诡异的bug，用PHP输出图像内容，图像总是损坏的状态，与原始图像比较之后</description>
+    </item>
+    
+    <item>
+      <title>出手换成了Linode VPS</title>
+      <link>https://danielfree.net/archives/946/</link>
+      <pubDate>Wed, 20 Jun 2012 13:21:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/946/</guid>
+      <description>上一个vps一年时间到期，正好趁Linode庆祝9周年送100刀的机会，还是入手了512M的VPS，</description>
+    </item>
+    
+    <item>
+      <title>W3 Total Cache对Nginx的静态链接支持</title>
+      <link>https://danielfree.net/archives/903/</link>
+      <pubDate>Fri, 01 Jul 2011 00:26:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/903/</guid>
+      <description>W3 Total Cache是wordpress一个很全面很强大的缓存加速插件 用了它之后其他什么优化插件都可以不需</description>
+    </item>
+    
+    <item>
+      <title>MyEclipse 9.0 For Mac 激活</title>
+      <link>https://danielfree.net/archives/901/</link>
+      <pubDate>Wed, 29 Jun 2011 20:13:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/901/</guid>
+      <description>MyEclipse 出了9.0的正式版 网上搜搜可以找到很多windows和linux下激活的文章 就不多说了 Mac版本的</description>
+    </item>
+    
+    <item>
+      <title>nginx里wordpress 3.1的url rewrite规则</title>
+      <link>https://danielfree.net/archives/890/</link>
+      <pubDate>Tue, 28 Jun 2011 23:04:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/890/</guid>
+      <description>整了一个vps 自己装上Nginx + PHP + Spawn-fcgi + MySQL 来放自己的博客 wordpress本身的静态化链接用的是A</description>
+    </item>
+    
+    <item>
+      <title>修改Chrome中文显示字体</title>
+      <link>https://danielfree.net/archives/873/</link>
+      <pubDate>Thu, 24 Feb 2011 09:44:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/873/</guid>
+      <description>(**Update 2013: **换用了新的插件，可以看看这里 http://danielfree.net/archives/1046) 虽然用的是Mac OS但是用linux时留下来的习惯 还是觉得看微</description>
+    </item>
+    
+    <item>
+      <title>工作计划</title>
+      <link>https://danielfree.net/archives/718/</link>
+      <pubDate>Tue, 22 Dec 2009 21:16:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/718/</guid>
+      <description>年前要完成目前的这个分布式搜索项目 总结出几份关于Nutch, Lucene, Solr和Katta的文档来 是一个很好</description>
+    </item>
+    
+    <item>
+      <title>为博客买了一个新域名 打算长期使用</title>
+      <link>https://danielfree.net/archives/702/</link>
+      <pubDate>Thu, 12 Nov 2009 22:38:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/702/</guid>
+      <description>博客正式改地址 http://danielfree.net 更加好记 也更简单明了 以后博客估计就长期使用上面这个地址勒 godaddy买一个域名一年</description>
+    </item>
+    
+    <item>
+      <title>装了个All-in-one SEO plugin害得Google跟Baidu都不收录我的博客了</title>
+      <link>https://danielfree.net/archives/676/</link>
+      <pubDate>Wed, 09 Sep 2009 13:07:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/676/</guid>
+      <description>该死的插件 默认不收录所有的archives 结果我日志的所有链接都是archives/%post_id</description>
+    </item>
+    
+    <item>
+      <title>原来wordpress2.7之后就自带了thread comments了</title>
+      <link>https://danielfree.net/archives/655/</link>
+      <pubDate>Sun, 06 Sep 2009 02:01:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/655/</guid>
+      <description>怪不得找了几个plugin都不能用 看来wordpress从2.7以后改动还是不少 稍微修改了一下这个F</description>
+    </item>
+    
+    <item>
+      <title>不错的wordpress模板资源</title>
+      <link>https://danielfree.net/archives/651/</link>
+      <pubDate>Fri, 04 Sep 2009 18:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/651/</guid>
+      <description>就是Smashing Magazine的Freebies部分了 现在这个模板就是从那里扒来的 推荐一下 那里</description>
+    </item>
+    
+    <item>
+      <title>Blogbus搬家到Wordpress的Python转换脚本修改版 支持tags/分类导入</title>
+      <link>https://danielfree.net/archives/634/</link>
+      <pubDate>Thu, 03 Sep 2009 21:42:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/634/</guid>
+      <description>(2010.1.17 Update: 写此文的时候我用的wordpress版本是2.8.4 导入是没有任何问题的 据几位同学反映wordp</description>
+    </item>
+    
+    <item>
+      <title>博客大巴怎么这两天老抽风</title>
+      <link>https://danielfree.net/archives/622/</link>
+      <pubDate>Sat, 29 Aug 2009 06:44:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/622/</guid>
+      <description>如果老这么抽阿抽的 考虑把内容全部搬到国外自己的Wordpress博客上去了&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>细节决定用户体验</title>
+      <link>https://danielfree.net/archives/620/</link>
+      <pubDate>Mon, 24 Aug 2009 22:22:29 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/620/</guid>
+      <description>记一点悟出的道理&amp;nbsp; 用户体验往往都在于对细节的处理&amp;nbsp; 事小但效果明显 印象中读到的一个</description>
+    </item>
+    
+    <item>
+      <title>这个模板暂时先改成这个样子...</title>
+      <link>https://danielfree.net/archives/615/</link>
+      <pubDate>Mon, 10 Aug 2009 07:05:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/615/</guid>
+      <description>有更多重要的事情要做&amp;nbsp; 就不改了 应该很快就会在后台分享区看到了把</description>
+    </item>
+    
+    <item>
+      <title>事先透露一个消息</title>
+      <link>https://danielfree.net/archives/614/</link>
+      <pubDate>Sun, 09 Aug 2009 07:57:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/614/</guid>
+      <description>这两天在移植另一个wordpress的模板 pretty_pachement 到blogbus上来 其实08年的时候我就试过 当时没做好 就</description>
+    </item>
+    
+    <item>
+      <title>Microsoft依然是家伟大的公司</title>
+      <link>https://danielfree.net/archives/613/</link>
+      <pubDate>Sat, 08 Aug 2009 23:11:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/613/</guid>
+      <description>虽然windows操作系统一直都饱受各种批评指责 虽然在互联网的很多方面都没有做到先锋和翘首 但是不能否</description>
+    </item>
+    
+    <item>
+      <title>放在国外空间上的mp3都被删除了</title>
+      <link>https://danielfree.net/archives/611/</link>
+      <pubDate>Wed, 05 Aug 2009 09:05:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/611/</guid>
+      <description>囧了 可能是因为流量太大被webhosting公司查出来直接干掉了..整个目录下的mp3全给砍光&amp;he</description>
+    </item>
+    
+    <item>
+      <title>我把这个模板又修改了一下</title>
+      <link>https://danielfree.net/archives/610/</link>
+      <pubDate>Tue, 04 Aug 2009 09:16:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/610/</guid>
+      <description>楼下的楼下那个贴子里的zip文件还没来得及更新 调整了一下postBody里面列表的显示 还有右边栏里留</description>
+    </item>
+    
+    <item>
+      <title>近期目标</title>
+      <link>https://danielfree.net/archives/609/</link>
+      <pubDate>Tue, 04 Aug 2009 08:27:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/609/</guid>
+      <description>还是再记一下把 提醒自己 争取这个月内把我从birmingham买回来的科幻小说看完, Iain M. Banks写的</description>
+    </item>
+    
+    <item>
+      <title>分享一个自己移植过来的blogbus模板</title>
+      <link>https://danielfree.net/archives/608/</link>
+      <pubDate>Wed, 29 Jul 2009 03:19:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/608/</guid>
+      <description>是我自己之前用的一个模板 我从wordpress某个模板移植过来滴 不知道分享要过多久才能通过审核 相信不</description>
+    </item>
+    
+    <item>
+      <title>对这个主题做的修改</title>
+      <link>https://danielfree.net/archives/23/</link>
+      <pubDate>Thu, 23 Jul 2009 23:12:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/23/</guid>
+      <description>这个wordpress的主题叫做 colorpaper 感觉很好 用上去之后发现了好几个问题 花了一些时间做了修改 算是把功能都</description>
+    </item>
+    
+    <item>
+      <title>[坑待填]利用jquery实现的各种效果</title>
+      <link>https://danielfree.net/archives/21/</link>
+      <pubDate>Thu, 23 Jul 2009 22:29:53 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/21/</guid>
+      <description>记录一下项目里利用jquery实现过的效果 具体的例子和代码待有空慢慢填坑.. CakePHP 首页那样的horizo</description>
+    </item>
+    
+    <item>
+      <title>mac下文件带有扩展属性的问题</title>
+      <link>https://danielfree.net/archives/10/</link>
+      <pubDate>Thu, 16 Jul 2009 23:15:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/10/</guid>
+      <description>在mac os下HFS+的文件系统上 文件经常会被附加上mac专有的扩展属性 具体的表现是用ls -l 查看时 会</description>
+    </item>
+    
+    <item>
+      <title>廉颇老矣 尚能饭否?</title>
+      <link>https://danielfree.net/archives/605/</link>
+      <pubDate>Thu, 09 Jul 2009 07:19:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/605/</guid>
+      <description>前天才注册了个饭否的帐号&amp;nbsp; 它昨天就不能访问了 整个网站全挂掉 老子的气场有这么强么??</description>
+    </item>
+    
+    <item>
+      <title>目前项目使用的jquery插件</title>
+      <link>https://danielfree.net/archives/8/</link>
+      <pubDate>Mon, 22 Jun 2009 13:38:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/8/</guid>
+      <description>记录一下 还是挺多的 jquery上手非常容易 learning curve很低 我们用了好几个现成的插件 开发效率非常快 弹出</description>
+    </item>
+    
+    <item>
+      <title>ESP EBP在函数调用时的具体操作</title>
+      <link>https://danielfree.net/archives/6/</link>
+      <pubDate>Sun, 21 Jun 2009 15:30:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/6/</guid>
+      <description>最近打算重新拾起汇编和exploit方面的知识 看书时发现对栈操作 EBP和ESP这些东西都快忘记了 搜到</description>
+    </item>
+    
+    <item>
+      <title>请大家帮忙做个调查-v-</title>
+      <link>https://danielfree.net/archives/598/</link>
+      <pubDate>Sun, 31 May 2009 19:46:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/598/</guid>
+      <description>关于相册使用的小小小调查 -&amp;gt; 请猛力点击这里 考虑购买一个付费的相册服务 flickr的付费服务不算贵 一年2</description>
+    </item>
+    
+    <item>
+      <title>重新换一个模板</title>
+      <link>https://danielfree.net/archives/595/</link>
+      <pubDate>Tue, 26 May 2009 08:09:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/595/</guid>
+      <description>觉得官方的这个忆江南感觉还挺好的 稍微做了一点小修改 去掉顶部的一点小广告链接&amp;nbsp; 还有底部的版权</description>
+    </item>
+    
+    <item>
+      <title>总有一天我的浏览器会哽咽至死</title>
+      <link>https://danielfree.net/archives/591/</link>
+      <pubDate>Fri, 10 Apr 2009 18:49:13 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/591/</guid>
+      <description>mac下面的flash远没有windows版的成熟&amp;nbsp; 尽管都出到了version 10&amp;nbsp; 每次长时间</description>
+    </item>
+    
+    <item>
+      <title>mac下應用程序清單</title>
+      <link>https://danielfree.net/archives/588/</link>
+      <pubDate>Mon, 23 Mar 2009 00:31:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/588/</guid>
+      <description>随便记一下&amp;nbsp; 免得自己忘记了... 搞了个macbook到现在&amp;nbsp; 游戏+程序装到/Ap</description>
+    </item>
+    
+    <item>
+      <title>Safari下的input 样式</title>
+      <link>https://danielfree.net/archives/585/</link>
+      <pubDate>Tue, 03 Mar 2009 00:45:21 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/585/</guid>
+      <description>参见这篇文章http://www.bartelme.at/journal/archive/safar</description>
+    </item>
+    
+    <item>
+      <title>新修改了一个模板</title>
+      <link>https://danielfree.net/archives/576/</link>
+      <pubDate>Mon, 22 Dec 2008 06:57:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/576/</guid>
+      <description>全当学习CSS布局和配色 折腾了大半天&amp;nbsp; 本来是想把另外一个word press的模板移植到bl</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in mac</title>
+      <link>https://danielfree.net/archives/558/</link>
+      <pubDate>Thu, 14 Aug 2008 03:42:16 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/558/</guid>
+      <description>小白入手&amp;nbsp; 现在是黑白配了&amp;nbsp; 虽然thinkpad已经被我折磨到电池挂掉&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>gnome下kde程序字体</title>
+      <link>https://danielfree.net/archives/556/</link>
+      <pubDate>Fri, 08 Aug 2008 07:13:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/556/</guid>
+      <description>还是记一笔&amp;nbsp; 免得每次都去查 在gnome里修改kde程序的字体 网上google到的一般都是说</description>
+    </item>
+    
+    <item>
+      <title>你说丫这是何必呢</title>
+      <link>https://danielfree.net/archives/532/</link>
+      <pubDate>Fri, 20 Jun 2008 16:04:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/532/</guid>
+      <description>这个故事告诉我们&amp;nbsp; 作人要厚道&amp;nbsp; 该收手时&amp;nbsp; 那是一定要收手的&amp;nbsp; c</description>
+    </item>
+    
+    <item>
+      <title>想看的书和要看的书</title>
+      <link>https://danielfree.net/archives/525/</link>
+      <pubDate>Wed, 04 Jun 2008 01:35:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/525/</guid>
+      <description>其实&amp;nbsp; 我也挺无奈的&amp;hellip; 想看的书: 三体2:黑暗森林 闪开,让我歌唱八十年代&amp;nbs</description>
+    </item>
+    
+    <item>
+      <title>Change to Archlinux</title>
+      <link>https://danielfree.net/archives/521/</link>
+      <pubDate>Thu, 22 May 2008 09:01:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/521/</guid>
+      <description>把刚装好不久的ubuntu 8.04卸载了&amp;nbsp; 装了个Archlinux&amp;nbsp; 号称专为i6</description>
+    </item>
+    
+    <item>
+      <title>尝试换了个新模板</title>
+      <link>https://danielfree.net/archives/514/</link>
+      <pubDate>Wed, 07 May 2008 09:53:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/514/</guid>
+      <description>来看的各位给个意见把? 我直接从Apollo的模板演示blog上扒下来自己再改的.. 模板演示参见这里h</description>
+    </item>
+    
+    <item>
+      <title>Install iphone-dev tool-chain on Ubuntu 8.04 Hardy Haron</title>
+      <link>https://danielfree.net/archives/513/</link>
+      <pubDate>Wed, 07 May 2008 00:59:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/513/</guid>
+      <description>花了一个晚上 终于把iphone的这套open source的dev tool-chain在我的ubunt</description>
+    </item>
+    
+    <item>
+      <title>emesene使用技巧</title>
+      <link>https://danielfree.net/archives/510/</link>
+      <pubDate>Tue, 29 Apr 2008 22:04:32 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/510/</guid>
+      <description>emesene是我现在用的msn客户端&amp;nbsp; 比pidgin对msn的支持要好&amp;nbsp; 而且界</description>
+    </item>
+    
+    <item>
+      <title>Phrack #65</title>
+      <link>https://danielfree.net/archives/503/</link>
+      <pubDate>Fri, 18 Apr 2008 22:14:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/503/</guid>
+      <description>http://www.phrack.com/ 最新一期的phrack杂志又出来了 Current issue : #65 [Introduction](http://www.phrack.com/issues.html?issue=65&amp;amp;id=1#article &#34;Introduction&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack Prophile on The UNIX Terrorist](http://www.phrack.com/issues.html?issue=65&amp;amp;id=2#article &#34;Phrack Prophile on The UNIX Terrorist&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack World News](http://www.phrack.com/issues.html?issue=65&amp;amp;id=3#article &#34;Phrack World News&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Stealth Hooking: another way to</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in Ubuntu v2</title>
+      <link>https://danielfree.net/archives/494/</link>
+      <pubDate>Sat, 05 Apr 2008 23:30:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/494/</guid>
+      <description>今天打算重新分一下区 然后革掉装新的Ubuntu 8.04 beta 先更新一下这个列表免得自己忘记了 与前面我那一篇HO</description>
+    </item>
+    
+    <item>
+      <title>Google中文正式推出人肉搜索服务!</title>
+      <link>https://danielfree.net/archives/492/</link>
+      <pubDate>Tue, 01 Apr 2008 20:18:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/492/</guid>
+      <description>http://www.google.cn/intl/zh-CN/renrou/index.html 关于人肉搜索 什么是人肉搜索？ 人肉搜索与刺青、美白、护肤、减肥等直接在人肉上施行的种种行为无关。 顾名</description>
+    </item>
+    
+    <item>
+      <title>HOWTO change mouse scroll speed in Firfox</title>
+      <link>https://danielfree.net/archives/482/</link>
+      <pubDate>Thu, 06 Mar 2008 00:25:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/482/</guid>
+      <description>我用的是微软的IE 4.0 鼠标, 在ubuntu里用firefox看网页的时候&amp;nbsp; 觉得中间滚轴上下滚</description>
+    </item>
+    
+    <item>
+      <title>最近要看的书</title>
+      <link>https://danielfree.net/archives/477/</link>
+      <pubDate>Thu, 28 Feb 2008 10:51:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/477/</guid>
+      <description>&amp;lt;Lucene In Action&amp;gt;&amp;nbsp; 这是专门介绍Lucene的一本经典好书 在图书馆发现的时候简直惊喜到了 等我什么时候有很多的空闲时</description>
+    </item>
+    
+    <item>
+      <title>欧盟的胜利?</title>
+      <link>https://danielfree.net/archives/475/</link>
+      <pubDate>Wed, 27 Feb 2008 21:13:36 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/475/</guid>
+      <description>http://news.bbc.co.uk/1/hi/business/7266629.stm** The European Commission has fined US computer giant Microsoft for defying sanctions imposed on it for anti-competitive behaviour. ** Microsoft must pay $1.4bn to EU 微软这下可要出血了&amp;hellip; Yahoo前段</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下compiz的gtk-window-decorator标题栏字体放大的问题</title>
+      <link>https://danielfree.net/archives/470/</link>
+      <pubDate>Sun, 17 Feb 2008 04:58:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/470/</guid>
+      <description>https://bugs.launchpad.net/ubuntu/+source/compiz/+bug/141001 我的compiz一直用的是gtk-window-decorator而没有用emerald 经常发生的</description>
+    </item>
+    
+    <item>
+      <title>HOWTO live in Ubuntu</title>
+      <link>https://danielfree.net/archives/461/</link>
+      <pubDate>Thu, 31 Jan 2008 10:17:48 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/461/</guid>
+      <description>来UK以后发现学校机房里全是用的linux 心里那个爽 所有的作业和上机实验全都在linux下完成 作业也</description>
+    </item>
+    
+    <item>
+      <title>Phrack Issues #64</title>
+      <link>https://danielfree.net/archives/459/</link>
+      <pubDate>Tue, 22 Jan 2008 23:07:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/459/</guid>
+      <description>原来Phrack又回来了 Phrack永远不倒 那篇A brief history of the Underground scene 看得我心潮澎湃阿 Current issue : #64 | Release date : 27/05/2007 | Editor</description>
+    </item>
+    
+    <item>
+      <title>Sun收购MySQL &amp;&amp; Oracle收购 BEA</title>
+      <link>https://danielfree.net/archives/458/</link>
+      <pubDate>Mon, 21 Jan 2008 05:59:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/458/</guid>
+      <description>Sun这口吃得够大的.. Sun Microsystems Announces Agreement to Acquire MySQL, Developer of the World&amp;rsquo;s Most Popular Open Source Database ANTA CLARA, CA January 16, 2008 Sun Microsystems, Inc. (NASDAQ: JAVA) today announced it has entered into a definitive agreement to acquire</description>
+    </item>
+    
+    <item>
+      <title>LaTex段落开头第一行加空格的方法</title>
+      <link>https://danielfree.net/archives/457/</link>
+      <pubDate>Mon, 21 Jan 2008 01:30:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/457/</guid>
+      <description>我用LaTex比较懒 不怎么关注排版格式细节 每次直接用默认的就ok 后来发现每次section或者cha</description>
+    </item>
+    
+    <item>
+      <title>读</title>
+      <link>https://danielfree.net/archives/453/</link>
+      <pubDate>Sun, 13 Jan 2008 01:42:24 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/453/</guid>
+      <description>很有意思的一本书 作者从最简单的一个vehicle开始 描述对其不断的改进而达到的不同功能 实际上是以ve</description>
+    </item>
+    
+    <item>
+      <title>web2.0时代的互联</title>
+      <link>https://danielfree.net/archives/452/</link>
+      <pubDate>Sat, 12 Jan 2008 20:13:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/452/</guid>
+      <description>恩 很有意思 江江在豆瓣把我blog的rss做了订阅 我还是在访问统计里才看出来的</description>
+    </item>
+    
+    <item>
+      <title>Linux Commands List - v1.1</title>
+      <link>https://danielfree.net/archives/450/</link>
+      <pubDate>Wed, 09 Jan 2008 07:03:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/450/</guid>
+      <description>http://www.linuxguide.it/commands_list.php?Single_page 下次去打印一份贴我墙上备查得了</description>
+    </item>
+    
+  </channel>
+</rss>

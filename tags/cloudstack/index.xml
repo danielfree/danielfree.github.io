@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudstack on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/cloudstack/</link>
+    <description>Recent content in Cloudstack on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 05 Mar 2014 10:35:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/cloudstack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CloudStack Console 访问虚拟机 DNS 无法解析问题</title>
+      <link>https://danielfree.net/archives/1125/</link>
+      <pubDate>Wed, 05 Mar 2014 10:35:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1125/</guid>
+      <description>CloudStack 在使用页面console 访问虚拟机时，会使用一个特殊的域名xxx-xxx-xxx-xxx.real</description>
+    </item>
+    
+  </channel>
+</rss>

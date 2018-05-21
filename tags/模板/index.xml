@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模板 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/%E6%A8%A1%E6%9D%BF/</link>
+    <description>Recent content in 模板 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 10 Aug 2009 07:05:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>这个模板暂时先改成这个样子...</title>
+      <link>https://danielfree.net/archives/615/</link>
+      <pubDate>Mon, 10 Aug 2009 07:05:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/615/</guid>
+      <description>有更多重要的事情要做&amp;nbsp; 就不改了 应该很快就会在后台分享区看到了把</description>
+    </item>
+    
+    <item>
+      <title>事先透露一个消息</title>
+      <link>https://danielfree.net/archives/614/</link>
+      <pubDate>Sun, 09 Aug 2009 07:57:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/614/</guid>
+      <description>这两天在移植另一个wordpress的模板 pretty_pachement 到blogbus上来 其实08年的时候我就试过 当时没做好 就</description>
+    </item>
+    
+    <item>
+      <title>我把这个模板又修改了一下</title>
+      <link>https://danielfree.net/archives/610/</link>
+      <pubDate>Tue, 04 Aug 2009 09:16:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/610/</guid>
+      <description>楼下的楼下那个贴子里的zip文件还没来得及更新 调整了一下postBody里面列表的显示 还有右边栏里留</description>
+    </item>
+    
+    <item>
+      <title>分享一个自己移植过来的blogbus模板</title>
+      <link>https://danielfree.net/archives/608/</link>
+      <pubDate>Wed, 29 Jul 2009 03:19:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/608/</guid>
+      <description>是我自己之前用的一个模板 我从wordpress某个模板移植过来滴 不知道分享要过多久才能通过审核 相信不</description>
+    </item>
+    
+    <item>
+      <title>重新换一个模板</title>
+      <link>https://danielfree.net/archives/595/</link>
+      <pubDate>Tue, 26 May 2009 08:09:34 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/595/</guid>
+      <description>觉得官方的这个忆江南感觉还挺好的 稍微做了一点小修改 去掉顶部的一点小广告链接&amp;nbsp; 还有底部的版权</description>
+    </item>
+    
+    <item>
+      <title>新修改了一个模板</title>
+      <link>https://danielfree.net/archives/576/</link>
+      <pubDate>Mon, 22 Dec 2008 06:57:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/576/</guid>
+      <description>全当学习CSS布局和配色 折腾了大半天&amp;nbsp; 本来是想把另外一个word press的模板移植到bl</description>
+    </item>
+    
+    <item>
+      <title>尝试换了个新模板</title>
+      <link>https://danielfree.net/archives/514/</link>
+      <pubDate>Wed, 07 May 2008 09:53:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/514/</guid>
+      <description>来看的各位给个意见把? 我直接从Apollo的模板演示blog上扒下来自己再改的.. 模板演示参见这里h</description>
+    </item>
+    
+  </channel>
+</rss>

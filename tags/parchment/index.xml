@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parchment on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/parchment/</link>
+    <description>Recent content in Parchment on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 10 Aug 2009 07:05:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/parchment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>这个模板暂时先改成这个样子...</title>
+      <link>https://danielfree.net/archives/615/</link>
+      <pubDate>Mon, 10 Aug 2009 07:05:11 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/615/</guid>
+      <description>有更多重要的事情要做&amp;nbsp; 就不改了 应该很快就会在后台分享区看到了把</description>
+    </item>
+    
+    <item>
+      <title>事先透露一个消息</title>
+      <link>https://danielfree.net/archives/614/</link>
+      <pubDate>Sun, 09 Aug 2009 07:57:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/614/</guid>
+      <description>这两天在移植另一个wordpress的模板 pretty_pachement 到blogbus上来 其实08年的时候我就试过 当时没做好 就</description>
+    </item>
+    
+  </channel>
+</rss>

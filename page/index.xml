@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Don&#39;t Panic</title>
+    <link>https://danielfree.net/page/</link>
+    <description>Recent content in Pages on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 21 Jun 2009 09:14:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于我</title>
+      <link>https://danielfree.net/aboutme/</link>
+      <pubDate>Sun, 21 Jun 2009 09:14:03 +0000</pubDate>
+      
+      <guid>https://danielfree.net/aboutme/</guid>
+      <description>IT男 戴眼镜 听摇滚 伪文青 2003年的夏天 看完将爱情进行到底 在九月意气风发的踏上上海的土地 2007年 漂</description>
+    </item>
+    
+  </channel>
+</rss>

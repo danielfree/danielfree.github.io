@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/plugin/</link>
+    <description>Recent content in Plugin on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 22 Jun 2009 13:38:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>目前项目使用的jquery插件</title>
+      <link>https://danielfree.net/archives/8/</link>
+      <pubDate>Mon, 22 Jun 2009 13:38:42 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/8/</guid>
+      <description>记录一下 还是挺多的 jquery上手非常容易 learning curve很低 我们用了好几个现成的插件 开发效率非常快 弹出</description>
+    </item>
+    
+  </channel>
+</rss>

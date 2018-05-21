@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monaco on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/monaco/</link>
+    <description>Recent content in Monaco on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 16 Jan 2014 09:30:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/monaco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OS X Mavericks 中配置 iTerm2 &#43; Zsh &#43; Oh-my-zsh &#43; Monaco for Powerline font</title>
+      <link>https://danielfree.net/archives/1117/</link>
+      <pubDate>Thu, 16 Jan 2014 09:30:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1117/</guid>
+      <description>最近折腾了一下 shell 的配置，主要看了这几篇文章 在 Mac OS X 终端里使用 Solarized 配色方案 折腾了一下 Terminal zsh 是个好东西，比 bash</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compiz on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/compiz/</link>
+    <description>Recent content in Compiz on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 17 Feb 2008 04:58:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/compiz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu下compiz的gtk-window-decorator标题栏字体放大的问题</title>
+      <link>https://danielfree.net/archives/470/</link>
+      <pubDate>Sun, 17 Feb 2008 04:58:22 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/470/</guid>
+      <description>https://bugs.launchpad.net/ubuntu/+source/compiz/+bug/141001 我的compiz一直用的是gtk-window-decorator而没有用emerald 经常发生的</description>
+    </item>
+    
+  </channel>
+</rss>

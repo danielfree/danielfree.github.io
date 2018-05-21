@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 26 Feb 2017 21:45:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客从 WordPress 迁移到 GitHub Pages &#43; Hexo 了</title>
+      <link>https://danielfree.net/archives/migrate-to-github-pages-hexo/</link>
+      <pubDate>Sun, 26 Feb 2017 21:45:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/migrate-to-github-pages-hexo/</guid>
+      <description>玩博客玩了这么久，终于还是下决心把博客从 VPS 上迁出来搬到 GitHub Pages 上去，摆脱 WordPress 框架、php、nginx、my</description>
+    </item>
+    
+    <item>
+      <title>2016 重新折腾了一下 WordPress 国内访问加速</title>
+      <link>https://danielfree.net/archives/1225/</link>
+      <pubDate>Mon, 08 Aug 2016 14:43:35 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1225/</guid>
+      <description>WordPress 换了个新主题，更新到最新版，发现国内访问速度慢成翔，主要还是几个重要域名被墙，还是得动手改造改造。</description>
+    </item>
+    
+    <item>
+      <title>W3 Total Cache对Nginx的静态链接支持</title>
+      <link>https://danielfree.net/archives/903/</link>
+      <pubDate>Fri, 01 Jul 2011 00:26:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/903/</guid>
+      <description>W3 Total Cache是wordpress一个很全面很强大的缓存加速插件 用了它之后其他什么优化插件都可以不需</description>
+    </item>
+    
+    <item>
+      <title>nginx里wordpress 3.1的url rewrite规则</title>
+      <link>https://danielfree.net/archives/890/</link>
+      <pubDate>Tue, 28 Jun 2011 23:04:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/890/</guid>
+      <description>整了一个vps 自己装上Nginx + PHP + Spawn-fcgi + MySQL 来放自己的博客 wordpress本身的静态化链接用的是A</description>
+    </item>
+    
+    <item>
+      <title>装了个All-in-one SEO plugin害得Google跟Baidu都不收录我的博客了</title>
+      <link>https://danielfree.net/archives/676/</link>
+      <pubDate>Wed, 09 Sep 2009 13:07:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/676/</guid>
+      <description>该死的插件 默认不收录所有的archives 结果我日志的所有链接都是archives/%post_id</description>
+    </item>
+    
+    <item>
+      <title>原来wordpress2.7之后就自带了thread comments了</title>
+      <link>https://danielfree.net/archives/655/</link>
+      <pubDate>Sun, 06 Sep 2009 02:01:27 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/655/</guid>
+      <description>怪不得找了几个plugin都不能用 看来wordpress从2.7以后改动还是不少 稍微修改了一下这个F</description>
+    </item>
+    
+    <item>
+      <title>Blogbus搬家到Wordpress的Python转换脚本修改版 支持tags/分类导入</title>
+      <link>https://danielfree.net/archives/634/</link>
+      <pubDate>Thu, 03 Sep 2009 21:42:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/634/</guid>
+      <description>(2010.1.17 Update: 写此文的时候我用的wordpress版本是2.8.4 导入是没有任何问题的 据几位同学反映wordp</description>
+    </item>
+    
+    <item>
+      <title>对这个主题做的修改</title>
+      <link>https://danielfree.net/archives/23/</link>
+      <pubDate>Thu, 23 Jul 2009 23:12:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/23/</guid>
+      <description>这个wordpress的主题叫做 colorpaper 感觉很好 用上去之后发现了好几个问题 花了一些时间做了修改 算是把功能都</description>
+    </item>
+    
+  </channel>
+</rss>

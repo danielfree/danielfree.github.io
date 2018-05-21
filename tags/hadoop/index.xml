@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hadoop on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/hadoop/</link>
+    <description>Recent content in Hadoop on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 10 Aug 2016 16:26:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>从Strata&#43;Hadoop World 2016 Beijing 看 Alluxio 和 Hadoop</title>
+      <link>https://danielfree.net/archives/1232/</link>
+      <pubDate>Wed, 10 Aug 2016 16:26:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1232/</guid>
+      <description>主要看的讲师幻灯片 http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始</description>
+    </item>
+    
+    <item>
+      <title>编译 Hadoop native libraries</title>
+      <link>https://danielfree.net/archives/1209/</link>
+      <pubDate>Tue, 19 Jul 2016 12:55:54 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1209/</guid>
+      <description>实验中要用到 Hadoop 的一些压缩 codec，需要编译 Hadoop 的 native 库，做一下记录。顺便吐槽 Hadoop 发行版包里只包含32位的</description>
+    </item>
+    
+    <item>
+      <title>面向 Hadoop 2.6.0 编译 Spark</title>
+      <link>https://danielfree.net/archives/1160/</link>
+      <pubDate>Tue, 06 Jan 2015 17:21:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1160/</guid>
+      <description>14年11月份 Hadoop 社区发布了最新版本 2.6.0，打算在这个基础上跑 Spark+Tachyon，需要对 Spark</description>
+    </item>
+    
+  </channel>
+</rss>

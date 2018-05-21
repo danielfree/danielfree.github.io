@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微软雅黑 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91/</link>
+    <description>Recent content in 微软雅黑 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 26 Jan 2013 22:48:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome中文使用雅黑字体</title>
+      <link>https://danielfree.net/archives/1046/</link>
+      <pubDate>Sat, 26 Jan 2013 22:48:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1046/</guid>
+      <description>很早之前记录过一次，使用Stylish这个插件将Chrome浏览器里的中文字体指定为雅黑字体，自己也</description>
+    </item>
+    
+    <item>
+      <title>感谢微软把我培养成了字体美化爱好者</title>
+      <link>https://danielfree.net/archives/688/</link>
+      <pubDate>Sun, 27 Sep 2009 01:18:20 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/688/</guid>
+      <description>微软雅黑是到现在为止质量最好, 看上去最顺眼的网页中文字体了 非常讽刺的是, 我在Linux, Mac OSX和W</description>
+    </item>
+    
+  </channel>
+</rss>

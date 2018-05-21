@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beamer on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/beamer/</link>
+    <description>Recent content in Beamer on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 06 Sep 2016 11:18:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/beamer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用 LaTeX beamer metropolis 模板书写 ppt 文档</title>
+      <link>https://danielfree.net/archives/1239/</link>
+      <pubDate>Tue, 06 Sep 2016 11:18:12 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1239/</guid>
+      <description>先上图 感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hologram on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/hologram/</link>
+    <description>Recent content in Hologram on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 25 Apr 2008 05:05:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/hologram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Star Wars&#43;Matrix like</title>
+      <link>https://danielfree.net/archives/506/</link>
+      <pubDate>Fri, 25 Apr 2008 05:05:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/506/</guid>
+      <description>3D全息影像技术的进步!!!</description>
+    </item>
+    
+  </channel>
+</rss>

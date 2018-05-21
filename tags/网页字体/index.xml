@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网页字体 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/%E7%BD%91%E9%A1%B5%E5%AD%97%E4%BD%93/</link>
+    <description>Recent content in 网页字体 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 27 Sep 2009 01:18:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/%E7%BD%91%E9%A1%B5%E5%AD%97%E4%BD%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>感谢微软把我培养成了字体美化爱好者</title>
+      <link>https://danielfree.net/archives/688/</link>
+      <pubDate>Sun, 27 Sep 2009 01:18:20 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/688/</guid>
+      <description>微软雅黑是到现在为止质量最好, 看上去最顺眼的网页中文字体了 非常讽刺的是, 我在Linux, Mac OSX和W</description>
+    </item>
+    
+  </channel>
+</rss>

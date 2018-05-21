@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Don&#39;t Panic</title>
+    <link>https://danielfree.net/categories/</link>
+    <description>Recent content in Categories on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    
+	<atom:link href="https://danielfree.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>乱弹</title>
+      <link>https://danielfree.net/categories/%E4%B9%B1%E5%BC%B9/</link>
+      <pubDate>Tue, 20 Jul 2010 13:15:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/categories/%E4%B9%B1%E5%BC%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>声色</title>
+      <link>https://danielfree.net/categories/%E5%A3%B0%E8%89%B2/</link>
+      <pubDate>Mon, 06 May 2013 21:38:28 +0000</pubDate>
+      
+      <guid>https://danielfree.net/categories/%E5%A3%B0%E8%89%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>术业</title>
+      <link>https://danielfree.net/categories/%E6%9C%AF%E4%B8%9A/</link>
+      <pubDate>Wed, 15 Mar 2017 11:13:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/categories/%E6%9C%AF%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>浮生</title>
+      <link>https://danielfree.net/categories/%E6%B5%AE%E7%94%9F/</link>
+      <pubDate>Sat, 26 Jan 2013 22:34:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/categories/%E6%B5%AE%E7%94%9F/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/hack/</link>
+    <description>Recent content in Hack on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 20 Jun 2008 16:04:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>你说丫这是何必呢</title>
+      <link>https://danielfree.net/archives/532/</link>
+      <pubDate>Fri, 20 Jun 2008 16:04:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/532/</guid>
+      <description>这个故事告诉我们&amp;nbsp; 作人要厚道&amp;nbsp; 该收手时&amp;nbsp; 那是一定要收手的&amp;nbsp; c</description>
+    </item>
+    
+    <item>
+      <title>Phrack #65</title>
+      <link>https://danielfree.net/archives/503/</link>
+      <pubDate>Fri, 18 Apr 2008 22:14:38 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/503/</guid>
+      <description>http://www.phrack.com/ 最新一期的phrack杂志又出来了 Current issue : #65 [Introduction](http://www.phrack.com/issues.html?issue=65&amp;amp;id=1#article &#34;Introduction&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack Prophile on The UNIX Terrorist](http://www.phrack.com/issues.html?issue=65&amp;amp;id=2#article &#34;Phrack Prophile on The UNIX Terrorist&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Phrack World News](http://www.phrack.com/issues.html?issue=65&amp;amp;id=3#article &#34;Phrack World News&#34;)[TCLH](http://www.phrack.com/authors.html?author=TCLH#author &#34;TCLH&#34;) [Stealth Hooking: another way to</description>
+    </item>
+    
+    <item>
+      <title>Thats how Americans know about China</title>
+      <link>https://danielfree.net/archives/485/</link>
+      <pubDate>Tue, 11 Mar 2008 04:17:23 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/485/</guid>
+      <description>呵呵 看到一个新闻 真是不得不鄙视的笑笑&amp;nbsp; 连CNN这样的媒体也会如此配合的宣传中国威胁 可见什么</description>
+    </item>
+    
+    <item>
+      <title>Phrack Issues #64</title>
+      <link>https://danielfree.net/archives/459/</link>
+      <pubDate>Tue, 22 Jan 2008 23:07:57 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/459/</guid>
+      <description>原来Phrack又回来了 Phrack永远不倒 那篇A brief history of the Underground scene 看得我心潮澎湃阿 Current issue : #64 | Release date : 27/05/2007 | Editor</description>
+    </item>
+    
+  </channel>
+</rss>

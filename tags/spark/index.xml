@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spark on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/spark/</link>
+    <description>Recent content in Spark on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 10 Aug 2016 16:26:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/spark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>从Strata&#43;Hadoop World 2016 Beijing 看 Alluxio 和 Hadoop</title>
+      <link>https://danielfree.net/archives/1232/</link>
+      <pubDate>Wed, 10 Aug 2016 16:26:58 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1232/</guid>
+      <description>主要看的讲师幻灯片 http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始</description>
+    </item>
+    
+    <item>
+      <title>Spark 更新到2.0了</title>
+      <link>https://danielfree.net/archives/1219/</link>
+      <pubDate>Thu, 04 Aug 2016 17:51:50 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1219/</guid>
+      <description>看起来变化还比较大，之前对 rdd 进行 cache(StorageLevel.OFF_HEAP) 操作是存到 tachyon 里面的，现在直接移除了，用了自己的一套实现，tachy</description>
+    </item>
+    
+    <item>
+      <title>编译使用 Spark/Tachyon 最新版本</title>
+      <link>https://danielfree.net/archives/1175/</link>
+      <pubDate>Fri, 05 Jun 2015 11:52:09 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1175/</guid>
+      <description>Spark 可以和 Tachyon 配合使用，使用内存作为数据存储介质，可以有效提高大数据计算时的吞吐量，目前 Tachyon 的版本迭代较快</description>
+    </item>
+    
+    <item>
+      <title>面向 Hadoop 2.6.0 编译 Spark</title>
+      <link>https://danielfree.net/archives/1160/</link>
+      <pubDate>Tue, 06 Jan 2015 17:21:05 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1160/</guid>
+      <description>14年11月份 Hadoop 社区发布了最新版本 2.6.0，打算在这个基础上跑 Spark+Tachyon，需要对 Spark</description>
+    </item>
+    
+  </channel>
+</rss>

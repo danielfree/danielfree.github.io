@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/project/</link>
+    <description>Recent content in Project on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 08 Aug 2009 10:36:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我准备也开始一个Project 365</title>
+      <link>https://danielfree.net/archives/612/</link>
+      <pubDate>Sat, 08 Aug 2009 10:36:51 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/612/</guid>
+      <description>Flickr上的流行活动 即每天坚持拍一张照片 积累365天成为一个系列 不知道我能坚持多久</description>
+    </item>
+    
+  </channel>
+</rss>

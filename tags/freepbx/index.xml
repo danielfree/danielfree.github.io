@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freepbx on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/freepbx/</link>
+    <description>Recent content in Freepbx on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 07 May 2013 17:44:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/freepbx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Centos 6.4 上安装Asterisk 11.3&#43;FreePBX 2.11</title>
+      <link>https://danielfree.net/archives/1081/</link>
+      <pubDate>Tue, 07 May 2013 17:44:30 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1081/</guid>
+      <description>最近项目需要用asterisk来做一下研究，顺手记录一下安装过程，官方文档都太旧了，地址 https://wiki.asterisk.org/wiki/display/AST/Asterisk+Packages 现在ast</description>
+    </item>
+    
+  </channel>
+</rss>

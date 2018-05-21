@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rancher on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/rancher/</link>
+    <description>Recent content in Rancher on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 11:13:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/rancher/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</title>
+      <link>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 15 Mar 2017 11:13:15 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/%E8%A7%A3%E5%86%B3javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated%E9%97%AE%E9%A2%98/</guid>
+      <description>问题症状 最近把一部分服务迁移到用 rancher 管理的容器集群环境里面去了，感觉还是不错的，而且 rancher 里自带的负载均衡</description>
+    </item>
+    
+  </channel>
+</rss>

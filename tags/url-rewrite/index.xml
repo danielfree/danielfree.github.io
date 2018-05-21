@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Url rewrite on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/url-rewrite/</link>
+    <description>Recent content in Url rewrite on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 28 Jun 2011 23:04:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/url-rewrite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nginx里wordpress 3.1的url rewrite规则</title>
+      <link>https://danielfree.net/archives/890/</link>
+      <pubDate>Tue, 28 Jun 2011 23:04:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/890/</guid>
+      <description>整了一个vps 自己装上Nginx + PHP + Spawn-fcgi + MySQL 来放自己的博客 wordpress本身的静态化链接用的是A</description>
+    </item>
+    
+  </channel>
+</rss>

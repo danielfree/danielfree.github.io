@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/archlinux/</link>
+    <description>Recent content in Archlinux on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 08 Aug 2008 07:13:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gnome下kde程序字体</title>
+      <link>https://danielfree.net/archives/556/</link>
+      <pubDate>Fri, 08 Aug 2008 07:13:14 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/556/</guid>
+      <description>还是记一笔&amp;nbsp; 免得每次都去查 在gnome里修改kde程序的字体 网上google到的一般都是说</description>
+    </item>
+    
+    <item>
+      <title>Change to Archlinux</title>
+      <link>https://danielfree.net/archives/521/</link>
+      <pubDate>Thu, 22 May 2008 09:01:40 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/521/</guid>
+      <description>把刚装好不久的ubuntu 8.04卸载了&amp;nbsp; 装了个Archlinux&amp;nbsp; 号称专为i6</description>
+    </item>
+    
+  </channel>
+</rss>

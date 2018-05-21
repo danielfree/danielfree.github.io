@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/blog/</link>
+    <description>Recent content in Blog on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 22 Dec 2008 06:57:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新修改了一个模板</title>
+      <link>https://danielfree.net/archives/576/</link>
+      <pubDate>Mon, 22 Dec 2008 06:57:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/576/</guid>
+      <description>全当学习CSS布局和配色 折腾了大半天&amp;nbsp; 本来是想把另外一个word press的模板移植到bl</description>
+    </item>
+    
+  </channel>
+</rss>

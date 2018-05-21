@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog domain on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/blog-domain/</link>
+    <description>Recent content in Blog domain on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 12 Nov 2009 22:38:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/blog-domain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>为博客买了一个新域名 打算长期使用</title>
+      <link>https://danielfree.net/archives/702/</link>
+      <pubDate>Thu, 12 Nov 2009 22:38:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/702/</guid>
+      <description>博客正式改地址 http://danielfree.net 更加好记 也更简单明了 以后博客估计就长期使用上面这个地址勒 godaddy买一个域名一年</description>
+    </item>
+    
+  </channel>
+</rss>

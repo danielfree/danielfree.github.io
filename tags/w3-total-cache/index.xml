@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>W3 total cache on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/w3-total-cache/</link>
+    <description>Recent content in W3 total cache on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 01 Jul 2011 00:26:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/w3-total-cache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>W3 Total Cache对Nginx的静态链接支持</title>
+      <link>https://danielfree.net/archives/903/</link>
+      <pubDate>Fri, 01 Jul 2011 00:26:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/903/</guid>
+      <description>W3 Total Cache是wordpress一个很全面很强大的缓存加速插件 用了它之后其他什么优化插件都可以不需</description>
+    </item>
+    
+  </channel>
+</rss>

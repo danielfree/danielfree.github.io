@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress template on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/wordpress-template/</link>
+    <description>Recent content in Wordpress template on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 04 Sep 2009 18:10:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/wordpress-template/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>不错的wordpress模板资源</title>
+      <link>https://danielfree.net/archives/651/</link>
+      <pubDate>Fri, 04 Sep 2009 18:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/651/</guid>
+      <description>就是Smashing Magazine的Freebies部分了 现在这个模板就是从那里扒来的 推荐一下 那里</description>
+    </item>
+    
+  </channel>
+</rss>

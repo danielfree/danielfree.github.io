@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/2011/</link>
+    <description>Recent content in 2011 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 03 Aug 2011 23:39:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/2011/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>白水  - 美人吟</title>
+      <link>https://danielfree.net/archives/912/</link>
+      <pubDate>Wed, 03 Aug 2011 23:39:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/912/</guid>
+      <description>把之前的播放器全都去掉 只想放上这一曲 足矣 美人吟 詞：白水 曲：白水 客座人聲：袁田 幽園香谷聞蛙聲 古亭綠野踏</description>
+    </item>
+    
+    <item>
+      <title>又给博客搬了次家  重新换了个模版 搭了个VPN</title>
+      <link>https://danielfree.net/archives/888/</link>
+      <pubDate>Mon, 27 Jun 2011 13:34:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/888/</guid>
+      <description>花钱买了个配置还不错的VPS 顺便就把博客也给搬了过来 换上一个更干净简单的模版 稍微修改了一点 有机会再多</description>
+    </item>
+    
+  </channel>
+</rss>

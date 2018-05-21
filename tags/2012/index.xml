@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/2012/</link>
+    <description>Recent content in 2012 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 20 Jun 2012 13:21:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/2012/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>出手换成了Linode VPS</title>
+      <link>https://danielfree.net/archives/946/</link>
+      <pubDate>Wed, 20 Jun 2012 13:21:18 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/946/</guid>
+      <description>上一个vps一年时间到期，正好趁Linode庆祝9周年送100刀的机会，还是入手了512M的VPS，</description>
+    </item>
+    
+    <item>
+      <title>换上了个更简单的模版</title>
+      <link>https://danielfree.net/archives/940/</link>
+      <pubDate>Fri, 08 Jun 2012 00:01:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/940/</guid>
+      <description>看起来清爽了许多 这个模版还有不少小功能挺好玩 以后就用它了</description>
+    </item>
+    
+    <item>
+      <title>2012</title>
+      <link>https://danielfree.net/archives/932/</link>
+      <pubDate>Wed, 08 Feb 2012 23:42:04 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/932/</guid>
+      <description>还是换回了之前的模版主题 冒个泡以示存在 是该多花点时间看看书了</description>
+    </item>
+    
+  </channel>
+</rss>

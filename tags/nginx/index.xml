@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/nginx/</link>
+    <description>Recent content in Nginx on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 25 Mar 2013 16:10:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lithium用Nginx做前端代理后端Apache处理请求</title>
+      <link>https://danielfree.net/archives/1058/</link>
+      <pubDate>Mon, 25 Mar 2013 16:10:45 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/1058/</guid>
+      <description>最近项目里用到了一个php框架 Lithium http://lithify.me/ 官方只给了Apache的配置，在部署的时候发现用Nginx + PHP-fpm 总是</description>
+    </item>
+    
+    <item>
+      <title>Elgg分布式扩展和性能优化（一）</title>
+      <link>https://danielfree.net/archives/993/</link>
+      <pubDate>Wed, 22 Aug 2012 14:06:52 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/993/</guid>
+      <description>之前公司有个SNS方向的项目，由于有过Elgg的经验，所以选定继续采用Elgg作为基础来进行二次开发</description>
+    </item>
+    
+    <item>
+      <title>W3 Total Cache对Nginx的静态链接支持</title>
+      <link>https://danielfree.net/archives/903/</link>
+      <pubDate>Fri, 01 Jul 2011 00:26:07 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/903/</guid>
+      <description>W3 Total Cache是wordpress一个很全面很强大的缓存加速插件 用了它之后其他什么优化插件都可以不需</description>
+    </item>
+    
+    <item>
+      <title>nginx里wordpress 3.1的url rewrite规则</title>
+      <link>https://danielfree.net/archives/890/</link>
+      <pubDate>Tue, 28 Jun 2011 23:04:46 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/890/</guid>
+      <description>整了一个vps 自己装上Nginx + PHP + Spawn-fcgi + MySQL 来放自己的博客 wordpress本身的静态化链接用的是A</description>
+    </item>
+    
+  </channel>
+</rss>

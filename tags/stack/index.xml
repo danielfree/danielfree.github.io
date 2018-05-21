@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/stack/</link>
+    <description>Recent content in Stack on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 21 Jun 2009 15:30:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESP EBP在函数调用时的具体操作</title>
+      <link>https://danielfree.net/archives/6/</link>
+      <pubDate>Sun, 21 Jun 2009 15:30:41 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/6/</guid>
+      <description>最近打算重新拾起汇编和exploit方面的知识 看书时发现对栈操作 EBP和ESP这些东西都快忘记了 搜到</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rss on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/rss/</link>
+    <description>Recent content in Rss on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 12 Jan 2008 20:13:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>web2.0时代的互联</title>
+      <link>https://danielfree.net/archives/452/</link>
+      <pubDate>Sat, 12 Jan 2008 20:13:17 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/452/</guid>
+      <description>恩 很有意思 江江在豆瓣把我blog的rss做了订阅 我还是在访问统计里才看出来的</description>
+    </item>
+    
+  </channel>
+</rss>

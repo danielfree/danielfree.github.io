@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作 on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/%E5%B7%A5%E4%BD%9C/</link>
+    <description>Recent content in 工作 on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 22 Dec 2009 21:16:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>工作计划</title>
+      <link>https://danielfree.net/archives/718/</link>
+      <pubDate>Tue, 22 Dec 2009 21:16:49 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/718/</guid>
+      <description>年前要完成目前的这个分布式搜索项目 总结出几份关于Nutch, Lucene, Solr和Katta的文档来 是一个很好</description>
+    </item>
+    
+  </channel>
+</rss>

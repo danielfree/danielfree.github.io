@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexo on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/hexo/</link>
+    <description>Recent content in Hexo on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 26 Feb 2017 21:45:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客从 WordPress 迁移到 GitHub Pages &#43; Hexo 了</title>
+      <link>https://danielfree.net/archives/migrate-to-github-pages-hexo/</link>
+      <pubDate>Sun, 26 Feb 2017 21:45:08 +0000</pubDate>
+      
+      <guid>https://danielfree.net/archives/migrate-to-github-pages-hexo/</guid>
+      <description>玩博客玩了这么久，终于还是下决心把博客从 VPS 上迁出来搬到 GitHub Pages 上去，摆脱 WordPress 框架、php、nginx、my</description>
+    </item>
+    
+  </channel>
+</rss>
