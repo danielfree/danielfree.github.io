@@ -229,7 +229,13 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>主要看的讲师幻灯片 <a href="http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings">http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings</a></p>
+                 
+
+    
+    
+    
+     
+                 <p>主要看的讲师幻灯片 <a href="http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings">http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings</a></p>
 
 <p>Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始关注这个项目，还给社区贡献了一小段时间的代码，对 alluxio 还是比较熟悉的，目前来看 alluxio 代码的健壮程度慢慢提高，用于生产环境的部署和维护没什么太大的问题，但 alluxio 还没有一个比较明确的中长期规划，有点看不到未来主要的发展方向或者什么特别的 feature list，而现有代码里比如 lineage API 的功能还很弱，实际上不是很容易利用现有代码去复现 Haoyuan 当年论文中关于 lineage 这一块的东西。目前 alluxio 的亮点除了兼容 HDFS 的 memory layer 存储，就是可接多个底层存储接口的统一视图了吧，把能接的存储都接了之后，再往下怎么扩展呢？另外既然有了分层存储的功能，不考虑自己实现一套可靠的底层分布式存储自己管理？</p>
 
@@ -478,6 +484,23 @@
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+                <h3 class="media-heading">Migrate from Hexo to Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://danielfree.net/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/">
                 <h3 class="media-heading">解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</h3>
               </a>
@@ -628,23 +651,6 @@
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://danielfree.net/archives/1190/">
-                <h3 class="media-heading">利用apt-mirror 镜像 mesosphere 第三方apt软件源</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Oct 10, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -652,7 +658,7 @@
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         279 posts found
+         280 posts found
       </p>
     </div>
   </div>

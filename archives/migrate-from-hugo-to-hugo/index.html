@@ -1,0 +1,838 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.40.3 with theme Tranquilpeak 0.4.3-BETA">
+    <title>Migrate from Hexo to Hugo</title>
+    <meta name="author" content="Daniel">
+    <meta name="keywords" content=", blog, tech">
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+    <meta name="description" content="迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在">
+    <meta property="og:description" content="迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Migrate from Hexo to Hugo">
+    <meta property="og:url" content="/archives/migrate-from-hugo-to-hugo/">
+    <meta property="og:site_name" content="Don&#39;t Panic">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Don&#39;t Panic">
+    <meta name="twitter:description" content="迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在">
+    
+      <meta name="twitter:creator" content="@danielfree">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/f69b6caf3940a634f0f191bea532c8f8?s=640">
+    
+
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">Don&#39;t Panic</a>
+  </div>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/f69b6caf3940a634f0f191bea532c8f8?s=110" alt="作者的图片" />
+        </a>
+        <h4 class="sidebar-profile-name">Daniel</h4>
+        
+          <h5 class="sidebar-profile-bio">Time Enough for Love</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">分类</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">关于</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/danielfree" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/danielfree" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Migrate from Hexo to Hugo
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-05-21T13:06:47&#43;08:00">
+        
+  
+  
+  
+  
+    2018-5-21
+  
+
+      </time>
+    
+    
+  
+  
+    <span>发布在</span>
+    
+      <a class="category-link" href="/categories/%e6%9c%af%e4%b8%9a">术业</a>
+    
+  
+
+<span>
+  &nbsp; | &nbsp;
+  425 words, ~ 1 mins read
+</span>
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+                 
+
+    
+    
+    
+     
+        
+        <h1 id="table-of-contents">目录</h1>
+          
+            
+                
+                
+                
+                    <ul class="toc-h1 ">
+                
+                
+                
+                
+                <a href="/archives/migrate-from-hugo-to-hugo/#%e8%bf%81%e7%a7%bb ">
+                    <li>迁移</li>
+                </a>
+                
+                
+                    </ul>
+                
+            
+        
+      
+            
+                
+                
+                
+                    <ul class="toc-h1 ">
+                
+                
+                
+                
+                <a href="/archives/migrate-from-hugo-to-hugo/#github-page-https ">
+                    <li>GitHub Page HTTPS</li>
+                </a>
+                
+                
+                    </ul>
+                
+            
+        
+      
+            
+                
+                
+                
+                    <ul class="toc-h1 ">
+                
+                
+                
+                
+                <a href="/archives/migrate-from-hugo-to-hugo/#hugo-%e4%b8%bb%e9%a2%98 ">
+                    <li>Hugo 主题</li>
+                </a>
+                
+                
+                    </ul>
+                
+            
+        
+      
+            
+                
+                
+                
+                    <ul class="toc-h1 ">
+                
+                
+                
+                
+                <a href="/archives/migrate-from-hugo-to-hugo/#deploy-to-github ">
+                    <li>Deploy to GitHub</li>
+                </a>
+                
+                
+                    </ul>
+                
+            
+        
+      
+            
+                
+                
+                
+                    <ul class="toc-h1 ">
+                
+                
+                
+                
+                <a href="/archives/migrate-from-hugo-to-hugo/#table-of-contents-bug ">
+                    <li>Table-of-Contents Bug</li>
+                </a>
+                
+                
+                    </ul>
+                
+            
+        
+    
+
+                 
+
+<h1 id="迁移">迁移</h1>
+
+<p>花了点时间，把 blog 从使用 Hexo 迁移到 <a href="https://gohugo.io/">Hugo</a> 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在直接支持了 Hexo 的格式，之前的所有文章都不需要修改，Hugo 直接就可以读取生成静态页面，还是方便了很多。基本上用 Hugo 新建一个 site，把 md 文件都拷贝到 content 目录下，然后修改 config.toml就可以了。</p>
+
+<h1 id="github-page-https">GitHub Page HTTPS</h1>
+
+<p>另一个好消息是 GitHub Page 终于支持自定义域名的 HTTPS 了，之前得需要用 Cloudflare 提供的 DNS+HTTPS 服务，现在也不需要，简单不少，直接在 Settings 里设置一下就行。</p>
+
+<h1 id="hugo-主题">Hugo 主题</h1>
+
+<p>Hugo 貌似没有什么特别出彩的主题，之前用 Hexo 时的 Next 主题还是挺好的，目前暂时用了一个叫 tranquilpeak 的主题，稍微做了点修改。</p>
+
+<h1 id="deploy-to-github">Deploy to GitHub</h1>
+
+<p>Hugo 没有像 Hexo 那样直接提供 deploy 的集成命令，官方文档里也是用了一个脚本来实现，也不算麻烦就是了。</p>
+
+<h1 id="table-of-contents-bug">Table-of-Contents Bug</h1>
+
+<p>Hugo 默认的 table of contents 实现有一个小小的 bug，要求文章的标题从 H1 开始才可以正常显示目录，对于直接从 H2 或者以下开始的标题生成的样式就会很奇怪，这里是相应的 <a href="https://github.com/gohugoio/hugo/issues/1778">issue</a>，可以根据 comment 里面提供的修改方法来修改一下支持从 H2-H6 开始的标题目录显示。</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">标签</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/hugo/">hugo</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/hexo/">hexo</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/blog/">blog</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/" data-tooltip="解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2018 from 2007. All Rights Reserved by Daniel. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/" data-tooltip="解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdanielfree.net%2Farchives%2Fmigrate-from-hugo-to-hugo%2F">
+          <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fdanielfree.net%2Farchives%2Fmigrate-from-hugo-to-hugo%2F">
+          <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/f69b6caf3940a634f0f191bea532c8f8?s=110" alt="作者的图片" />
+    
+    <h4 id="about-card-name">Daniel</h4>
+    
+      <div id="about-card-bio">Time Enough for Love</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        I&rsquo;m not an AI
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Mars
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="搜索" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center"></div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+                <h3 class="media-heading">Migrate from Hexo to Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/">
+                <h3 class="media-heading">解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">问题症状 最近把一部分服务迁移到用 rancher 管理的容器集群环境里面去了，感觉还是不错的，而且 rancher 里自带的负载均衡</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-to-github-pages-hexo/">
+                <h3 class="media-heading">博客从 WordPress 迁移到 GitHub Pages &#43; Hexo 了</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">玩博客玩了这么久，终于还是下决心把博客从 VPS 上迁出来搬到 GitHub Pages 上去，摆脱 WordPress 框架、php、nginx、my</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1262/">
+                <h3 class="media-heading">postfix 中自动替换 from 字段发件人邮件地址</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">服务器里 postfix 发邮件现在国内很多都用 QQ 邮箱来发，但包括 QQ 在内很多邮件服务商用 smtp 发邮件时会对 From 字段做检查，</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1239/">
+                <h3 class="media-heading">使用 LaTeX beamer metropolis 模板书写 ppt 文档</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">先上图 感觉效果还不错，记录一下用的模板方便以后使用。 LaTeX 里面的 beamer 类型文档是专门用来做演讲 ppt、课件 notes</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1232/">
+                <h3 class="media-heading">从Strata&#43;Hadoop World 2016 Beijing 看 Alluxio 和 Hadoop</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">主要看的讲师幻灯片 http://strata.oreilly.com.cn/hadoop-big-data-cn/public/schedule/proceedings Alluxio(Tachyon) 依然是亮眼的新秀，大概由于是国人主导开发的，在国内接受度越来越高了。从去年开始</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1225/">
+                <h3 class="media-heading">2016 重新折腾了一下 WordPress 国内访问加速</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">WordPress 换了个新主题，更新到最新版，发现国内访问速度慢成翔，主要还是几个重要域名被墙，还是得动手改造改造。</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1219/">
+                <h3 class="media-heading">Spark 更新到2.0了</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">看起来变化还比较大，之前对 rdd 进行 cache(StorageLevel.OFF_HEAP) 操作是存到 tachyon 里面的，现在直接移除了，用了自己的一套实现，tachy</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1209/">
+                <h3 class="media-heading">编译 Hadoop native libraries</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">实验中要用到 Hadoop 的一些压缩 codec，需要编译 Hadoop 的 native 库，做一下记录。顺便吐槽 Hadoop 发行版包里只包含32位的</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/1196/">
+                <h3 class="media-heading">OpenStack Liberty 多宿主机混合安装</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">最近准备把实验室里搭的一套 CloudStack 换成最新版的 OpenStack Liberty 版本，目的还是想把 kvm 和 XenServer 两套虚拟化环境统一一下，先做一点</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero=""
+         data-message-one=""
+         data-message-other="">
+         280 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://danielfree.net/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/danielfree.net\/archives\/migrate-from-hugo-to-hugo\/';
+          
+            this.page.identifier = '\/archives\/migrate-from-hugo-to-hugo\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'danielfree';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Mon, 22 Dec 2008 06:57:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 13:06:47 +0800</lastBuildDate>
     
 	<atom:link href="https://danielfree.net/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Migrate from Hexo to Hugo</title>
+      <link>https://danielfree.net/archives/migrate-from-hugo-to-hugo/</link>
+      <pubDate>Mon, 21 May 2018 13:06:47 +0800</pubDate>
+      
+      <guid>https://danielfree.net/archives/migrate-from-hugo-to-hugo/</guid>
+      <description>迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</description>
+    </item>
     
     <item>
       <title>新修改了一个模板</title>

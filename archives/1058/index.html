@@ -229,7 +229,13 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>最近项目里用到了一个php框架 Lithium  <a href="http://lithify.me/" title="Lithium">http://lithify.me/</a>  官方只给了Apache的配置，在部署的时候发现用Nginx + PHP-fpm 总是有问题，折腾了一整天都没办法解决，</p>
+                 
+
+    
+    
+    
+     
+                 <p>最近项目里用到了一个php框架 Lithium  <a href="http://lithify.me/" title="Lithium">http://lithify.me/</a>  官方只给了Apache的配置，在部署的时候发现用Nginx + PHP-fpm 总是有问题，折腾了一整天都没办法解决，</p>
 
 <p>网上搜了半天，可能是php-fpm这类fcgi在处理一些参数时候的问题，比如说这个 php bug<a href="https://bugs.php.net/bug.php?id=55208">#55208</a>   实在不行，只能换成Nginx做代理，缓存静态文件，其余的丢给后端apache去处理去。</p>
 
@@ -531,6 +537,23 @@ apache里的配置就比较简单了，把端口改成8989，然后加入类似�
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+                <h3 class="media-heading">Migrate from Hexo to Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://danielfree.net/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/">
                 <h3 class="media-heading">解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</h3>
               </a>
@@ -681,23 +704,6 @@ apache里的配置就比较简单了，把端口改成8989，然后加入类似�
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://danielfree.net/archives/1190/">
-                <h3 class="media-heading">利用apt-mirror 镜像 mesosphere 第三方apt软件源</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Oct 10, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -705,7 +711,7 @@ apache里的配置就比较简单了，把端口改成8989，然后加入类似�
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         279 posts found
+         280 posts found
       </p>
     </div>
   </div>

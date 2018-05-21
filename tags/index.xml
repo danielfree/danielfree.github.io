@@ -285,7 +285,7 @@
     <item>
       <title>Blog</title>
       <link>https://danielfree.net/tags/blog/</link>
-      <pubDate>Mon, 22 Dec 2008 06:57:45 +0000</pubDate>
+      <pubDate>Mon, 21 May 2018 13:06:47 +0800</pubDate>
       
       <guid>https://danielfree.net/tags/blog/</guid>
       <description></description>
@@ -825,7 +825,7 @@
     <item>
       <title>Hexo</title>
       <link>https://danielfree.net/tags/hexo/</link>
-      <pubDate>Sun, 26 Feb 2017 21:45:08 +0000</pubDate>
+      <pubDate>Mon, 21 May 2018 13:06:47 +0800</pubDate>
       
       <guid>https://danielfree.net/tags/hexo/</guid>
       <description></description>
@@ -846,6 +846,15 @@
       <pubDate>Thu, 23 Jul 2009 22:29:53 +0000</pubDate>
       
       <guid>https://danielfree.net/tags/horizontal-silder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://danielfree.net/tags/hugo/</link>
+      <pubDate>Mon, 21 May 2018 13:06:47 +0800</pubDate>
+      
+      <guid>https://danielfree.net/tags/hugo/</guid>
       <description></description>
     </item>
     

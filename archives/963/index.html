@@ -229,7 +229,13 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>最近在项目里遇到的一个非常诡异的bug，用PHP输出图像内容，图像总是损坏的状态，与原始图像比较之后，发现在文件的开头总会多输出一个0A字节，也就是回车，导致文件被破坏显示不出来。</p>
+                 
+
+    
+    
+    
+     
+                 <p>最近在项目里遇到的一个非常诡异的bug，用PHP输出图像内容，图像总是损坏的状态，与原始图像比较之后，发现在文件的开头总会多输出一个0A字节，也就是回车，导致文件被破坏显示不出来。</p>
 
 <p>经过一阵艰苦的排查和大量google之后，终于推断出问题可能出在某处的php里多输入了几个回车键，最终导致输出多了一个回车。Google的搜索结果中有人提到，在&lt;?php 之前 和?&gt;之后如果有多余的回车空行，就会出现类似的问题。写了一个简单的测试代码，发现只要加上引用php的代码，就会多输出回车，最终确定是在require<em>once引用的php中有某一个多写了几个回车 -</em>-!</p>
 
@@ -502,6 +508,23 @@ find_enter();
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+                <h3 class="media-heading">Migrate from Hexo to Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://danielfree.net/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/">
                 <h3 class="media-heading">解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</h3>
               </a>
@@ -652,23 +675,6 @@ find_enter();
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://danielfree.net/archives/1190/">
-                <h3 class="media-heading">利用apt-mirror 镜像 mesosphere 第三方apt软件源</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Oct 10, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -676,7 +682,7 @@ find_enter();
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         279 posts found
+         280 posts found
       </p>
     </div>
   </div>

@@ -229,7 +229,13 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>服务器里 postfix 发邮件现在国内很多都用 QQ 邮箱来发，但包括 QQ 在内很多邮件服务商用 smtp 发邮件时会对 From 字段做检查，不允许和登录的 email 地址不一致，像 netdata 里面就没有设置 From 字段的地方，只能找这个方法直接替换掉了。</p>
+                 
+
+    
+    
+    
+     
+                 <p>服务器里 postfix 发邮件现在国内很多都用 QQ 邮箱来发，但包括 QQ 在内很多邮件服务商用 smtp 发邮件时会对 From 字段做检查，不允许和登录的 email 地址不一致，像 netdata 里面就没有设置 From 字段的地方，只能找这个方法直接替换掉了。</p>
 
 <p>参考 <a href="http://serverfault.com/questions/147921/forcing-the-from-address-when-postfix-relays-over-smtp">链接</a> 第一个答案中的方案，使用正则匹配替换即可。</p>
 
@@ -470,6 +476,23 @@
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://danielfree.net/archives/migrate-from-hugo-to-hugo/">
+                <h3 class="media-heading">Migrate from Hexo to Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">迁移 花了点时间，把 blog 从使用 Hexo 迁移到 Hugo 上了, 使用 node.js 的 Hexo 编译生成静态页面的确没有使用 Go 的 Hugo 快。而且 Hugo 现在</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://danielfree.net/archives/javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated-issue/">
                 <h3 class="media-heading">解决 javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated 问题</h3>
               </a>
@@ -620,23 +643,6 @@
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://danielfree.net/archives/1190/">
-                <h3 class="media-heading">利用apt-mirror 镜像 mesosphere 第三方apt软件源</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Oct 10, 2015
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">最近在弄 mesos 和 merathon 的集群化部署，节点多了手动一台台去配显然是不现实的，在 github 上找了个 ansible 的自动化部署脚本，一</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -644,7 +650,7 @@
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         279 posts found
+         280 posts found
       </p>
     </div>
   </div>
