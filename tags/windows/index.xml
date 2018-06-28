@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/windows/</link>
+    <description>Recent content in Windows on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 28 Jun 2018 11:56:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Windows</title>
+      <link>https://danielfree.net/archives/hello-windows/</link>
+      <pubDate>Thu, 28 Jun 2018 11:56:49 +0800</pubDate>
+      
+      <guid>https://danielfree.net/archives/hello-windows/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/d4nielfree/image/upload/v1530167349/windows-hello.png&#34; alt=&#34;hello-windows&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最近又做了一个大动作，新购入了 Surface Book 2 笔记本，正式从 Mac 阵营叛逃回了 Windows 阵营，于是忙于重新在 Windows 下配置搞研究还有做开发的环境，稍微记录一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

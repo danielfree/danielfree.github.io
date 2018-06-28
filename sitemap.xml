@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://danielfree.net/archives/hello-windows/</loc>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://danielfree.net/archives/migrate-from-hugo-to-hugo/</loc>
     <lastmod>2018-05-21T13:06:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2369,7 +2376,7 @@
   
   <url>
     <loc>https://danielfree.net/</loc>
-    <lastmod>2018-05-21T13:06:47+08:00</lastmod>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -2615,6 +2622,13 @@
   <url>
     <loc>https://danielfree.net/tags/hexo/</loc>
     <lastmod>2018-05-21T13:06:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/tags/hidpi/</loc>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -3006,7 +3020,7 @@
   
   <url>
     <loc>https://danielfree.net/post/</loc>
-    <lastmod>2018-05-21T13:06:47+08:00</lastmod>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -3329,6 +3343,13 @@
   <url>
     <loc>https://danielfree.net/tags/whitney-houston/</loc>
     <lastmod>2009-09-10T12:27:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielfree.net/tags/windows/</loc>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -3748,7 +3769,7 @@
   
   <url>
     <loc>https://danielfree.net/categories/%E6%9C%AF%E4%B8%9A/</loc>
-    <lastmod>2018-05-21T13:06:47+08:00</lastmod>
+    <lastmod>2018-06-28T11:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSL on Don&#39;t Panic</title>
+    <link>https://danielfree.net/tags/wsl/</link>
+    <description>Recent content in WSL on Don&#39;t Panic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 28 Jun 2018 11:56:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://danielfree.net/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Windows</title>
+      <link>https://danielfree.net/archives/hello-windows/</link>
+      <pubDate>Thu, 28 Jun 2018 11:56:49 +0800</pubDate>
+      
+      <guid>https://danielfree.net/archives/hello-windows/</guid>
+      <description>&lt;p&gt;最近又做了一个大动作，新购入了 Surface Book 2 笔记本，正式从 Mac 阵营叛逃回了 Windows 阵营，于是忙于重新在 Windows 下配置搞研究还有做开发的环境，稍微记录一下。&lt;/p&gt;
+
+&lt;h1 id=&#34;动机&#34;&gt;动机&lt;/h1&gt;
+
+&lt;p&gt;2018年了，服役了快4年多的2014款 Retina MacBookPro 出现了偶尔抽风的情况，用着用着自动关机，电池也没发现什么问题，不知道是不是硬件抽风，懒得折腾了，另外一个重要原因就是 OneNote 在 Mac 下表现实在比较差，打开很慢不说，偶尔还会崩溃退出，再打开怎么都打不开，只能删掉重装，实在太影响效率。再说 Windows 这边，Win10 的几次大更新之后已经越来越好用了，更不用说有 WSL 的加成，可以直接运行 Ubuntu 子系统，Bash 跟 Windows 环境还可以互通，基本上都能直接还原 Linux 下的开发环境，迁移上没有什么困难。&lt;/p&gt;
+
+&lt;p&gt;新款的 MacBookPro 改成了蝴蝶式键盘，试过之后手感的确没有之前的舒服，而微软的这个 Surface Book 2 就有点意思了，高分屏、键盘可分离的平板模式、还塞进去了一块 GTX 1060 显卡，看起来的确有点 exciting，考虑了之后还是决定入手一个试试。Win10 要折腾的地方也不少，搞了差不多两三天，环境应该说配的比较舒服了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
